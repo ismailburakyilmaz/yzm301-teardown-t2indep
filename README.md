@@ -154,7 +154,7 @@ tam kilit `requirements.lock.txt` içindedir. Motor statsmodels veya hazır N
 
 AP sonucu n1=105, n2=105, n_total=210; PH gücü yaklaşık
 0.9501287033889153. Sonuçlar erken yuvarlanmaz.
-Demo video: [CLI demo videosu — MP4, 63,94 saniye](docs/demo.mp4)
+Demo video: [YouTube — CLI demo (liste dışı, 63,94 saniye)](https://youtu.be/-rFo8gH4fU0) · [MP4 dosyası](docs/demo.mp4)
 REA–Ghidra kullanılabilirlik kontrolü (23 Ekim 2026):
 
 ![REA araçları ve Ghidra sağlayıcısı bu oturumda kullanılabilir mi? — ajan yanıtı](docs/rea_ghidra_kontrol.png)
