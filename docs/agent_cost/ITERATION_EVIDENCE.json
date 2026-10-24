@@ -1,0 +1,118 @@
+{
+  "spec_versions": [
+    "0.9.0",
+    "0.10.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0"
+  ],
+  "spec_version_count": 8,
+  "first_round_valid": 47,
+  "second_round_new_valid": 23,
+  "first_round_input_observations": 13,
+  "second_round_new_input_observations": 9,
+  "round3_measured": 19,
+  "round3_new_reference_vectors": 17,
+  "round6_measured": 20,
+  "round7_valid": 27,
+  "round7_rejected": 3,
+  "round8_measured": 8,
+  "holdout_measured": 12,
+  "holdout_in_main_reference": false,
+  "final_reference_vectors": 142,
+  "package_versions": [
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2"
+  ],
+  "package_version_count": 4,
+  "package_archives": [
+    {
+      "version": "0.3.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\20261022_021423_397032\\independent-t-power-0.3.0-spec1.0.4.zip",
+      "sha256": "57e5b93fb7e88c4b5a39a6dc39489b274b5f60a1d85ffbf49face9e943c11dff"
+    },
+    {
+      "version": "0.3.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\20261022_021423_397032\\python_dist\\independent_t_power-0.3.0-py3-none-any.whl",
+      "sha256": "c40852fad4fbeb4e63b6044221116ff00c2a2af3dbeadf9878173da29cd0d791"
+    },
+    {
+      "version": "0.3.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\20261022_021423_397032\\python_dist\\independent_t_power-0.3.0.tar.gz",
+      "sha256": "4a02f35d2b4a083257662264143905226d3fcdf21e339ae334419ff356784c0f"
+    },
+    {
+      "version": "0.4.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\closure_0_4_0_20261022\\independent-t-power-0.4.0-source.zip",
+      "sha256": "79653beed352b64168c21607c944e0115fa4fa6d1fd1d3a5b76b2aae19a8f2d7"
+    },
+    {
+      "version": "0.4.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\closure_0_4_0_20261022\\independent_t_power-0.4.0-py3-none-any.whl",
+      "sha256": "451446a487a55d391ab51456411e3f025e06d73f3119566b6dcb86ade0a3701e"
+    },
+    {
+      "version": "0.4.0",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\closure_0_4_0_20261022\\independent_t_power-0.4.0.tar.gz",
+      "sha256": "baf2416c42e750162dd75eb04cd51c0a4ff245d576612a46f5a6788774c8ce5f"
+    },
+    {
+      "version": "0.4.1",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_1_20261023\\independent-t-power-0.4.1-source.zip",
+      "sha256": "b0334e835c3d31929c7fb95a302a7c42eb84580e8c5afeb6eb67c1942f04f970"
+    },
+    {
+      "version": "0.4.1",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_1_20261023\\independent_t_power-0.4.1-py3-none-any.whl",
+      "sha256": "37e6c487bc57f13e794096e7752656686eb9ea5424207df15a423072dc51fa17"
+    },
+    {
+      "version": "0.4.1",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_1_20261023\\independent_t_power-0.4.1.tar.gz",
+      "sha256": "5f708f6e336bd37c2af416f88b59d702bdf822864be11f1bf0caf93d4ecb373a"
+    },
+    {
+      "version": "0.4.2",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\independent-t-power-0.4.2-source.zip",
+      "sha256": "7ad2f5ba09a41fe48c692846a82a507b84f906090eaa1ffbfe545686a383e75d"
+    },
+    {
+      "version": "0.4.2",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\independent_t_power-0.4.2-py3-none-any.whl",
+      "sha256": "39a220ee4de280b464bd807fa49d6a4e2269597271e0e697464b0c09844f92e4"
+    },
+    {
+      "version": "0.4.2",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\independent_t_power-0.4.2.tar.gz",
+      "sha256": "780ecc4a9fd20de7843917439b3a10f566f95d90c37256c9bd968f6273031c45"
+    }
+  ],
+  "source_hashes": {
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\TRANSFER_MANIFEST.md": "a28dbc9bd7086df67d5ace9b1b073ad4441281f59aacf3f327ace4cfdcfe1af4",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\observations.jsonl": "f3909f23ecc3c0f7af14ee05cc3c3cdca70a428001d01cde1cf88069f202e816",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\observations_round3.jsonl": "d53ac99d026d1dc574b36d38a8588a152850e7c2eb96ad11d0ca57a23cea6c70",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\round6_observations.jsonl": "98285347a31ba57ad553a16139d848f8bc470baec02be65e75663a4bc697bac4",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\round7_observations.jsonl": "79033c7f4aa39905c69d37e8648e0f47c5d4ef0dedb23637850454abd8644474",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\round8_observations.jsonl": "00291075feeffb0be749f6e3829c645738da4fb6969e8cfbb6a06c877503fb0b",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\oracle\\raw\\holdout_observations.jsonl": "4071ae36ceacd2904e524f010dc658197d89beea037a7cbe38559c07f74fe163",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\OLCUM_RAPORU_KUCUK_D.md": "bfeb2a1f3d053fa5848ec358c100694a332c822cd0c4218fa9310ecadfb21231",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\ENVIRONMENT.md": "6d201b232e340ffd9278cb0117775530c5bd873caaa0bc249dd89c892dcfde03",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\LEDGER.md": "edec01fa82b292bfa3c3a5cdc05a3d5a8eaac718c386fb074cd11880aac04c3f",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\HOLDOUT_DOGRULAMA_NOTU.md": "676864c47f97e258659e2c8f5b72daf46d82b231e0630d09cdf46ba5dc34a6ab",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\INCIDENT_REVIEW_20261022\\A_B_RAPORU.md": "fd097a1ead06fa9764807a00768ea5678b5b92c268e60289f50193400e344a43",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\docs\\CLEAN_ROOM_SCOPE.md": "1969380f55349bd3912048be1fd61908981bfcfe842f205d3327cd64710c375e",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\ROUND6_KAPSAM\\KOORDINATOR_NOTU.md": "61ec054d29969fbe09dd764384fe8e3ad812356b5b5350bc924ad351ac402c94",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\ROUND7_KAPSAM\\KOORDINATOR_NOTU.md": "2850a1e225cc833f8ef6e0d6817b3d0a4c2785b1f376096fa7e4482ea4fdd1a6",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\ROUND8_SINIR\\KOORDINATOR_NOTU.md": "b3b6399f546c3f73654f0d20e615118fbe17f89834dbbd270161d919e118d6a6"
+  },
+  "usage_snapshot_refreshed": false,
+  "summary_claude_p1_input": 146057405,
+  "summary_claude_p1_output": 382379,
+  "summary_claude_p2_p5_input": 296182292,
+  "summary_claude_p2_p5_output": 544736
+}

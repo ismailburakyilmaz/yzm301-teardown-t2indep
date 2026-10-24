@@ -1,0 +1,14 @@
+﻿{
+    "recorded_at":  "2026-10-23T03:16:25.0200393+03:00",
+    "executable":  "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\.run\\.venv\\Scripts\\gpower-clone.exe",
+    "argv":  "--test t2-indep --mode a-priori --tails 2 --d 0.5 --alpha 0.05 --power 0.95 --ratio 1",
+    "cwd":  "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+    "elapsed_seconds":  5.9152954,
+    "stdout":  "{\"n1\":105,\"n2\":105,\"n_total\":210,\"actual_power\":0.9501287033889153,\"critical_t\":1.9714346585183504,\"df\":208,\"ncp\":3.6228441865473595}\n",
+    "stderr":  "",
+    "exit_code":  0,
+    "numerical_calls_by_script":  1,
+    "preparation_by_script":  false,
+    "reboot_state":  "Not inferred; user must state whether reboot occurred before this manual run",
+    "os_disk_cache_cold_claim":  false
+}

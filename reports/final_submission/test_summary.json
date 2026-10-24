@@ -1,0 +1,11 @@
+{
+  "tests": 2280,
+  "passed": 2178,
+  "failures": 102,
+  "errors": 0,
+  "skipped": 0,
+  "same_old_failure_ids": true,
+  "test_command": "python -m pytest tests/spec_1_1_0 -q --tb=short -p no:cacheprovider",
+  "numerical_expectations_changed": false,
+  "published": false
+}

@@ -1,0 +1,146 @@
+{
+  "attempt": 1,
+  "recorded_at": "2026-10-19T11:24:50.632604+03:00",
+  "actual": {
+    "decision": {
+      "name": "calculate_a_priori",
+      "arguments": {
+        "alpha": 0.05,
+        "d": 0.5,
+        "power": 0.95,
+        "ratio": 1,
+        "tails": 2
+      },
+      "call_id": "5egygv4tv",
+      "provider": "groq",
+      "requested_model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "usage": {
+        "queue_time": 0.049946224,
+        "prompt_tokens": 1110,
+        "prompt_time": 0.092364829,
+        "completion_tokens": 84,
+        "completion_time": 0.175980592,
+        "total_tokens": 1194,
+        "total_time": 0.268345421
+      },
+      "request_id": "req_01m59m6z32easv3mmgvdydyrwn",
+      "response_id": "chatcmpl-c864d437-d5ab-49bf-920d-55b980f3d6d5",
+      "source": "real_groq_chat_completions_api",
+      "recorded_at": "2026-10-19T08:24:50.632796+00:00",
+      "http_client": "httpx2",
+      "http_client_version": "2.14.0",
+      "http_max_retries": 0,
+      "content_type": "application/json",
+      "edge_request_id": "a4ce639a0f85b632-IST",
+      "elapsed_seconds": 3.8194907999713905,
+      "model_response_received": true
+    },
+    "tool_calls": [
+      {
+        "name": "t2_indep",
+        "arguments": {
+          "test": "t2-indep",
+          "mode": "a-priori",
+          "alpha": 0.05,
+          "d": 0.5,
+          "power": 0.95,
+          "ratio": 1,
+          "tails": 2
+        },
+        "result": {
+          "n1": 105,
+          "n2": 105,
+          "n_total": 210,
+          "actual_power": 0.9501287033889153,
+          "critical": 1.9714346585183504,
+          "df": 208,
+          "ncp": 3.6228441865473595
+        },
+        "is_error": false,
+        "source": "mcp_stdio"
+      }
+    ],
+    "parameters": {
+      "test": "t2-indep",
+      "mode": "a-priori",
+      "alpha": 0.05,
+      "d": 0.5,
+      "power": 0.95,
+      "ratio": 1,
+      "tails": 2
+    },
+    "result": {
+      "n1": 105,
+      "n2": 105,
+      "n_total": 210,
+      "actual_power": 0.9501287033889153,
+      "critical": 1.9714346585183504,
+      "df": 208,
+      "ncp": 3.6228441865473595
+    },
+    "action": "call_tool_and_report_tool_result",
+    "family": "t2-indep",
+    "text": "Birinci grup: 105; ikinci grup: 105; toplam: 210. Gerçekleşen güç: 0.9501287033889153."
+  },
+  "tokens": {
+    "queue_time": 0.049946224,
+    "prompt_tokens": 1110,
+    "prompt_time": 0.092364829,
+    "completion_tokens": 84,
+    "completion_time": 0.175980592,
+    "total_tokens": 1194,
+    "total_time": 0.268345421
+  },
+  "model_receipt": {
+    "name": "calculate_a_priori",
+    "arguments": {
+      "alpha": 0.05,
+      "d": 0.5,
+      "power": 0.95,
+      "ratio": 1,
+      "tails": 2
+    },
+    "call_id": "5egygv4tv",
+    "provider": "groq",
+    "requested_model": "qwen/qwen3.8-27b",
+    "actual_model": "qwen/qwen3.8-27b",
+    "usage": {
+      "queue_time": 0.049946224,
+      "prompt_tokens": 1110,
+      "prompt_time": 0.092364829,
+      "completion_tokens": 84,
+      "completion_time": 0.175980592,
+      "total_tokens": 1194,
+      "total_time": 0.268345421
+    },
+    "request_id": "req_01m59m6z32easv3mmgvdydyrwn",
+    "response_id": "chatcmpl-c864d437-d5ab-49bf-920d-55b980f3d6d5",
+    "source": "real_groq_chat_completions_api",
+    "recorded_at": "2026-10-19T08:24:50.632796+00:00",
+    "http_client": "httpx2",
+    "http_client_version": "2.14.0",
+    "http_max_retries": 0,
+    "content_type": "application/json",
+    "edge_request_id": "a4ce639a0f85b632-IST",
+    "elapsed_seconds": 3.8194907999713905,
+    "model_response_received": true
+  },
+  "metrics": {
+    "family_selection": true,
+    "parameter_extraction": true,
+    "tool_call": true,
+    "n_correct": true,
+    "full_success": true
+  },
+  "retriable": false,
+  "status": "completed",
+  "elapsed_seconds": 7.116135900025256,
+  "request_count": 1,
+  "normalized_tokens": {
+    "input_tokens": 1110,
+    "output_tokens": 84,
+    "cached_tokens": null,
+    "image_input_tokens": null
+  }
+}

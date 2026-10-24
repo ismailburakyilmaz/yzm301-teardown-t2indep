@@ -1,0 +1,37 @@
+{
+ "note": "Kurgusal Türkçe ajan değerlendirme soruları. Gerçek hasta verisi içermez. Beklenen parametreler ve N değerleri build_oracle tarafından reference_vectors.json'daki bağlı vektörden doldurulur; burada elle sayı yazılmaz.",
+ "core": [
+  {"id": "AG-01", "reference_vector_id": "GP-AP-001",
+   "question": "Yeni bir antihipertansif ilacı plaseboyla karşılaştıracağız (paralel iki bağımsız grup). Beklenen etki büyüklüğü Cohen d = 0,5; iki yönlü test, alfa 0,05 ve %95 güç istiyoruz. Gruplar eşit büyüklükte olacak. Her gruba kaç hasta almalıyız?"},
+  {"id": "AG-02", "reference_vector_id": "GP-AP-002",
+   "question": "Bir ağrı kesicinin plasebodan daha etkili olduğunu (tek yönlü hipotez) göstermek istiyoruz. Cohen d = 0,5, alfa 0,05, güç %95, iki bağımsız grup eşit büyüklükte. Toplam kaç katılımcı gerekir?"},
+  {"id": "AG-03", "reference_vector_id": "GP-AP-003",
+   "question": "İki bağımsız tedavi grubunda ortalama iyileşme süresini karşılaştıracağız. Etki büyük, Cohen d = 0,8. İki yönlü test, alfa 0,05, güç %80, eşit gruplar. Grup başına örneklem büyüklüğü nedir?"},
+  {"id": "AG-04", "reference_vector_id": "GP-AP-004",
+   "question": "Diyet programının kolesterolü kontrol grubuna göre düşürdüğünü (tek yönlü) test edeceğiz. Küçük bir etki bekliyoruz: Cohen d = 0,2. Alfa 0,05, güç %80, iki bağımsız eşit grup. Kaç kişiye ihtiyacımız var?"},
+  {"id": "AG-05", "reference_vector_id": "GP-AP-005",
+   "question": "İki farklı fizik tedavi protokolünü bağımsız gruplarda karşılaştıracağız. Cohen d = 0,5; iki yönlü test; anlamlılık düzeyini sıkı tutup alfa 0,01 alıyoruz; güç %90; eşit gruplar. Her grupta kaç hasta olmalı?"},
+  {"id": "AG-06", "reference_vector_id": "GP-AP-006",
+   "question": "Pilot nitelikli bir çalışmada iki bağımsız grubun ortalama kan şekeri değerlerini karşılaştıracağız. Cohen d = 0,3; iki yönlü test; alfa 0,10; güç %85; eşit gruplar. Toplam örneklem kaç olmalı?"},
+  {"id": "AG-07", "reference_vector_id": "GP-AP-007",
+   "question": "Grup 1 kontrol (plasebo), grup 2 yeni ilaç olacak ve grup 2, grup 1'in iki katı büyüklükte olacak (N2/N1 = 2). Cohen d = 0,5; iki yönlü test; alfa 0,05; güç %80. Her gruba kaç hasta almalıyız?"},
+  {"id": "AG-08", "reference_vector_id": "GP-AP-009",
+   "question": "Grup 1 standart tedavi, grup 2 yeni tedavi; yeni tedavi grubunu üç kat büyük tutacağız (N2/N1 = 3). Yeni tedavinin daha iyi olduğunu tek yönlü test edeceğiz. Cohen d = 0,4; alfa 0,05; güç %90. Grup büyüklükleri ne olmalı?"},
+  {"id": "AG-09", "reference_vector_id": "GP-AP-012",
+   "question": "İki bağımsız grupta ortalama hastanede kalış süresini karşılaştıracağız. Grup 2'nin grup 1'den 1,5 kat büyük olmasını istiyoruz (N2/N1 = 1,5). Cohen d = 0,6; iki yönlü test; alfa 0,05; güç %90. n1 ve n2 kaç olmalı?"},
+  {"id": "AG-10", "reference_vector_id": "GP-AP-023",
+   "question": "Grup 1 plasebo, grup 2 ilaç; ilaç grubu plasebonun üç katı olacak (N2/N1 = 3). Cohen d = 0,5; iki yönlü test; alfa 0,05; güç %80. Her grupta kaç katılımcı gerekir?"}
+ ],
+ "challenge": [
+  {"id": "AG-C1", "kind": "missing_or_ambiguous", "expected_test": "t2-indep", "expected_action": "ask_clarification",
+   "missing": ["d"],
+   "question": "İlaç ve plasebo gruplarını karşılaştıracağız, iki yönlü test, alfa 0,05 ve %80 güç istiyoruz, gruplar eşit. Kaç hasta gerekir?"},
+  {"id": "AG-C2", "kind": "missing_or_ambiguous", "expected_test": "t2-indep", "expected_action": "ask_clarification",
+   "missing": ["tails", "power"],
+   "question": "İki bağımsız grubu karşılaştıracağım, orta düzeyde bir etki bekliyorum ve alfa 0,05. Grup başına kaç kişi yeter?"},
+  {"id": "AG-C3", "kind": "unsupported_family", "expected_test": "t-paired", "expected_action": "state_unsupported",
+   "question": "Aynı hastaların tedavi öncesi ve sonrası tansiyonlarını karşılaştıracağız; Cohen dz = 0,5, alfa 0,05, güç %80. Kaç hasta gerekir?"},
+  {"id": "AG-C4", "kind": "unsupported_family", "expected_test": "chi2-contingency", "expected_action": "state_unsupported",
+   "question": "İki tedavi kolunda yanıt veren / vermeyen hasta oranlarını 2x2 tabloyla karşılaştıracağız; etki büyüklüğü w = 0,3, alfa 0,05, güç %80. Kaç hasta gerekir?"}
+ ]
+}

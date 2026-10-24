@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+project_dir=$(CDPATH= cd -P "$(dirname "$0")" && pwd)
+runtime=${GPOWER_HOME:-"$project_dir/.run"}
+if [ ! -x "$runtime/.venv/bin/gpower-clone" ]; then
+    echo 'Install first with install.sh, or set GPOWER_HOME to the custom destination.' >&2
+    exit 3
+fi
+exec "$runtime/.venv/bin/gpower-clone" "$@"

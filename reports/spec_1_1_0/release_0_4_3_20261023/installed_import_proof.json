@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "case": "version",
+      "receipt": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\python.exe",
+          "-I",
+          "-c",
+          "import importlib.abc,json,sys\nclass BlockStats(importlib.abc.MetaPathFinder):\n def find_spec(self,fullname,path=None,target=None):\n  if fullname=='scipy.stats' or fullname.startswith('scipy.stats.'):\n   raise AssertionError('stats import attempted')\nsys.meta_path.insert(0,BlockStats())\nfrom independent_t.cli import run\nrc,out=run(json.loads(sys.argv[1]))\nloaded=any(n=='scipy.stats' or n.startswith('scipy.stats.') for n in sys.modules)\nassert not loaded\nprint(json.dumps(dict(exit_code=rc,result=out,stats_loaded=loaded,scipy_loaded='scipy' in sys.modules,engine_loaded='independent_t.engine' in sys.modules)))\n",
+          "[\"--version\"]"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Packages\\sandbox.{786f064a-51e5-4cff-b142-970fcd253970}\\AC\\Temp\\gpower043-import-proof-91ynh_ax",
+        "exit_code": 0,
+        "stdout": "{\"exit_code\": 0, \"result\": {\"contract_version\": \"1.0.0\", \"name\": \"Takim 20 - Ismail Burak Yilmaz\", \"engine\": \"Python 3.14.8\"}, \"stats_loaded\": false, \"scipy_loaded\": false, \"engine_loaded\": false}\r\n",
+        "stderr": "",
+        "elapsed_seconds": 0.10612159999982396,
+        "recorded_at": "2026-10-23T20:10:41.109240+00:00"
+      }
+    },
+    {
+      "case": "invalid",
+      "receipt": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\python.exe",
+          "-I",
+          "-c",
+          "import importlib.abc,json,sys\nclass BlockStats(importlib.abc.MetaPathFinder):\n def find_spec(self,fullname,path=None,target=None):\n  if fullname=='scipy.stats' or fullname.startswith('scipy.stats.'):\n   raise AssertionError('stats import attempted')\nsys.meta_path.insert(0,BlockStats())\nfrom independent_t.cli import run\nrc,out=run(json.loads(sys.argv[1]))\nloaded=any(n=='scipy.stats' or n.startswith('scipy.stats.') for n in sys.modules)\nassert not loaded\nprint(json.dumps(dict(exit_code=rc,result=out,stats_loaded=loaded,scipy_loaded='scipy' in sys.modules,engine_loaded='independent_t.engine' in sys.modules)))\n",
+          "[]"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Packages\\sandbox.{786f064a-51e5-4cff-b142-970fcd253970}\\AC\\Temp\\gpower043-import-proof-91ynh_ax",
+        "exit_code": 0,
+        "stdout": "{\"exit_code\": 2, \"result\": {\"error\": \"Eksik alan: test\", \"code\": \"MISSING_PARAM\", \"field\": \"test\"}, \"stats_loaded\": false, \"scipy_loaded\": false, \"engine_loaded\": false}\r\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08965060000014091,
+        "recorded_at": "2026-10-23T20:10:41.199960+00:00"
+      }
+    },
+    {
+      "case": "calculation",
+      "receipt": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\python.exe",
+          "-I",
+          "-c",
+          "import importlib.abc,json,sys\nclass BlockStats(importlib.abc.MetaPathFinder):\n def find_spec(self,fullname,path=None,target=None):\n  if fullname=='scipy.stats' or fullname.startswith('scipy.stats.'):\n   raise AssertionError('stats import attempted')\nsys.meta_path.insert(0,BlockStats())\nfrom independent_t.cli import run\nrc,out=run(json.loads(sys.argv[1]))\nloaded=any(n=='scipy.stats' or n.startswith('scipy.stats.') for n in sys.modules)\nassert not loaded\nprint(json.dumps(dict(exit_code=rc,result=out,stats_loaded=loaded,scipy_loaded='scipy' in sys.modules,engine_loaded='independent_t.engine' in sys.modules)))\n",
+          "[\"--test\", \"t2-indep\", \"--mode\", \"a-priori\", \"--tails\", \"2\", \"--d\", \".5\", \"--alpha\", \".05\", \"--power\", \".95\", \"--ratio\", \"1\"]"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Packages\\sandbox.{786f064a-51e5-4cff-b142-970fcd253970}\\AC\\Temp\\gpower043-import-proof-91ynh_ax",
+        "exit_code": 0,
+        "stdout": "{\"exit_code\": 0, \"result\": {\"n1\": 105, \"n2\": 105, \"n_total\": 210, \"actual_power\": 0.9501287033889153, \"critical_t\": 1.9714346585183504, \"df\": 208, \"ncp\": 3.6228441865473595}, \"stats_loaded\": false, \"scipy_loaded\": true, \"engine_loaded\": true}\r\n",
+        "stderr": "",
+        "elapsed_seconds": 0.7448312999999871,
+        "recorded_at": "2026-10-23T20:10:41.945796+00:00"
+      }
+    }
+  ],
+  "stats_import_blocked_by_meta_path_finder": true
+}

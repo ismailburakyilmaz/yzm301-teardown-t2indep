@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "independent-t-power"
+version = "0.4.3"
+description = "Independent educational implementation of SPEC t2-indep"
+requires-python = ">=3.12,<3.15"
+dependencies = ["scipy==1.16.3", "mcp==2.3.0", "httpx2==2.14.0"]
+
+[project.scripts]
+gpower-clone = "independent_t.cli:main"
+t2-power-mcp = "independent_t.mcp_server:main"
+t2-power-agent = "independent_t.agent_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["independent_t", "independent_t.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+independent_t = ["SCIPY_LICENSE.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/spec_1_1_0"]
+pythonpath = ["src", "."]

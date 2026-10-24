@@ -1,0 +1,33 @@
+{
+  "changed_existing": [
+    "README.md",
+    "MANIFEST.in",
+    "pyproject.toml",
+    "src/independent_t/engine.py",
+    "src/independent_t/__init__.py",
+    "tests/spec_1_1_0/test_acceptance.py",
+    "tests/spec_1_1_0/test_agent_offline.py"
+  ],
+  "new_engine_sha256": "60d856fefe398633a4561adfa6d6ec48d04cc21cb04655be6cfce2170f52bd48",
+  "new_shim_sha256": "bd73505472aa41ebf3865af5264b5e97e73ad55c5383f273edbbda31417d0147",
+  "protected_contract_spec_lock": {
+    "SPEC.md": "016233430d0f4337c8d1de36a51747654fea31da2448a0798e17c47217cccdbe",
+    "src/independent_t/contract.py": "efcfc95beab44247e76836591e5dffc74b03cd49f9459e24975cda66de3ba357",
+    "requirements.lock.txt": "67a121c8de8c1d69b6599c6bb42c1c0cc6756589a9a1485b7d9fcf54dd7298a8"
+  },
+  "engine_delta": "Only import replacement; reversing that line exactly recovers original SHA-256",
+  "numerical_test_expectations_and_all_fixtures_unchanged": true,
+  "metadata_test_changes": [
+    "current engine hash only, historical hash retained as comment",
+    "agent version 0.4.2 to 0.4.3"
+  ],
+  "package_data_change": "Retain SciPy BSD notice in wheel",
+  "mcp_schema_source": "actual installed tools/list",
+  "prior_0_4_2_files_unchanged": 224,
+  "test_package": "all current test files and explicit helpers/fixtures plus only the authorized safe historical identity metadata",
+  "registry_path_security_changes": false,
+  "new_interpreter_download": false,
+  "additional_updated_document": "docs/mcp_schema.json, actual tools/list export",
+  "numeric_acceptance_test_reversal_matches_baseline_hash": true,
+  "pyproject_delta_verified": "version plus packaged SciPy license notice only"
+}

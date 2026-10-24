@@ -1,0 +1,9 @@
+{
+  "total": 142,
+  "exactly_equal": 142,
+  "different": 0,
+  "official_numeric_success": 120,
+  "official_rejections": 22,
+  "float_hex_equal": true,
+  "meaning": "Same implementation outputs; no new GPower accuracy claim"
+}

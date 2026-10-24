@@ -1,0 +1,108 @@
+{
+  "tool": "power_analysis",
+  "description": "İki bağımsız grubun t testi: a priori veya post hoc. N2/N1 tahsisi; başka test ailesi desteklenmez. Bilinen uç sayısal uyumsuzluklar raporlanmıştır.",
+  "inputSchema": {
+    "properties": {
+      "test": {},
+      "mode": {},
+      "tails": {},
+      "d": {},
+      "alpha": {},
+      "power": {},
+      "ratio": {},
+      "n1": {},
+      "n2": {}
+    },
+    "type": "object",
+    "additionalProperties": true
+  },
+  "outputSchema": {
+    "type": "object",
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "n1": {
+            "type": "integer"
+          },
+          "n2": {
+            "type": "integer"
+          },
+          "n_total": {
+            "type": "integer"
+          },
+          "actual_power": {
+            "type": "number"
+          },
+          "critical_t": {
+            "type": "number"
+          },
+          "df": {
+            "type": "integer"
+          },
+          "ncp": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "n1",
+          "n2",
+          "n_total",
+          "actual_power",
+          "critical_t",
+          "df",
+          "ncp"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "power": {
+            "type": "number"
+          },
+          "critical_t": {
+            "type": "number"
+          },
+          "df": {
+            "type": "integer"
+          },
+          "ncp": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "power",
+          "critical_t",
+          "df",
+          "ncp"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string",
+            "minLength": 1
+          },
+          "code": {
+            "type": "string"
+          },
+          "field": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "error",
+          "code",
+          "field"
+        ],
+        "additionalProperties": false
+      }
+    ]
+  }
+}

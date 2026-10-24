@@ -1,0 +1,385 @@
+{
+ "scope": "Inspection-side comparison of G*Power round-3 observations with the SPEC 1.0.1 RULE-010 computation (SciPy 1.16.3). Predictions are NOT oracle values.",
+ "runs": [
+  {
+   "sd": "SD-01",
+   "protocol_run": 2,
+   "inputs": {
+    "tails": "One",
+    "d": "0.01",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 247304,
+   "spec_rule_N": 247304,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000005037676302,
+   "gpower_displayed_actual_power": "0.8000005",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999976889086424,
+   "target_minus_power_at_N_minus_2": 2.3110913576207537e-06
+  },
+  {
+   "sd": "SD-02",
+   "protocol_run": 3,
+   "inputs": {
+    "tails": "One",
+    "d": "0.005",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 989212,
+   "spec_rule_N": 989212,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000005243007777,
+   "gpower_displayed_actual_power": "0.8000005",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999998205893954,
+   "target_minus_power_at_N_minus_2": 1.7941060459492064e-07
+  },
+  {
+   "sd": "SD-03",
+   "protocol_run": 4,
+   "inputs": {
+    "tails": "One",
+    "d": "0.002",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 6182560,
+   "spec_rule_N": 6182560,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000000796718888,
+   "gpower_displayed_actual_power": "0.8000001",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999670779928,
+   "target_minus_power_at_N_minus_2": 3.2922007231483974e-08
+  },
+  {
+   "sd": "SD-04",
+   "protocol_run": 5,
+   "inputs": {
+    "tails": "One",
+    "d": "0.001",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 24730232,
+   "spec_rule_N": 24730232,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000000241957128,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999960472375,
+   "target_minus_power_at_N_minus_2": 3.952762561709733e-09
+  },
+  {
+   "sd": "SD-05",
+   "protocol_run": 6,
+   "inputs": {
+    "tails": "One",
+    "d": "0.0005",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 98920916,
+   "spec_rule_N": 98920918,
+   "delta_N": -2,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.7999999962524241,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999892153047,
+   "target_minus_power_at_N_minus_2": 1.0784695358978524e-08
+  },
+  {
+   "sd": "SD-06",
+   "protocol_run": 7,
+   "inputs": {
+    "tails": "One",
+    "d": "0.0002",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 618255742,
+   "spec_rule_N": 618255726,
+   "delta_N": 16,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000000098211448,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.8000000086952058,
+   "target_minus_power_at_N_minus_2": -8.695205777620174e-09
+  },
+  {
+   "sd": "SD-07",
+   "protocol_run": 8,
+   "inputs": {
+    "tails": "One",
+    "d": "0.0001",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 2473025910,
+   "spec_rule_N": 2473022896,
+   "delta_N": 3014,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000004244560164,
+   "gpower_displayed_actual_power": "0.8000004",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.8000004241745322,
+   "target_minus_power_at_N_minus_2": -4.241745321653667e-07
+  },
+  {
+   "sd": "SD-08",
+   "protocol_run": 9,
+   "inputs": {
+    "tails": "One",
+    "d": "0.00005",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 9892096272,
+   "spec_rule_N": 9892091574,
+   "delta_N": 4698,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000001653516784,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": false,
+   "continuous_power_at_gpower_N_minus_2": 0.8000001652813071,
+   "target_minus_power_at_N_minus_2": -1.652813070851522e-07
+  },
+  {
+   "sd": "SD-09",
+   "protocol_run": 10,
+   "inputs": {
+    "tails": "One",
+    "d": "0.00002",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 61826107836,
+   "spec_rule_N": 61825572322,
+   "delta_N": 535514,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000030147630297,
+   "gpower_displayed_actual_power": "0.8000056",
+   "displayed_power_consistent_at_7_decimals": false,
+   "continuous_power_at_gpower_N_minus_2": 0.8000030147517702,
+   "target_minus_power_at_N_minus_2": -3.0147517701140103e-06
+  },
+  {
+   "sd": "SD-10",
+   "protocol_run": 11,
+   "inputs": {
+    "tails": "One",
+    "d": "0.00001",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 247276887664,
+   "spec_rule_N": 247302289284,
+   "delta_N": -25401620,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.7999642463176612,
+   "gpower_displayed_actual_power": "0.7999212",
+   "displayed_power_consistent_at_7_decimals": false,
+   "continuous_power_at_gpower_N_minus_2": 0.7999642463148458,
+   "target_minus_power_at_N_minus_2": 3.575368515429389e-05
+  },
+  {
+   "sd": "SD-11",
+   "protocol_run": 12,
+   "inputs": {
+    "tails": "One",
+    "d": "-0.0000101",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 242455929078,
+   "spec_rule_N": 242429457194,
+   "delta_N": 26471884,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000380028231336,
+   "gpower_displayed_actual_power": "0.8000690",
+   "displayed_power_consistent_at_7_decimals": false,
+   "continuous_power_at_gpower_N_minus_2": 0.8000380028202629,
+   "target_minus_power_at_N_minus_2": -3.800282026289459e-05
+  },
+  {
+   "sd": "SD-12",
+   "protocol_run": 13,
+   "inputs": {
+    "tails": "One",
+    "d": "0.0008",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 38640984,
+   "spec_rule_N": 38640986,
+   "delta_N": -2,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.7999999995235445,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999815085185,
+   "target_minus_power_at_N_minus_2": 1.8491481568183588e-08
+  },
+  {
+   "sd": "SD-13",
+   "protocol_run": 14,
+   "inputs": {
+    "tails": "One",
+    "d": "0.0009",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 30531150,
+   "spec_rule_N": 30531150,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000000207760484,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999979757831,
+   "target_minus_power_at_N_minus_2": 2.0242169052053782e-09
+  },
+  {
+   "sd": "SD-14",
+   "protocol_run": 15,
+   "inputs": {
+    "tails": "One",
+    "d": "0.001",
+    "alpha": "0.05",
+    "power": "0.95",
+    "ratio": "1"
+   },
+   "gpower_N": 43288698,
+   "spec_rule_N": 43288698,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.9500000054147171,
+   "gpower_displayed_actual_power": "0.9500000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.9499999975769651,
+   "target_minus_power_at_N_minus_2": 2.4230348838472082e-09
+  },
+  {
+   "sd": "SD-15",
+   "protocol_run": 16,
+   "inputs": {
+    "tails": "Two",
+    "d": "0.001",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 31395446,
+   "spec_rule_N": 31395444,
+   "delta_N": 2,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000000255063285,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.8000000005241962,
+   "target_minus_power_at_N_minus_2": -5.241961309465637e-10
+  },
+  {
+   "sd": "SD-16",
+   "protocol_run": 17,
+   "inputs": {
+    "tails": "Two",
+    "d": "0.001",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "2"
+   },
+   "gpower_N": 35319874,
+   "spec_rule_N": 35319876,
+   "delta_N": -2,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.7999999920867988,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999754320415,
+   "target_minus_power_at_N_minus_2": 2.456795855643179e-08
+  },
+  {
+   "sd": "SD-17",
+   "protocol_run": 18,
+   "inputs": {
+    "tails": "Two",
+    "d": "0.0005",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 125581778,
+   "spec_rule_N": 125581772,
+   "delta_N": 6,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.8000000247636999,
+   "gpower_displayed_actual_power": "0.8000001",
+   "displayed_power_consistent_at_7_decimals": false,
+   "continuous_power_at_gpower_N_minus_2": 0.8000000185181666,
+   "target_minus_power_at_N_minus_2": -1.851816655573657e-08
+  },
+  {
+   "sd": "SD-18",
+   "protocol_run": 19,
+   "inputs": {
+    "tails": "Two",
+    "d": "0.0005",
+    "alpha": "0.01",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 186863490,
+   "spec_rule_N": 186863494,
+   "delta_N": -4,
+   "matches_spec_rule": false,
+   "exact_power_at_gpower_groups": 0.7999999905417269,
+   "gpower_displayed_actual_power": "0.8000000",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999854216462,
+   "target_minus_power_at_N_minus_2": 1.457835385743067e-08
+  },
+  {
+   "sd": "SD-19",
+   "protocol_run": 20,
+   "inputs": {
+    "tails": "Two",
+    "d": "0.002",
+    "alpha": "0.05",
+    "power": "0.8",
+    "ratio": "1"
+   },
+   "gpower_N": 7848864,
+   "spec_rule_N": 7848864,
+   "delta_N": 0,
+   "matches_spec_rule": true,
+   "exact_power_at_gpower_groups": 0.8000000784410868,
+   "gpower_displayed_actual_power": "0.8000001",
+   "displayed_power_consistent_at_7_decimals": true,
+   "continuous_power_at_gpower_N_minus_2": 0.7999999785125621,
+   "target_minus_power_at_N_minus_2": 2.1487437940059806e-08
+  }
+ ]
+}

@@ -1,0 +1,1246 @@
+{
+  "schema_version": "gui-mcp-comparison-measured-v1",
+  "generated_at": "2026-10-19T19:23:27.807116+00:00",
+  "model": "qwen/qwen3.8-27b",
+  "question_count": 10,
+  "question_set": "same ten existing SPEC1.0.1 core questions; seen-question evaluation",
+  "all_ten_measurements_complete": true,
+  "source_order": "All MCP questions were measured before GUI questions, not alternated",
+  "GUI": {
+    "final_n_correct_after_documented_recovery": 10,
+    "assisted_recovery_cases": [
+      "AG-01",
+      "AG-05"
+    ],
+    "first_received_model_core_plan_correct": 8,
+    "first_technical_episode_workflow_success": 7,
+    "first_technical_episode_failures": [
+      "AG-01 invalid capture and wrong test selection",
+      "AG-05 given parameters overlooked",
+      "AG-10 initial429, no model response"
+    ],
+    "numeric_fields_correct": 60,
+    "numeric_fields_total": 70,
+    "wrong_numeric_fields": 9,
+    "unreadable_abstentions": 1,
+    "all_numeric_fields_correct_cases": [
+      "AG-02",
+      "AG-05",
+      "AG-07"
+    ],
+    "observed_reported_tokens": 64753,
+    "observed_tokens_valid_capture_chain": 62760,
+    "input_tokens": 58049,
+    "output_tokens": 6704,
+    "unknown_usage_request_count": 2,
+    "request_count": 25,
+    "model_responses_received": 23,
+    "rejections": {
+      "413": 1,
+      "429": 1
+    },
+    "sum_within_question_elapsed_seconds": 3220.279122,
+    "overall_experiment_span_seconds": 19707.823615,
+    "api_elapsed_seconds": 49.11039729998811,
+    "sum_pacing_wait_seconds": 0.0,
+    "human_execution_seconds": null,
+    "setup_time_seconds": null,
+    "image_tokens": null,
+    "cached_tokens": null,
+    "cost": null,
+    "coordinator_model_tokens": null,
+    "coordinator_model_cost": null,
+    "full_gui_control_proven": false,
+    "controller_execution": "Human executes the model instructions; coordinator captures, verifies and logs"
+  },
+  "MCP": {
+    "core_final_n_correct": 10,
+    "first_technical_episode_workflow_success": 10,
+    "request_count": 10,
+    "input_tokens": 12522,
+    "output_tokens": 834,
+    "observed_reported_tokens": 13356,
+    "attempt_elapsed_seconds_excluding_pacing": 38.90916130000096,
+    "provider_elapsed_seconds": 11.704182699999365,
+    "pacing_wait_seconds": 144.65554070000053,
+    "cost": null,
+    "note": "Four challenge questions excluded from this ten-question pair; whole agent run remains14/14 system,13/14 raw decisions."
+  },
+  "descriptive_token_comparison": {
+    "known_usage_ratio_GUI_over_MCP": 4.848233003893381,
+    "MCP_reported_tokens_lower_percent": 79.37392862106775,
+    "label": "Descriptive ratio of reported tokens in these observed workflows, not monetary savings or a causal/general speed claim; two rejected requests have unknown usage."
+  },
+  "comparability_limits": [
+    "Manual GUI execution plus coordinator time is included. MCP is automated. This does not prove autonomous computer use.",
+    "GUI and MCP prompts/workflows differ; special AG-01 recovery reset context and changed the result-reading prompt.",
+    "AG-01 and AG-05 required explicit assistance. GUI final N10/10 must not be advertised as unassisted first-attempt100%.",
+    "Initial invalid application image and413/429 remain in request counts. Rejection token usage is unknown, not zero.",
+    "Within-question elapsed sums include operator/chat/coordination and technical recovery; overall span additionally includes long pauses between questions. Neither is pure execution time.",
+    "No human-only time, isolated setup time, image-token breakdown, cache breakdown or billing-tier/money figure was measured.",
+    "Token totals cover Groq API receipts only. Coordinating Codex model tokens/cost were not measured and are not included; these are not total AI/project costs.",
+    "Numeric-only normalization of critical_t and ncp_delta aliases and nested results is declared; strict flat-key conformity is separate.",
+    "AG-05 reviewer transcription was corrected through direct UI text and prior oracle; both old transcription and superseded audit are retained.",
+    "AG-07/08/10 contained additional UI-instruction errors. For AG-10 it is unknown whether the operator followed or bypassed Determine.",
+    "Same questions were used after development; this is not a held-out generalization score."
+  ],
+  "measurements": [
+    {
+      "id": "AG-01",
+      "question": "Yeni bir antihipertansif ilacı plaseboyla karşılaştıracağız (paralel iki bağımsız grup). Beklenen etki büyüklüğü Cohen d = 0,5; iki yönlü test, alfa 0,05 ve %95 güç istiyoruz. Gruplar eşit büyüklükte olacak. Her gruba kaç hasta almalıyız?",
+      "expected_and_observed_N": {
+        "n1": 105,
+        "n2": 105,
+        "n_total": 210
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 6,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "ncp"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "n1": 105,
+          "n2": 105,
+          "n_total": 210,
+          "actual_power": 0.9501287,
+          "critical": 1.9714347,
+          "df": 208,
+          "ncp": 3.97228442
+        },
+        "displayed_values": {
+          "n1": 105,
+          "n2": 105,
+          "n_total": 210,
+          "actual_power": 0.9501287,
+          "critical": 1.9714347,
+          "df": 208,
+          "ncp": 3.6228442
+        },
+        "initial_received_model_core_plan_correct": false,
+        "assisted_recovery": true,
+        "first_technical_episode_workflow_success": false,
+        "additional_plan_review": {
+          "observation": "model instructed unequal-variance independent-groups test despite equal-variance task scope",
+          "statistical_test_selection_correct": false
+        },
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 10174,
+        "input_tokens": 8719,
+        "output_tokens": 1455,
+        "observed_tokens_valid_capture_chain": 8181,
+        "unknown_usage_request_count": 1,
+        "request_count": 5,
+        "model_responses_received": 4,
+        "elapsed_seconds": 1480.49296,
+        "api_elapsed_seconds": 10.57181010000022,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T13:45:30.581874+00:00",
+            "response_received_at": "2026-10-19T13:45:32.098378+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-77d3bece-93e4-4fd5-8a04-fcedf492b451",
+            "model_response_received": true,
+            "invalid_capture": true,
+            "usage": {
+              "prompt_tokens": 1772,
+              "completion_tokens": 221,
+              "total_tokens": 1993
+            },
+            "api_elapsed_seconds": 1.5151986000000761,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "ad4d5c5dee44f8e54e0de881e86422e4b5496586c40ee8260a226e6274648268"
+          },
+          {
+            "request_started_at": "2026-10-19T13:51:50.211277+00:00",
+            "response_received_at": "2026-10-19T13:51:52.159083+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-c50bade1-8220-40e5-8816-311755b99fde",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1772,
+              "completion_tokens": 371,
+              "total_tokens": 2143
+            },
+            "api_elapsed_seconds": 1.9467039999999542,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "446e908c72e5c3f4a7c921aa352d7ee38eef4bd5c201adcc3131b72b07dcbbf2"
+          },
+          {
+            "request_started_at": "2026-10-19T14:03:03.221651+00:00",
+            "response_received_at": "2026-10-19T14:03:05.962286+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-4803ddbf-18e9-4b6b-ab50-8c6f156115f4",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3541,
+              "completion_tokens": 283,
+              "total_tokens": 3824
+            },
+            "api_elapsed_seconds": 2.7390133000008063,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "969ab622e0fed7122bfb2fea7321bb4f21b1c05b9dbcc707e8d9a4fe6f7e4dda"
+          },
+          {
+            "request_started_at": "2026-10-19T14:06:04.860485+00:00",
+            "response_received_at": null,
+            "http_status": 413,
+            "response_id": null,
+            "model_response_received": false,
+            "invalid_capture": false,
+            "usage": null,
+            "api_elapsed_seconds": 1.5838960999990377,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "a9332b388a613864dc24daa83c6e8a271d200cd4ab174e29067df6c4678bb408"
+          },
+          {
+            "request_started_at": "2026-10-19T14:10:08.277755+00:00",
+            "response_received_at": "2026-10-19T14:10:11.074834+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-843f74e8-1d02-4068-b0e8-22b39a359273",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1634,
+              "completion_tokens": 580,
+              "total_tokens": 2214
+            },
+            "api_elapsed_seconds": 2.7869981000003463,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "6f5491ce4e3fb81846267c34b7f6644536126deb43a003c532bb4e5f3d390b86"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1263,
+        "output_tokens": 84,
+        "observed_model_total_tokens": 1347,
+        "request_count": 1,
+        "elapsed_seconds": 5.13238359999923,
+        "provider_elapsed_seconds": 2.408554199999344,
+        "pacing_wait_seconds": 0.0,
+        "cost": null,
+        "response_id": "chatcmpl-96f744c4-99cc-4e20-9c05-41b61c363c17",
+        "response_sha256": "3fe5f3a75d077736325f7c039d01eef6a6fbb4eec9dbd9839ff1c5fbfd23561c"
+      }
+    },
+    {
+      "id": "AG-02",
+      "question": "Bir ağrı kesicinin plasebodan daha etkili olduğunu (tek yönlü hipotez) göstermek istiyoruz. Cohen d = 0,5, alfa 0,05, güç %95, iki bağımsız grup eşit büyüklükte. Toplam kaç katılımcı gerekir?",
+      "expected_and_observed_N": {
+        "n1": 88,
+        "n2": 88,
+        "n_total": 176
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 7,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": true,
+        "wrong_numeric_fields": [],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "df": 174,
+          "actual_power": 0.9514254,
+          "n_total": 176,
+          "n1": 88,
+          "ncp": 3.3166248,
+          "critical": 1.653658,
+          "n2": 88
+        },
+        "displayed_values": {
+          "df": 174,
+          "actual_power": 0.9514254,
+          "n_total": 176,
+          "n1": 88,
+          "ncp": 3.3166248,
+          "critical": 1.653658,
+          "n2": 88
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": false,
+        "observed_model_total_tokens": 5739,
+        "input_tokens": 5193,
+        "output_tokens": 546,
+        "observed_tokens_valid_capture_chain": 5739,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 124.235001,
+        "api_elapsed_seconds": 4.465743800001292,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T14:26:59.564769+00:00",
+            "response_received_at": "2026-10-19T14:27:01.817722+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-4e91dba0-fa3c-40dc-bd39-5586f0f6879a",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1756,
+              "completion_tokens": 347,
+              "total_tokens": 2103
+            },
+            "api_elapsed_seconds": 2.2519892000000254,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "50d6a81debf2658b49137afa6e35de95a892d3a0bea2080520796d5f5906e148"
+          },
+          {
+            "request_started_at": "2026-10-19T14:29:01.584268+00:00",
+            "response_received_at": "2026-10-19T14:29:03.799770+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-ffc3bf7e-6144-43c5-8fe7-8ce886576fcf",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3437,
+              "completion_tokens": 199,
+              "total_tokens": 3636
+            },
+            "api_elapsed_seconds": 2.2137546000012662,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "6dd66973d0772778c68ea3d5637126f21e84c5984060a207add3cc9a53af7ae8"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1247,
+        "output_tokens": 84,
+        "observed_model_total_tokens": 1331,
+        "request_count": 1,
+        "elapsed_seconds": 3.9085642999998527,
+        "provider_elapsed_seconds": 1.2148791999998139,
+        "pacing_wait_seconds": 14.939934700000777,
+        "cost": null,
+        "response_id": "chatcmpl-2969aa1f-46c8-4380-9b80-de066eaa301e",
+        "response_sha256": "24e8b22583f4489c99c46a9a2291147e06f513c2b82250d865a5cd76f5e2d486"
+      }
+    },
+    {
+      "id": "AG-03",
+      "question": "İki bağımsız tedavi grubunda ortalama iyileşme süresini karşılaştıracağız. Etki büyük, Cohen d = 0,8. İki yönlü test, alfa 0,05, güç %80, eşit gruplar. Grup başına örneklem büyüklüğü nedir?",
+      "expected_and_observed_N": {
+        "n1": 26,
+        "n2": 26,
+        "n_total": 52
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 6,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "actual_power"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "n2": 26,
+          "actual_power": 0.8074856,
+          "n_total": 52,
+          "ncp": 2.884441,
+          "df": 50,
+          "n1": 26,
+          "critical": 2.0085591
+        },
+        "displayed_values": {
+          "n2": 26,
+          "actual_power": 0.8074866,
+          "n_total": 52,
+          "ncp": 2.884441,
+          "df": 50,
+          "n1": 26,
+          "critical": 2.0085591
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": false,
+        "observed_model_total_tokens": 5897,
+        "input_tokens": 5266,
+        "output_tokens": 631,
+        "observed_tokens_valid_capture_chain": 5897,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 119.504743,
+        "api_elapsed_seconds": 4.950268800002959,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:27:34.132605+00:00",
+            "response_received_at": "2026-10-19T18:27:36.087331+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-36add4d2-b113-4af6-82d7-26843a458c4c",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1758,
+              "completion_tokens": 415,
+              "total_tokens": 2173
+            },
+            "api_elapsed_seconds": 1.9537653000006685,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "132da7ad84de6dcf34e2294bef13c23fb5b70a534a8b4d04d068556bd9e645b8"
+          },
+          {
+            "request_started_at": "2026-10-19T18:29:30.639553+00:00",
+            "response_received_at": "2026-10-19T18:29:33.637348+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-82392c9d-68d6-4a63-8d8e-a14b340982dd",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3508,
+              "completion_tokens": 216,
+              "total_tokens": 3724
+            },
+            "api_elapsed_seconds": 2.996503500002291,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "cbee31e501a0eae53ba10b07c5e6d8e238ab987e8dcaedb127cebfb5992c9b54"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1249,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1332,
+        "request_count": 1,
+        "elapsed_seconds": 3.7970030000005863,
+        "provider_elapsed_seconds": 1.077067199999874,
+        "pacing_wait_seconds": 16.09876440000062,
+        "cost": null,
+        "response_id": "chatcmpl-7eb81037-c561-4aa3-8b2c-ff074ea51a9a",
+        "response_sha256": "213d125e3ab307a1a60c7f81dd7376dd940bc8bfb841cbfdc1a1c38a27e85510"
+      }
+    },
+    {
+      "id": "AG-04",
+      "question": "Diyet programının kolesterolü kontrol grubuna göre düşürdüğünü (tek yönlü) test edeceğiz. Küçük bir etki bekliyoruz: Cohen d = 0,2. Alfa 0,05, güç %80, iki bağımsız eşit grup. Kaç kişiye ihtiyacımız var?",
+      "expected_and_observed_N": {
+        "n1": 310,
+        "n2": 310,
+        "n_total": 620
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 6,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "critical"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "df": 618,
+          "n1": 310,
+          "n2": 310,
+          "critical": 1.647373,
+          "n_total": 620,
+          "ncp": 2.4899799,
+          "actual_power": 0.8002178
+        },
+        "displayed_values": {
+          "df": 618,
+          "n1": 310,
+          "n2": 310,
+          "critical": 1.647323,
+          "n_total": 620,
+          "ncp": 2.4899799,
+          "actual_power": 0.8002178
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 5795,
+        "input_tokens": 5233,
+        "output_tokens": 562,
+        "observed_tokens_valid_capture_chain": 5795,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 148.286368,
+        "api_elapsed_seconds": 4.4969260999969265,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:31:02.425632+00:00",
+            "response_received_at": "2026-10-19T18:31:05.348503+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-492d2c17-aeff-4f59-b197-62a427aebac4",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1759,
+              "completion_tokens": 381,
+              "total_tokens": 2140
+            },
+            "api_elapsed_seconds": 2.9218790999984776,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "791c8c7af3e8904ae17304e26589396ab0819afce32d39948091418ba89c89c4"
+          },
+          {
+            "request_started_at": "2026-10-19T18:33:29.135818+00:00",
+            "response_received_at": "2026-10-19T18:33:30.712000+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-a7387913-101e-4f49-9dd0-d5aee6cfc1a6",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3474,
+              "completion_tokens": 181,
+              "total_tokens": 3655
+            },
+            "api_elapsed_seconds": 1.5750469999984489,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "df950b42cfff98782cd03d10d4d71e38ad722cec4cf8f5c99c3828cc6f531fe7"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1250,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1333,
+        "request_count": 1,
+        "elapsed_seconds": 3.4509048999998413,
+        "provider_elapsed_seconds": 0.6739396000002671,
+        "pacing_wait_seconds": 16.214000099999794,
+        "cost": null,
+        "response_id": "chatcmpl-08f39209-3ca4-4485-a4bf-53b6e3db0666",
+        "response_sha256": "bed0305df6169a5547cd374c4630153cec102a78f42e42189690c3f13685ff30"
+      }
+    },
+    {
+      "id": "AG-05",
+      "question": "İki farklı fizik tedavi protokolünü bağımsız gruplarda karşılaştıracağız. Cohen d = 0,5; iki yönlü test; anlamlılık düzeyini sıkı tutup alfa 0,01 alıyoruz; güç %90; eşit gruplar. Her grupta kaç hasta olmalı?",
+      "expected_and_observed_N": {
+        "n1": 121,
+        "n2": 121,
+        "n_total": 242
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 7,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": true,
+        "wrong_numeric_fields": [],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "ncp": 3.8890873,
+          "actual_power": 0.9008344,
+          "n_total": 242,
+          "n1": 121,
+          "critical": 2.5964692,
+          "df": 240,
+          "n2": 121
+        },
+        "displayed_values": {
+          "ncp": 3.8890873,
+          "actual_power": 0.9008344,
+          "n_total": 242,
+          "n1": 121,
+          "critical": 2.5964692,
+          "df": 240,
+          "n2": 121
+        },
+        "initial_received_model_core_plan_correct": false,
+        "assisted_recovery": true,
+        "first_technical_episode_workflow_success": false,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": false,
+        "observed_model_total_tokens": 8063,
+        "input_tokens": 7455,
+        "output_tokens": 608,
+        "observed_tokens_valid_capture_chain": 8063,
+        "unknown_usage_request_count": 0,
+        "request_count": 3,
+        "model_responses_received": 3,
+        "elapsed_seconds": 323.924098,
+        "api_elapsed_seconds": 4.9466904000037175,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:35:44.627076+00:00",
+            "response_received_at": "2026-10-19T18:35:45.809706+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-5717838c-a114-4f28-a26b-803a0947b20e",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1755,
+              "completion_tokens": 122,
+              "total_tokens": 1877
+            },
+            "api_elapsed_seconds": 1.1817723999993177,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "ef3f738f853dcfcd5e8ff3975d24c5a1763b70ffc06e0292ac0b95532171d5eb"
+          },
+          {
+            "request_started_at": "2026-10-19T18:38:14.535153+00:00",
+            "response_received_at": "2026-10-19T18:38:16.308275+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-016f37d2-034d-4132-adbe-ae5cc9406360",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 2023,
+              "completion_tokens": 320,
+              "total_tokens": 2343
+            },
+            "api_elapsed_seconds": 1.7725469000033627,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "84fcdf06e72e1e5c6b181d35d5b5004d674bd5041041a7243a2e1d5a2455abc3"
+          },
+          {
+            "request_started_at": "2026-10-19T18:41:06.557921+00:00",
+            "response_received_at": "2026-10-19T18:41:08.551174+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-15d45a39-77d3-4d3e-8f2c-adec972e53f5",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3677,
+              "completion_tokens": 166,
+              "total_tokens": 3843
+            },
+            "api_elapsed_seconds": 1.9923711000010371,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "746ccf2bff47805a72319cdee513ddd760bccab6a1e439515809dbedbfaa57f3"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1246,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1329,
+        "request_count": 1,
+        "elapsed_seconds": 3.4266508999999132,
+        "provider_elapsed_seconds": 0.6055347999999867,
+        "pacing_wait_seconds": 16.564490099999603,
+        "cost": null,
+        "response_id": "chatcmpl-efae7bc8-75a6-49e1-9bd3-75937043ca34",
+        "response_sha256": "56f23a892f364f021d765239084a145f2409bf772b125966b87e1e2f2b2e989e"
+      }
+    },
+    {
+      "id": "AG-06",
+      "question": "Pilot nitelikli bir çalışmada iki bağımsız grubun ortalama kan şekeri değerlerini karşılaştıracağız. Cohen d = 0,3; iki yönlü test; alfa 0,10; güç %85; eşit gruplar. Toplam örneklem kaç olmalı?",
+      "expected_and_observed_N": {
+        "n1": 161,
+        "n2": 161,
+        "n_total": 322
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 5,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "ncp"
+        ],
+        "abstained_fields": [
+          "critical"
+        ],
+        "values_read_by_model": {
+          "ncp": 2.0916538,
+          "critical": null,
+          "df": 320,
+          "n1": 161,
+          "n2": 161,
+          "n_total": 322,
+          "actual_power": 0.8510936
+        },
+        "displayed_values": {
+          "ncp": 2.6916538,
+          "critical": 1.6496293,
+          "df": 320,
+          "n1": 161,
+          "n2": 161,
+          "n_total": 322,
+          "actual_power": 0.8510936
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 5539,
+        "input_tokens": 5075,
+        "output_tokens": 464,
+        "observed_tokens_valid_capture_chain": 5539,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 101.156486,
+        "api_elapsed_seconds": 3.320990600001096,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:43:58.648580+00:00",
+            "response_received_at": "2026-10-19T18:44:00.403337+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-6bafb460-69b1-430b-b085-bd685e17bf6d",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1753,
+              "completion_tokens": 235,
+              "total_tokens": 1988
+            },
+            "api_elapsed_seconds": 1.7541286000014225,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "7f9996048ceef7b7d26489145e53a45909a50759a2a0af153b2f0dc35df91afe"
+          },
+          {
+            "request_started_at": "2026-10-19T18:45:38.237559+00:00",
+            "response_received_at": "2026-10-19T18:45:39.805066+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-abf80ff0-2bf6-4a0f-a28b-8b0175bcb221",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3322,
+              "completion_tokens": 229,
+              "total_tokens": 3551
+            },
+            "api_elapsed_seconds": 1.5668619999996736,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "a3bc4fb46c7a913bd0bc913740f9b2d1c20764ead0f6856439fa68c845f0d282"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1244,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1327,
+        "request_count": 1,
+        "elapsed_seconds": 3.293942300000708,
+        "provider_elapsed_seconds": 0.656139799999437,
+        "pacing_wait_seconds": 16.574937299999874,
+        "cost": null,
+        "response_id": "chatcmpl-82cb1ea8-adcb-4983-a800-3b040ec5a8be",
+        "response_sha256": "ba3384fa00ce76b85db86bd25afb54239ae5af2a8af691b5b61214766b5a59d3"
+      }
+    },
+    {
+      "id": "AG-07",
+      "question": "Grup 1 kontrol (plasebo), grup 2 yeni ilaç olacak ve grup 2, grup 1'in iki katı büyüklükte olacak (N2/N1 = 2). Cohen d = 0,5; iki yönlü test; alfa 0,05; güç %80. Her gruba kaç hasta almalıyız?",
+      "expected_and_observed_N": {
+        "n1": 48,
+        "n2": 96,
+        "n_total": 144
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 7,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": true,
+        "wrong_numeric_fields": [],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "ncp": 2.8284271,
+          "critical": 1.976811,
+          "df": 142,
+          "n1": 48,
+          "n2": 96,
+          "n_total": 144,
+          "actual_power": 0.8021395
+        },
+        "displayed_values": {
+          "ncp": 2.8284271,
+          "critical": 1.976811,
+          "df": 142,
+          "n1": 48,
+          "n2": 96,
+          "n_total": 144,
+          "actual_power": 0.8021395
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": {
+          "core_test_and_input_plan_correct": true,
+          "incidental_ui_description_correct": false,
+          "incidental_error": "Model claimed Protocol of power analyses was already selected and requested it; initial captured screen actually showed Central and noncentral distributions. Calculation parameters were correct."
+        },
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 5794,
+        "input_tokens": 5223,
+        "output_tokens": 571,
+        "observed_tokens_valid_capture_chain": 5794,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 129.047255,
+        "api_elapsed_seconds": 3.8625865999965754,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:49:32.119862+00:00",
+            "response_received_at": "2026-10-19T18:49:34.168357+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-f73d3865-f20e-47ee-b286-80eb6022f7f0",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1764,
+              "completion_tokens": 361,
+              "total_tokens": 2125
+            },
+            "api_elapsed_seconds": 2.047732899998664,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "200bc7738a8234a350a8399cff053205b5d2d8f576d6fb1796ace0e42b4d81e7"
+          },
+          {
+            "request_started_at": "2026-10-19T18:51:39.351611+00:00",
+            "response_received_at": "2026-10-19T18:51:41.167117+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-4018882d-7070-4595-af71-8d4f9fb425a0",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3459,
+              "completion_tokens": 210,
+              "total_tokens": 3669
+            },
+            "api_elapsed_seconds": 1.8148536999979115,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "ec6c14c29046d56de72d1d6a14a9db1ea2b24f25810f3ff84c354ef5ccdbbc15"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1255,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1338,
+        "request_count": 1,
+        "elapsed_seconds": 5.698534400000426,
+        "provider_elapsed_seconds": 3.004638000000341,
+        "pacing_wait_seconds": 16.708460099999684,
+        "cost": null,
+        "response_id": "chatcmpl-0291eb5f-34e3-41c2-b6fb-2f689f35c535",
+        "response_sha256": "ed8371d1538af619f3bba77e9d215607ea68947a185fa978ba3d46254e426991"
+      }
+    },
+    {
+      "id": "AG-08",
+      "question": "Grup 1 standart tedavi, grup 2 yeni tedavi; yeni tedavi grubunu üç kat büyük tutacağız (N2/N1 = 3). Yeni tedavinin daha iyi olduğunu tek yönlü test edeceğiz. Cohen d = 0,4; alfa 0,05; güç %90. Grup büyüklükleri ne olmalı?",
+      "expected_and_observed_N": {
+        "n1": 72,
+        "n2": 216,
+        "n_total": 288
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 6,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "ncp"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "ncp": 2.9343877,
+          "critical": 1.6501989,
+          "df": 286,
+          "n1": 72,
+          "n2": 216,
+          "n_total": 288,
+          "actual_power": 0.9010523
+        },
+        "displayed_values": {
+          "ncp": 2.9393877,
+          "critical": 1.6501989,
+          "df": 286,
+          "n1": 72,
+          "n2": 216,
+          "n_total": 288,
+          "actual_power": 0.9010523
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": {
+          "core_test_and_input_plan_correct": true,
+          "incidental_ui_description_correct": false,
+          "incidental_error": "Model described a window closing after Calculate; GPower output instead updated in the same visible window. Core numerical settings were correct."
+        },
+        "requested_flat_keys_present": false,
+        "observed_model_total_tokens": 5768,
+        "input_tokens": 5189,
+        "output_tokens": 579,
+        "observed_tokens_valid_capture_chain": 5768,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 245.272473,
+        "api_elapsed_seconds": 3.7477215999970213,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T18:54:59.031332+00:00",
+            "response_received_at": "2026-10-19T18:55:01.161094+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-c092a5d9-f19f-4f26-a0a2-9f5ac1c78b20",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1761,
+              "completion_tokens": 333,
+              "total_tokens": 2094
+            },
+            "api_elapsed_seconds": 2.1288943999970797,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "353277f192227bfe06b3c0c170343440bd3f451a544d0c6c06f1cc099ce129f9"
+          },
+          {
+            "request_started_at": "2026-10-19T18:59:02.684205+00:00",
+            "response_received_at": "2026-10-19T18:59:04.303805+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-2944115e-96e8-4072-8c3c-d1c8aabd2994",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3428,
+              "completion_tokens": 246,
+              "total_tokens": 3674
+            },
+            "api_elapsed_seconds": 1.6188271999999415,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "a99cbfd0694c5cb4a9f879dde39967f952048b5f4b7d1373fc2ec54c7e080117"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1252,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1335,
+        "request_count": 1,
+        "elapsed_seconds": 3.3523630999998204,
+        "provider_elapsed_seconds": 0.6414566000003106,
+        "pacing_wait_seconds": 14.306386799999927,
+        "cost": null,
+        "response_id": "chatcmpl-40f8dea9-e6ed-48c4-a91f-7617090ead2c",
+        "response_sha256": "a21e3d29eca77743de3122553a71cc8a9b529c827d12bf2259df7a34abd57577"
+      }
+    },
+    {
+      "id": "AG-09",
+      "question": "İki bağımsız grupta ortalama hastanede kalış süresini karşılaştıracağız. Grup 2'nin grup 1'den 1,5 kat büyük olmasını istiyoruz (N2/N1 = 1,5). Cohen d = 0,6; iki yönlü test; alfa 0,05; güç %90. n1 ve n2 kaç olmalı?",
+      "expected_and_observed_N": {
+        "n1": 50,
+        "n2": 74,
+        "n_total": 124
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 5,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "ncp",
+          "critical"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "ncp": 3.7774897,
+          "critical": 1.9795989,
+          "df": 122,
+          "n1": 50,
+          "n2": 74,
+          "n_total": 124,
+          "actual_power": 0.9017553
+        },
+        "displayed_values": {
+          "ncp": 3.2774892,
+          "critical": 1.9795999,
+          "df": 122,
+          "n1": 50,
+          "n2": 74,
+          "n_total": 124,
+          "actual_power": 0.9017553
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": true,
+        "additional_plan_review": null,
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 5923,
+        "input_tokens": 5341,
+        "output_tokens": 582,
+        "observed_tokens_valid_capture_chain": 5923,
+        "unknown_usage_request_count": 0,
+        "request_count": 2,
+        "model_responses_received": 2,
+        "elapsed_seconds": 180.345026,
+        "api_elapsed_seconds": 3.7880680999951437,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T19:04:49.758200+00:00",
+            "response_received_at": "2026-10-19T19:04:51.799604+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-456558fa-4d1b-4eaf-9de6-db9dd0eb0f76",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1778,
+              "completion_tokens": 451,
+              "total_tokens": 2229
+            },
+            "api_elapsed_seconds": 2.040642599997227,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "896b3ca46398e7a0cf1e00595aa222bdf0ff20097844284b8241d4323f85ecde"
+          },
+          {
+            "request_started_at": "2026-10-19T19:07:48.354678+00:00",
+            "response_received_at": "2026-10-19T19:07:50.103226+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-d9dfc87e-e9af-45c7-9b1e-f5ada99c618d",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3563,
+              "completion_tokens": 131,
+              "total_tokens": 3694
+            },
+            "api_elapsed_seconds": 1.7474254999979166,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "34ae6bb3e6b2a46035617b1c7e4ee8d27bdd2adc5d5fc630a9aea413bc5a09cf"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1269,
+        "output_tokens": 85,
+        "observed_model_total_tokens": 1354,
+        "request_count": 1,
+        "elapsed_seconds": 3.403467900000578,
+        "provider_elapsed_seconds": 0.6866148999997677,
+        "pacing_wait_seconds": 16.657255000000077,
+        "cost": null,
+        "response_id": "chatcmpl-16e4fe74-016e-4e56-b7d8-651ba7b16403",
+        "response_sha256": "c79798f83756c619e9c37ace1826ce683a25c37395ff3bcbbdebf2941ac59898"
+      }
+    },
+    {
+      "id": "AG-10",
+      "question": "Grup 1 plasebo, grup 2 ilaç; ilaç grubu plasebonun üç katı olacak (N2/N1 = 3). Cohen d = 0,5; iki yönlü test; alfa 0,05; güç %80. Her grupta kaç katılımcı gerekir?",
+      "expected_and_observed_N": {
+        "n1": 43,
+        "n2": 127,
+        "n_total": 170
+      },
+      "GUI": {
+        "final_n_correct": true,
+        "numeric_fields_correct": 5,
+        "numeric_fields_total": 7,
+        "all_numeric_values_correct": false,
+        "wrong_numeric_fields": [
+          "ncp",
+          "actual_power"
+        ],
+        "abstained_fields": [],
+        "values_read_by_model": {
+          "ncp": 2.8398811,
+          "critical": 1.9741852,
+          "df": 168,
+          "n1": 43,
+          "n2": 127,
+          "n_total": 170,
+          "actual_power": 0.8044658
+        },
+        "displayed_values": {
+          "ncp": 2.8338811,
+          "critical": 1.9741852,
+          "df": 168,
+          "n1": 43,
+          "n2": 127,
+          "n_total": 170,
+          "actual_power": 0.8044668
+        },
+        "initial_received_model_core_plan_correct": true,
+        "assisted_recovery": false,
+        "first_technical_episode_workflow_success": false,
+        "additional_plan_review": {
+          "core_test_and_input_plan_correct": true,
+          "incidental_ui_description_correct": false,
+          "procedural_error": "Model unnecessarily instructed Determine and described power inputs inside its effect-size dialog. Cohen d was already given; main input panel sufficed.",
+          "extra_step_execution_known": false
+        },
+        "requested_flat_keys_present": true,
+        "observed_model_total_tokens": 6061,
+        "input_tokens": 5355,
+        "output_tokens": 706,
+        "observed_tokens_valid_capture_chain": 6061,
+        "unknown_usage_request_count": 1,
+        "request_count": 3,
+        "model_responses_received": 2,
+        "elapsed_seconds": 368.014712,
+        "api_elapsed_seconds": 4.959591199993156,
+        "pacing_wait_seconds": 0.0,
+        "human_execution_seconds": null,
+        "setup_time_seconds": null,
+        "image_tokens": null,
+        "cached_tokens": null,
+        "cost": null,
+        "full_gui_control_proven": false,
+        "controller_execution": "human_executed_model_instructions",
+        "all_api_receipts": [
+          {
+            "request_started_at": "2026-10-19T19:07:50.390777+00:00",
+            "response_received_at": null,
+            "http_status": 429,
+            "response_id": null,
+            "model_response_received": false,
+            "invalid_capture": false,
+            "usage": null,
+            "api_elapsed_seconds": 0.5590945999974792,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "80e8c04bb3d5ae588c7e92f74b3fdfa2e214d19adf95d96ed5f8be789b56d807"
+          },
+          {
+            "request_started_at": "2026-10-19T19:10:28.029268+00:00",
+            "response_received_at": "2026-10-19T19:10:30.499357+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-0246af5c-b6bf-4b9a-b500-035c681b2e41",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 1756,
+              "completion_tokens": 509,
+              "total_tokens": 2265
+            },
+            "api_elapsed_seconds": 2.4682861999972374,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "3635aee15abcac0bd5d163c7b0a4d4eb19d7ba508fd7c3b449b36424773325b0"
+          },
+          {
+            "request_started_at": "2026-10-19T19:13:56.472586+00:00",
+            "response_received_at": "2026-10-19T19:13:58.405489+00:00",
+            "http_status": 200,
+            "response_id": "chatcmpl-2ad9e4c2-9beb-4795-bbd8-b0eb0981045c",
+            "model_response_received": true,
+            "invalid_capture": false,
+            "usage": {
+              "prompt_tokens": 3599,
+              "completion_tokens": 197,
+              "total_tokens": 3796
+            },
+            "api_elapsed_seconds": 1.9322103999984392,
+            "pacing_wait_seconds": 0.0,
+            "response_sha256": "ba345f672963d0a8479d069d2941c63bfdcd8302993cf9540dff76ef67a20c6e"
+          }
+        ]
+      },
+      "MCP": {
+        "final_n_correct": true,
+        "first_technical_episode_workflow_success": true,
+        "input_tokens": 1247,
+        "output_tokens": 83,
+        "observed_model_total_tokens": 1330,
+        "request_count": 1,
+        "elapsed_seconds": 3.445346900000004,
+        "provider_elapsed_seconds": 0.7353584000002229,
+        "pacing_wait_seconds": 16.591312200000175,
+        "cost": null,
+        "response_id": "chatcmpl-28e162d4-aa87-4593-be0a-270d19fda2a3",
+        "response_sha256": "029ec1eef8cc101296473bb0b211af8e29ab1dc628936a2d331969884bb6d44e"
+      }
+    }
+  ],
+  "private_source_manifest_sha256": "0c19c134bb68331fc4204595580023a21100eb7bd61e1aef255c0fcf58d444e7"
+}

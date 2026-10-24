@@ -1,0 +1,109 @@
+{
+  "run": "reports/agent_runs/20261019_162441_194101",
+  "agent_identity": {
+    "agent_version": "0.3.0",
+    "policy_version": "scope-origin-v1",
+    "prompt_sha256": "99f797278a32a33e006c0fc3b9d1fe7b5d56f44d55997f264260459cb3d35453",
+    "config_sha256": "fe53c45ddb28766fe99be7cb9f9750ca9455b7b30e5754876c0495aa8a2f402c",
+    "source_sha256": "73dac118238ffc47f569f7e39ac0a8c6bea4451715fbda5c4a2513e9371c7db9",
+    "tool_schema_sha256": "84bf01401e8d8449c288ad854b031f64f432ed4050040dfbe13687795f842b67",
+    "source_files": {
+      "__init__.py": "efe7eabf74a50ed9edb25ccc8938bfa4ede7421743c9dbfa65cbef14bb3e7853",
+      "agent.py": "808779d509b1161e4e2660bf8d7d9b74f46a176ff77599b537df84abc1cf7cc4",
+      "source_guard.py": "7a21f068369387e00c4da04e77d499972dd84bf5c431523a146a9bbf595fb2d6",
+      "agent_identity.py": "919c57f28af1a8549b1c977b6607e3d9144ea3f7709dd52916b1ece6b4ec84a3",
+      "groq.py": "5a04aa1336c5fa8a056f8aef7de45d3fec7d3d84ba7b30a29647842c64ca8aad",
+      "gemini.py": "79390efcac1474fe787b74feff9c7ab1c93d61d96e5db6fce0bffb4af9b13ecf",
+      "safe_diagnostics.py": "168409f7e2f4dcc3746ac8b29a7085e255b2a9a9d7f37dadde06b1bb173b9dd6",
+      "mcp_client.py": "3c9b14380d596a7e48ba9edf73c4cafa213db0122f0634ce31b70dcbeac9c2d2",
+      "mcp_server.py": "a6d0ef1a9fdd343615b98feaa009410eb4f7f8ee9d82c96deb8d7a1380db86ae"
+    },
+    "configuration": {
+      "provider": "groq",
+      "requested_model": "qwen/qwen3.8-27b",
+      "max_output_tokens": 1024,
+      "automatic_retries": 0,
+      "guard_policy": "scope-origin-v1",
+      "tool_schema_sha256": "84bf01401e8d8449c288ad854b031f64f432ed4050040dfbe13687795f842b67"
+    }
+  },
+  "measurement_source": {
+    "vectors": 70,
+    "a_priori": 34,
+    "post_hoc": 36,
+    "invalid": 22,
+    "agent_cases": 14,
+    "spec_version": "1.0.1",
+    "spec_sha256": "aebcfdf0b0f220041237e812ea36a01756160a7bff779580d34c1d77c8b39221",
+    "reference_sha256": "adafe4d2b529494bfa4e75ae21716f7aa9d21c0eb70c70dcca21ce01e981e3c5",
+    "gherkin_sha256": "fc5bd94d7f93f720293b81239518897e3e5f5f0905d372ab8b8cc7b7ab1a489a"
+  },
+  "evaluator_sha256": "33b8b56d7ec591fd17aa5faa626bca794dc09d413e579ab00e826b89c7b681fe",
+  "evaluation_kind": "post_change_regression_on_seen_SPEC_questions",
+  "core": {
+    "questions": 10,
+    "requests": 10,
+    "input_tokens": 12522,
+    "output_tokens": 834,
+    "total_tokens": 13356,
+    "attempt_elapsed_seconds_sum": 38.90916130000096,
+    "provider_elapsed_seconds_sum": 11.704182699999365,
+    "system_success": 10,
+    "raw_decision_success": 10
+  },
+  "challenge": {
+    "questions": 4,
+    "requests": 4,
+    "input_tokens": 4892,
+    "output_tokens": 146,
+    "total_tokens": 5038,
+    "attempt_elapsed_seconds_sum": 2.974602999999661,
+    "provider_elapsed_seconds_sum": 2.964873899999475,
+    "system_success": 4,
+    "raw_decision_success": 3
+  },
+  "all": {
+    "questions": 14,
+    "requests": 14,
+    "input_tokens": 17414,
+    "output_tokens": 980,
+    "total_tokens": 18394,
+    "attempt_elapsed_seconds_sum": 41.88376430000062,
+    "provider_elapsed_seconds_sum": 14.66905659999884,
+    "system_success": 14,
+    "raw_decision_success": 13
+  },
+  "unique_response_ids": 14,
+  "wire_passed": 10,
+  "wire_total": 10,
+  "interventions": [
+    {
+      "id": "AG-C3",
+      "reason": "scope_block",
+      "raw_choice": {
+        "name": "ask_clarification",
+        "arguments": {
+          "missing": [
+            "mode",
+            "d",
+            "alpha",
+            "power",
+            "family"
+          ]
+        },
+        "call_id": "eam3p11zd"
+      },
+      "final_action": "state_unsupported",
+      "final_family": "t-paired",
+      "numeric_result": null,
+      "executed_tools": 0
+    }
+  ],
+  "invocation_elapsed_seconds": 260.6845006000003,
+  "pacing_wait_seconds": 218.73034800000096,
+  "pacing_min_interval_seconds": 20.0,
+  "money_cost": null,
+  "money_cost_status": "not measured; no pricing/billing inference",
+  "scope": "post-change regression on seen SPEC questions; system outcome is distinct from raw model decisions",
+  "manifest": "reports/agent_run_reviews/20261019_162441_194101_manifest.json"
+}

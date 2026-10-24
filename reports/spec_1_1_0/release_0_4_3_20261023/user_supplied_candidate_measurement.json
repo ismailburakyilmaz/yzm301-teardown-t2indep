@@ -1,0 +1,20 @@
+{
+  "source": "User-supplied separate isolated candidate, not a measurement of this 0.4.3 implementation",
+  "boot": "2026-10-23T22:51:09.500+03:00",
+  "start": "2026-10-23T22:52:02.539+03:00",
+  "elapsed_seconds": 1.7091611,
+  "exit_code": 0,
+  "stderr": "",
+  "result": {
+    "n1": 105,
+    "n2": 105,
+    "n_total": 210
+  },
+  "preparation": false,
+  "installed_candidate_hash": "f64f269a6b9cab31faee27884d47f7a05a542a99caeb70283d9d65d31560995d",
+  "universal_2s_guarantee": false,
+  "own_code_reboot_tested": false,
+  "older_overrun_seconds_reported": 5.915,
+  "old_overruns_preserved": true,
+  "reference": "Coordinator user instruction; no inspection/candidate file or old experiment was opened"
+}

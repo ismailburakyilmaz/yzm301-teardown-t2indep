@@ -1,0 +1,4019 @@
+{
+  "snapshot_created_at": "2026-10-22T22:21:22.771855+00:00",
+  "timezone": "Europe/Istanbul (UTC+03:00)",
+  "scan_root": "C:\\Users\\Burak\\.codex\\sessions",
+  "rollouts_discovered": 64,
+  "project_sessions": 63,
+  "sessions_measured": 35,
+  "sessions_without_usage": 28,
+  "sessions": [
+    {
+      "id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "role": "Koordinatör / inceleme",
+      "parent_id": null,
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": "vscode",
+      "models": [
+        "gpt-6-astra",
+        "gpt-6.1-sol"
+      ],
+      "started_at": "2026-10-17T21:40:34.571Z",
+      "last_record_at": "2026-10-22T22:21:20.273Z",
+      "first_usage_at": "2026-10-17T21:40:47.717Z",
+      "last_token_event": {
+        "line": 13157,
+        "timestamp": "2026-10-22T22:21:15.542Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 13157,
+        "timestamp": "2026-10-22T22:21:15.542Z",
+        "total": {
+          "input_tokens": 289618829,
+          "cached_input_tokens": 283018368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1099530,
+          "reasoning_output_tokens": 463105,
+          "total_tokens": 290718359
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1560,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T00-40-34-01a14bcf-3a89-7e90-b959-e6705d5b32f0.jsonl",
+      "source_prefix_bytes": 62098381,
+      "source_prefix_sha256": "c60faff6d006f26fd3c0a48c70e21418fbd3174fff7aeb983b077b6f2c05529e",
+      "rea_invocations": [
+        {
+          "line": 139,
+          "timestamp": "2026-10-17T21:53:19.532Z",
+          "direct_name": null,
+          "nested_names": [
+            "mcp__rea__binary_session"
+          ]
+        },
+        {
+          "line": 3262,
+          "timestamp": "2026-10-19T13:01:39.424Z",
+          "direct_name": null,
+          "nested_names": [
+            "mcp__rea__binary_session"
+          ]
+        },
+        {
+          "line": 6630,
+          "timestamp": "2026-10-20T21:46:17.400Z",
+          "direct_name": null,
+          "nested_names": [
+            "mcp__rea__open_binary"
+          ]
+        }
+      ],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14bda-e6d9-7d22-a240-3c09a545abb4",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-17T21:53:19.578Z",
+      "last_record_at": "2026-10-17T21:53:23.679Z",
+      "first_usage_at": "2026-10-17T21:53:23.658Z",
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-17T21:53:23.658Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-17T21:53:23.658Z",
+        "total": {
+          "input_tokens": 19883,
+          "cached_input_tokens": 6144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 167,
+          "reasoning_output_tokens": 107,
+          "total_tokens": 20050
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T00-53-19-01a14bda-e6d9-7d22-a240-3c09a545abb4.jsonl",
+      "source_prefix_bytes": 131472,
+      "source_prefix_sha256": "7624ce06cd5726b7b90bb7fa90104256a92c15472339e160f17c63acf43a602e",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14c08-e50f-7940-bc8e-e5bc6212094c",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-17T22:43:33.778Z",
+      "last_record_at": "2026-10-17T22:43:37.741Z",
+      "first_usage_at": "2026-10-17T22:43:37.723Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-17T22:43:37.723Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-17T22:43:37.723Z",
+        "total": {
+          "input_tokens": 27683,
+          "cached_input_tokens": 6144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 144,
+          "reasoning_output_tokens": 81,
+          "total_tokens": 27827
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T01-43-33-01a14c08-e50f-7940-bc8e-e5bc6212094c.jsonl",
+      "source_prefix_bytes": 170390,
+      "source_prefix_sha256": "c57fbcabf3c197206f569d5420bbba47186d6bd74821a326189c902aa92b2198",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14f7b-c5c3-77c1-b17e-89e8e002922e",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-18T14:47:54.052Z",
+      "last_record_at": "2026-10-18T14:47:54.081Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T17-47-54-01a14f7b-c5c3-77c1-b17e-89e8e002922e.jsonl",
+      "source_prefix_bytes": 71103,
+      "source_prefix_sha256": "1e6514a8f9ffaad0d620e1d57907e12ec394a9727d2f105ab0a1e51215fca42a",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "role": "İlk yazım oturumu",
+      "parent_id": null,
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": "vscode",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "started_at": "2026-10-18T16:03:58.644Z",
+      "last_record_at": "2026-10-22T20:59:15.338Z",
+      "first_usage_at": "2026-10-18T16:04:06.592Z",
+      "last_token_event": {
+        "line": 5385,
+        "timestamp": "2026-10-22T10:42:38.251Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 5385,
+        "timestamp": "2026-10-22T10:42:38.251Z",
+        "total": {
+          "input_tokens": 106468470,
+          "cached_input_tokens": 101550080,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 753675,
+          "reasoning_output_tokens": 393013,
+          "total_tokens": 107222145
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 531,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T19-03-58-01a14fc1-6c32-70a3-b870-36ce861a2dd6.jsonl",
+      "source_prefix_bytes": 19115875,
+      "source_prefix_sha256": "35b8ac33e22d99b28ffe5c9099b81af2f93885f9ee26bcd8a715f79f79f2aea4",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14fc3-1b35-7402-981c-bbe2b70ec5f0",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T16:05:48.982Z",
+      "last_record_at": "2026-10-18T16:29:39.213Z",
+      "first_usage_at": "2026-10-18T16:05:52.780Z",
+      "last_token_event": {
+        "line": 192,
+        "timestamp": "2026-10-18T16:29:39.189Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 192,
+        "timestamp": "2026-10-18T16:29:39.189Z",
+        "total": {
+          "input_tokens": 687382,
+          "cached_input_tokens": 621824,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1483,
+          "reasoning_output_tokens": 466,
+          "total_tokens": 688865
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 16,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T19-05-48-01a14fc3-1b35-7402-981c-bbe2b70ec5f0.jsonl",
+      "source_prefix_bytes": 599355,
+      "source_prefix_sha256": "5637948b4c57e402b4b96b9b083bb4b772688c1563103ea767911dc6f1918d67",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14fe7-24fc-7100-98cd-8f83faac2c74",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T16:45:10.781Z",
+      "last_record_at": "2026-10-18T16:53:58.154Z",
+      "first_usage_at": "2026-10-18T16:45:15.656Z",
+      "last_token_event": {
+        "line": 41,
+        "timestamp": "2026-10-18T16:53:57.812Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 41,
+        "timestamp": "2026-10-18T16:53:57.812Z",
+        "total": {
+          "input_tokens": 126055,
+          "cached_input_tokens": 78464,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 338,
+          "reasoning_output_tokens": 115,
+          "total_tokens": 126393
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 3,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T19-45-10-01a14fe7-24fc-7100-98cd-8f83faac2c74.jsonl",
+      "source_prefix_bytes": 311243,
+      "source_prefix_sha256": "0428fe11c591c3595f92aff860d39e0490f6713c5c0d35f94fa17641a70eb0bd",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a14ff9-1452-7982-8f68-5eeb523f93f8",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T17:04:46.162Z",
+      "last_record_at": "2026-10-18T17:04:48.632Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 14,
+        "timestamp": "2026-10-18T17:04:48.615Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T20-04-46-01a14ff9-1452-7982-8f68-5eeb523f93f8.jsonl",
+      "source_prefix_bytes": 229702,
+      "source_prefix_sha256": "dae928400da238eb749e461648a6b056017345a2daaeb3280d1d5300a44ef922",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a150b8-ac6c-7d52-bd04-2b20246c3802",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-18T20:34:02.477Z",
+      "last_record_at": "2026-10-18T20:34:02.506Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\18\\rollout-2026-10-18T23-34-02-01a150b8-ac6c-7d52-bd04-2b20246c3802.jsonl",
+      "source_prefix_bytes": 82879,
+      "source_prefix_sha256": "a1bc06e0c185ba1c2025571a850200fd79f81045eb113cf1a5ef671f2c9e2c18",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a150de-29b1-7ad0-9167-e4bd02a5fc07",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T21:14:59.378Z",
+      "last_record_at": "2026-10-18T21:15:03.917Z",
+      "first_usage_at": "2026-10-18T21:15:03.894Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-18T21:15:03.894Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-18T21:15:03.894Z",
+        "total": {
+          "input_tokens": 35719,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 162,
+          "reasoning_output_tokens": 78,
+          "total_tokens": 35881
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T00-14-59-01a150de-29b1-7ad0-9167-e4bd02a5fc07.jsonl",
+      "source_prefix_bytes": 234656,
+      "source_prefix_sha256": "14f93536fcab9565ad5a38e14606a0ac961ced0154e835a01d90c22cab61cfbc",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a150df-6aa7-7dc2-8bfc-681e93a13c8f",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T21:16:21.543Z",
+      "last_record_at": "2026-10-18T21:37:09.883Z",
+      "first_usage_at": "2026-10-18T21:16:25.625Z",
+      "last_token_event": {
+        "line": 180,
+        "timestamp": "2026-10-18T21:37:09.864Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 180,
+        "timestamp": "2026-10-18T21:37:09.864Z",
+        "total": {
+          "input_tokens": 794289,
+          "cached_input_tokens": 714752,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2085,
+          "reasoning_output_tokens": 824,
+          "total_tokens": 796374
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 15,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T00-16-21-01a150df-6aa7-7dc2-8bfc-681e93a13c8f.jsonl",
+      "source_prefix_bytes": 707753,
+      "source_prefix_sha256": "6e6259313c40fa35cc299784582ba66ed7f944a3e6b22618f8d9645ba324398f",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a150ec-e00d-77e0-a492-b3c39f4ce49b",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-18T21:31:03.565Z",
+      "last_record_at": "2026-10-18T21:31:07.244Z",
+      "first_usage_at": "2026-10-18T21:31:07.221Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-18T21:31:07.221Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-18T21:31:07.221Z",
+        "total": {
+          "input_tokens": 25135,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 131,
+          "reasoning_output_tokens": 68,
+          "total_tokens": 25266
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T00-31-03-01a150ec-e00d-77e0-a492-b3c39f4ce49b.jsonl",
+      "source_prefix_bytes": 196113,
+      "source_prefix_sha256": "b497e82196fdb169500a0a1ea28a476c7dd484512d69e97f0255286809ff2ece",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1510b-38f2-7cb3-933a-aab077713a9b",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-18T22:04:12.404Z",
+      "last_record_at": "2026-10-18T22:04:12.465Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T01-04-12-01a1510b-38f2-7cb3-933a-aab077713a9b.jsonl",
+      "source_prefix_bytes": 83836,
+      "source_prefix_sha256": "603c2089793abe7e20444105cf194a779f75527550b1dfcb8990235963e4f398",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1531f-567b-7421-9730-eca0354be7d3",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-19T07:45:25.117Z",
+      "last_record_at": "2026-10-19T07:45:25.190Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T10-45-25-01a1531f-567b-7421-9730-eca0354be7d3.jsonl",
+      "source_prefix_bytes": 83836,
+      "source_prefix_sha256": "bed399f5591870b4f9335668ed9359a35940863b70681995fe1540ef67834cac",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15326-f3b7-7913-8f2d-33dc4a6e11af",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T07:53:44.120Z",
+      "last_record_at": "2026-10-19T07:53:48.277Z",
+      "first_usage_at": "2026-10-19T07:53:48.249Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:53:48.249Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:53:48.249Z",
+        "total": {
+          "input_tokens": 36759,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 126,
+          "reasoning_output_tokens": 61,
+          "total_tokens": 36885
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T10-53-44-01a15326-f3b7-7913-8f2d-33dc4a6e11af.jsonl",
+      "source_prefix_bytes": 242166,
+      "source_prefix_sha256": "cfd67d1c8818e70e2b74a98de33e0e8d1b2f39626fd502f395756100777b8e5c",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1532a-3a44-7573-bb0c-66dbe86a7f89",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T07:57:18.790Z",
+      "last_record_at": "2026-10-19T07:57:24.798Z",
+      "first_usage_at": "2026-10-19T07:57:24.767Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:57:24.767Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:57:24.767Z",
+        "total": {
+          "input_tokens": 36765,
+          "cached_input_tokens": 11520,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 185,
+          "reasoning_output_tokens": 90,
+          "total_tokens": 36950
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T10-57-18-01a1532a-3a44-7573-bb0c-66dbe86a7f89.jsonl",
+      "source_prefix_bytes": 241329,
+      "source_prefix_sha256": "4f6871177cfb58754300dad5764284adab39d5fde26fe5990ae758e029ba9814",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1532b-d2df-78b3-b45a-4c98e74d2ef7",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T07:59:03.392Z",
+      "last_record_at": "2026-10-19T07:59:09.652Z",
+      "first_usage_at": "2026-10-19T07:59:09.632Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:59:09.632Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T07:59:09.632Z",
+        "total": {
+          "input_tokens": 37609,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 181,
+          "reasoning_output_tokens": 87,
+          "total_tokens": 37790
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T10-59-03-01a1532b-d2df-78b3-b45a-4c98e74d2ef7.jsonl",
+      "source_prefix_bytes": 245786,
+      "source_prefix_sha256": "f95530e7a33cc2d88cdf33b6f388b3f39802818927516258542af8d5adf03325",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1532c-73c3-7390-b827-f754f3031757",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T07:59:44.581Z",
+      "last_record_at": "2026-10-19T08:08:56.392Z",
+      "first_usage_at": "2026-10-19T07:59:48.979Z",
+      "last_token_event": {
+        "line": 40,
+        "timestamp": "2026-10-19T08:08:56.361Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 40,
+        "timestamp": "2026-10-19T08:08:56.361Z",
+        "total": {
+          "input_tokens": 91105,
+          "cached_input_tokens": 61440,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 519,
+          "reasoning_output_tokens": 326,
+          "total_tokens": 91624
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 3,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T10-59-44-01a1532c-73c3-7390-b827-f754f3031757.jsonl",
+      "source_prefix_bytes": 230828,
+      "source_prefix_sha256": "ed553815a2aeb37048892c125ff59b9d24c25ed97d833c2e84573a68af4da650",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1532d-54f2-7ea2-be00-49167cf8e138",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T08:00:42.230Z",
+      "last_record_at": "2026-10-19T08:00:48.115Z",
+      "first_usage_at": "2026-10-19T08:00:48.084Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T08:00:48.084Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T08:00:48.084Z",
+        "total": {
+          "input_tokens": 37615,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 158,
+          "reasoning_output_tokens": 72,
+          "total_tokens": 37773
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T11-00-42-01a1532d-54f2-7ea2-be00-49167cf8e138.jsonl",
+      "source_prefix_bytes": 241142,
+      "source_prefix_sha256": "ac0af1dcda350b4debc6e10a87bc0508b4f089945b256031b64893fc4f3aa190",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1533d-6ccb-7591-8638-88e9ac8437dd",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T08:18:16.908Z",
+      "last_record_at": "2026-10-19T08:26:04.034Z",
+      "first_usage_at": "2026-10-19T08:18:22.491Z",
+      "last_token_event": {
+        "line": 76,
+        "timestamp": "2026-10-19T08:26:04.004Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 76,
+        "timestamp": "2026-10-19T08:26:04.004Z",
+        "total": {
+          "input_tokens": 264974,
+          "cached_input_tokens": 223360,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 865,
+          "reasoning_output_tokens": 317,
+          "total_tokens": 265839
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 6,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T11-18-16-01a1533d-6ccb-7591-8638-88e9ac8437dd.jsonl",
+      "source_prefix_bytes": 416589,
+      "source_prefix_sha256": "5c52912303dd5cd8b8478f6f4815a49fa0f609b320c53599019be26b491e4dc5",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15343-6593-7cf1-87af-553ab750f128",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T08:24:48.276Z",
+      "last_record_at": "2026-10-19T08:30:31.873Z",
+      "first_usage_at": "2026-10-19T08:24:54.534Z",
+      "last_token_event": {
+        "line": 42,
+        "timestamp": "2026-10-19T08:30:31.841Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 42,
+        "timestamp": "2026-10-19T08:30:31.841Z",
+        "total": {
+          "input_tokens": 116211,
+          "cached_input_tokens": 70144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 473,
+          "reasoning_output_tokens": 221,
+          "total_tokens": 116684
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 3,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T11-24-48-01a15343-6593-7cf1-87af-553ab750f128.jsonl",
+      "source_prefix_bytes": 308100,
+      "source_prefix_sha256": "9a44ec555f9cec8d6ebcdbe440d72ae0847715928e8db0684233a55174bb330e",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1534f-9eb7-7a71-96cd-dcd52891be79",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T08:38:09.336Z",
+      "last_record_at": "2026-10-19T08:38:18.352Z",
+      "first_usage_at": "2026-10-19T08:38:18.323Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T08:38:18.323Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T08:38:18.323Z",
+        "total": {
+          "input_tokens": 39239,
+          "cached_input_tokens": 11520,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 172,
+          "reasoning_output_tokens": 79,
+          "total_tokens": 39411
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T11-38-09-01a1534f-9eb7-7a71-96cd-dcd52891be79.jsonl",
+      "source_prefix_bytes": 249013,
+      "source_prefix_sha256": "e01484fe7b1eca8c0dd44484b222fe8bdf7e2439bb4ef2140f2f04e497d78c33",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a153fe-ba58-7f03-852b-0169beff97cb",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-19T11:49:25.209Z",
+      "last_record_at": "2026-10-19T11:49:25.263Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T14-49-25-01a153fe-ba58-7f03-852b-0169beff97cb.jsonl",
+      "source_prefix_bytes": 83836,
+      "source_prefix_sha256": "6c55e316e1518687691f8bc779c9f335ab7486382aa9969322e2fab2cfdd7e3a",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15400-8fee-7ed2-923e-e1978630302f",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T11:51:25.423Z",
+      "last_record_at": "2026-10-19T11:59:47.965Z",
+      "first_usage_at": "2026-10-19T11:51:29.787Z",
+      "last_token_event": {
+        "line": 89,
+        "timestamp": "2026-10-19T11:59:47.938Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 89,
+        "timestamp": "2026-10-19T11:59:47.938Z",
+        "total": {
+          "input_tokens": 330681,
+          "cached_input_tokens": 272640,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 924,
+          "reasoning_output_tokens": 300,
+          "total_tokens": 331605
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 7,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T14-51-25-01a15400-8fee-7ed2-923e-e1978630302f.jsonl",
+      "source_prefix_bytes": 464701,
+      "source_prefix_sha256": "3ef7d6cced23fe84773cae2d1e88cc2ba675045e99e5ea9de5c87d9b272fe3fa",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15400-a291-70f1-a9d2-afafb61bb2c4",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-19T11:51:30.195Z",
+      "last_record_at": "2026-10-19T11:51:30.237Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T14-51-30-01a15400-a291-70f1-a9d2-afafb61bb2c4.jsonl",
+      "source_prefix_bytes": 94801,
+      "source_prefix_sha256": "1bf6902566bdd9abd7586d427268e6d8eb7acc212b729366df41e307fec25310",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15403-609b-7083-b690-07d75ae9cb5a",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T11:54:29.917Z",
+      "last_record_at": "2026-10-19T13:52:15.819Z",
+      "first_usage_at": "2026-10-19T11:54:33.741Z",
+      "last_token_event": {
+        "line": 124,
+        "timestamp": "2026-10-19T13:52:15.788Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 124,
+        "timestamp": "2026-10-19T13:52:15.788Z",
+        "total": {
+          "input_tokens": 575224,
+          "cached_input_tokens": 472064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1147,
+          "reasoning_output_tokens": 345,
+          "total_tokens": 576371
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 10,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T14-54-29-01a15403-609b-7083-b690-07d75ae9cb5a.jsonl",
+      "source_prefix_bytes": 654234,
+      "source_prefix_sha256": "35f547c861f49b86d99d5c040fe31cb511d10bf3a46061336c25e22aef046efd",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15438-636e-7120-8670-17608c447b27",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T12:52:24.048Z",
+      "last_record_at": "2026-10-19T12:52:31.929Z",
+      "first_usage_at": "2026-10-19T12:52:31.908Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T12:52:31.908Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T12:52:31.908Z",
+        "total": {
+          "input_tokens": 36445,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 139,
+          "reasoning_output_tokens": 50,
+          "total_tokens": 36584
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T15-52-24-01a15438-636e-7120-8670-17608c447b27.jsonl",
+      "source_prefix_bytes": 238393,
+      "source_prefix_sha256": "1d00392008f9ec651c50dbb48c3d6e6e69d97cc7ba54fc419605efea5b3cd090",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1543d-504e-7282-b90c-f31bcaf6fa5c",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T12:57:46.832Z",
+      "last_record_at": "2026-10-19T13:43:41.029Z",
+      "first_usage_at": "2026-10-19T12:57:50.021Z",
+      "last_token_event": {
+        "line": 330,
+        "timestamp": "2026-10-19T13:43:41.006Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 330,
+        "timestamp": "2026-10-19T13:43:41.006Z",
+        "total": {
+          "input_tokens": 2374800,
+          "cached_input_tokens": 2216960,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3122,
+          "reasoning_output_tokens": 1170,
+          "total_tokens": 2377922
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 28,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T15-57-46-01a1543d-504e-7282-b90c-f31bcaf6fa5c.jsonl",
+      "source_prefix_bytes": 1424719,
+      "source_prefix_sha256": "88197957bed88ac86384f259cdeeef67bb46f0dda037226f444b1b8c184acd6b",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15469-bd2e-7e33-b560-3704712d5a14",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T13:46:18.286Z",
+      "last_record_at": "2026-10-19T13:50:34.948Z",
+      "first_usage_at": "2026-10-19T13:49:50.668Z",
+      "last_token_event": {
+        "line": 40,
+        "timestamp": "2026-10-19T13:50:34.925Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 40,
+        "timestamp": "2026-10-19T13:50:34.925Z",
+        "total": {
+          "input_tokens": 138743,
+          "cached_input_tokens": 109440,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 314,
+          "reasoning_output_tokens": 150,
+          "total_tokens": 139057
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 2,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T16-46-18-01a15469-bd2e-7e33-b560-3704712d5a14.jsonl",
+      "source_prefix_bytes": 420767,
+      "source_prefix_sha256": "f2c7bf39b2d8123ec364261d5e48647076ee7e8f303a80a224447c167abdf3cf",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15471-fc84-7910-a397-38d01eb2ca88",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T13:55:18.789Z",
+      "last_record_at": "2026-10-19T13:55:25.867Z",
+      "first_usage_at": "2026-10-19T13:55:25.844Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T13:55:25.844Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-19T13:55:25.844Z",
+        "total": {
+          "input_tokens": 43593,
+          "cached_input_tokens": 13056,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 115,
+          "reasoning_output_tokens": 54,
+          "total_tokens": 43708
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T16-55-18-01a15471-fc84-7910-a397-38d01eb2ca88.jsonl",
+      "source_prefix_bytes": 274209,
+      "source_prefix_sha256": "284c83035795813fa51e1a7988e4a572af52d5c3a1b297b47ae8902b24ced7cf",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15473-b7fa-77b3-be6c-f17423c83df3",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T13:57:12.315Z",
+      "last_record_at": "2026-10-19T13:57:14.074Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T16-57-12-01a15473-b7fa-77b3-be6c-f17423c83df3.jsonl",
+      "source_prefix_bytes": 271700,
+      "source_prefix_sha256": "002cd624db9553ca9b9d03663e64c37c183879139b42c6e4857f8b8d6cf1e197",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15476-3f43-7fc1-86e3-acd6710baf5a",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T13:59:58.020Z",
+      "last_record_at": "2026-10-19T14:28:21.035Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 36,
+        "timestamp": "2026-10-19T14:28:20.969Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T16-59-58-01a15476-3f43-7fc1-86e3-acd6710baf5a.jsonl",
+      "source_prefix_bytes": 579675,
+      "source_prefix_sha256": "d35348f2a4800200f0d9f4eb8f73c1bf7d89191381b2b8c8e802a053013b2c88",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15491-c747-7bd0-94d9-0f5f51b4f85f",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T14:30:02.312Z",
+      "last_record_at": "2026-10-19T14:30:03.888Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-19T14:30:03.811Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T17-30-02-01a15491-c747-7bd0-94d9-0f5f51b4f85f.jsonl",
+      "source_prefix_bytes": 259762,
+      "source_prefix_sha256": "8240b9b9cdc9f5491b73d5660e521953900be768b78b3a3880f20bbbe0d20ab3",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1556c-2a5f-7d01-9223-2ddfe9bafdec",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:28:34.528Z",
+      "last_record_at": "2026-10-19T18:28:37.584Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-19T18:28:37.544Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-28-34-01a1556c-2a5f-7d01-9223-2ddfe9bafdec.jsonl",
+      "source_prefix_bytes": 254377,
+      "source_prefix_sha256": "eeb7165514789ceced7eaa40047f32c7933f7d7ecd40d9342b4c74aeaf577fd9",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1556d-ada9-7c90-bc97-3bb0d52c4559",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:30:13.673Z",
+      "last_record_at": "2026-10-19T18:32:47.123Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 23,
+        "timestamp": "2026-10-19T18:32:47.076Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-30-13-01a1556d-ada9-7c90-bc97-3bb0d52c4559.jsonl",
+      "source_prefix_bytes": 367818,
+      "source_prefix_sha256": "d40196c092e2df32ab787ddd090321acd9b05ff4013d0e51a078080d05dba37b",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15571-42bc-7ad3-8929-9bf9b1bddcae",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:34:08.445Z",
+      "last_record_at": "2026-10-19T18:34:11.652Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-34-08-01a15571-42bc-7ad3-8929-9bf9b1bddcae.jsonl",
+      "source_prefix_bytes": 139816,
+      "source_prefix_sha256": "41ae96d868ca4780555b47f61161b7b101ddb5772a32219c5cab767cc115da5b",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15576-728f-7000-9cc0-23c2bd425527",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:39:48.368Z",
+      "last_record_at": "2026-10-19T18:39:51.460Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-19T18:39:51.420Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-39-48-01a15576-728f-7000-9cc0-23c2bd425527.jsonl",
+      "source_prefix_bytes": 258488,
+      "source_prefix_sha256": "293545e1616641ead1950c2cdec7366dbbcd7f92479667a2e31b335814043459",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15578-16b0-7ef3-8838-c8075f66b068",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:41:35.921Z",
+      "last_record_at": "2026-10-19T18:44:45.294Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 24,
+        "timestamp": "2026-10-19T18:44:45.254Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-41-35-01a15578-16b0-7ef3-8838-c8075f66b068.jsonl",
+      "source_prefix_bytes": 393610,
+      "source_prefix_sha256": "6b9bd0ead4fd56972905a663839070f99fd0424be50f78cfb7f4db514e74570a",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1557c-d918-7711-906b-67c2cec273b6",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:46:47.832Z",
+      "last_record_at": "2026-10-19T18:50:02.575Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 23,
+        "timestamp": "2026-10-19T18:50:02.530Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-46-47-01a1557c-d918-7711-906b-67c2cec273b6.jsonl",
+      "source_prefix_bytes": 394646,
+      "source_prefix_sha256": "1449e33fcd6f484d5964a86ff432e1369a14a0df935dfb223d38f15a8762c33f",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15580-9bec-74e2-8887-e30bfd5978db",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:50:54.317Z",
+      "last_record_at": "2026-10-19T18:50:57.831Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-19T18:50:57.789Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-50-54-01a15580-9bec-74e2-8887-e30bfd5978db.jsonl",
+      "source_prefix_bytes": 278358,
+      "source_prefix_sha256": "f0d6833c0d53843bff96ef7a9a2e6ab679a07ba7e85dfd4b718d18b4a650d8b6",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15581-cfa1-7421-8cd5-96e1f11534ea",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:52:13.089Z",
+      "last_record_at": "2026-10-19T18:52:16.040Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 16,
+        "timestamp": "2026-10-19T18:52:15.996Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-52-13-01a15581-cfa1-7421-8cd5-96e1f11534ea.jsonl",
+      "source_prefix_bytes": 280111,
+      "source_prefix_sha256": "d1926c8c80d38b9c0df6179a687b16cbced432f9828c542394f842f7b0abde2d",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15583-ebec-7e62-8322-27deae055d82",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T18:54:31.404Z",
+      "last_record_at": "2026-10-19T18:58:01.498Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 23,
+        "timestamp": "2026-10-19T18:58:01.455Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T21-54-31-01a15583-ebec-7e62-8322-27deae055d82.jsonl",
+      "source_prefix_bytes": 376151,
+      "source_prefix_sha256": "00f18cf35403a1d4b54876bd7139c2d9cb81e4b5fb941e69fe6d502c46832fc5",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15589-3c6d-7a61-a1cd-ace04bf3f4c6",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T19:00:19.694Z",
+      "last_record_at": "2026-10-19T19:12:06.274Z",
+      "first_usage_at": null,
+      "last_token_event": {
+        "line": 32,
+        "timestamp": "2026-10-19T19:12:06.231Z",
+        "info_present": false
+      },
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T22-00-19-01a15589-3c6d-7a61-a1cd-ace04bf3f4c6.jsonl",
+      "source_prefix_bytes": 525865,
+      "source_prefix_sha256": "a3bdf98562f7a3bd179febfc27a640ac8e09af51db274d67fecf1a5fbdedf4aa",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1559c-e05a-71f0-be66-c285b82fad4e",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-19T19:21:46.842Z",
+      "last_record_at": "2026-10-19T19:23:31.129Z",
+      "first_usage_at": "2026-10-19T19:21:52.157Z",
+      "last_token_event": {
+        "line": 31,
+        "timestamp": "2026-10-19T19:23:31.106Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 31,
+        "timestamp": "2026-10-19T19:23:31.106Z",
+        "total": {
+          "input_tokens": 115488,
+          "cached_input_tokens": 67328,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292,
+          "reasoning_output_tokens": 121,
+          "total_tokens": 115780
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 2,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T22-21-46-01a1559c-e05a-71f0-be66-c285b82fad4e.jsonl",
+      "source_prefix_bytes": 335095,
+      "source_prefix_sha256": "0323d438536badac3ab901ea2cb05f678af249cc54c2dfe1599ac782fe8abd83",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1559c-f62d-7780-b742-1832b3726098",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-19T19:21:52.429Z",
+      "last_record_at": "2026-10-19T19:21:52.458Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\19\\rollout-2026-10-19T22-21-52-01a1559c-f62d-7780-b742-1832b3726098.jsonl",
+      "source_prefix_bytes": 95859,
+      "source_prefix_sha256": "86f1c77ab8d0da284fba6eb038561e0fe519c548b019d6efd2923645fac03107",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15a96-fce7-7953-8832-516bd2122ea7",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14fc1-6c32-70a3-b870-36ce861a2dd6",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-20T18:33:27.016Z",
+      "last_record_at": "2026-10-20T18:33:27.040Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\20\\rollout-2026-10-20T21-33-27-01a15a96-fce7-7953-8832-516bd2122ea7.jsonl",
+      "source_prefix_bytes": 95859,
+      "source_prefix_sha256": "57d650e27ccdd81dec4e7cf5f78a04543c0522b5bc6b0f26ac7ce6a12cccd8d7",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15a97-23e8-7c61-b266-15ef0c6140b6",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-20T18:33:37.000Z",
+      "last_record_at": "2026-10-20T18:33:37.022Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\20\\rollout-2026-10-20T21-33-37-01a15a97-23e8-7c61-b266-15ef0c6140b6.jsonl",
+      "source_prefix_bytes": 79703,
+      "source_prefix_sha256": "5e86b251fb7b417fc8c88f15ca1000d3de5bc0622229c2527811d11f599a4df3",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15be4-0a0b-7cd1-9483-784dc1c180ba",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-21T00:37:13.867Z",
+      "last_record_at": "2026-10-21T01:11:54.763Z",
+      "first_usage_at": "2026-10-21T00:37:19.337Z",
+      "last_token_event": {
+        "line": 214,
+        "timestamp": "2026-10-21T01:11:54.743Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 214,
+        "timestamp": "2026-10-21T01:11:54.743Z",
+        "total": {
+          "input_tokens": 1352834,
+          "cached_input_tokens": 1214592,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2412,
+          "reasoning_output_tokens": 920,
+          "total_tokens": 1355246
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 18,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T03-37-13-01a15be4-0a0b-7cd1-9483-784dc1c180ba.jsonl",
+      "source_prefix_bytes": 975276,
+      "source_prefix_sha256": "f8e16e25aaf2b92e5e3a9833891be48d0a6fc1d335d7e4afa6578c9a043607e2",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15dfa-cf32-70e2-a8fa-92b433497c67",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-21T10:21:20.564Z",
+      "last_record_at": "2026-10-21T10:21:20.631Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T13-21-20-01a15dfa-cf32-70e2-a8fa-92b433497c67.jsonl",
+      "source_prefix_bytes": 74455,
+      "source_prefix_sha256": "a582c3855e69a19417ae6c514fa405c6284dc1d5fd77e03be305417c6b454142",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15e0b-37c7-7b43-9ae8-64a90c8672a0",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-21T10:39:15.912Z",
+      "last_record_at": "2026-10-21T11:51:03.634Z",
+      "first_usage_at": "2026-10-21T10:39:25.277Z",
+      "last_token_event": {
+        "line": 76,
+        "timestamp": "2026-10-21T11:51:03.620Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 76,
+        "timestamp": "2026-10-21T11:51:03.620Z",
+        "total": {
+          "input_tokens": 465931,
+          "cached_input_tokens": 364160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 958,
+          "reasoning_output_tokens": 540,
+          "total_tokens": 466889
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 6,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T13-39-15-01a15e0b-37c7-7b43-9ae8-64a90c8672a0.jsonl",
+      "source_prefix_bytes": 545746,
+      "source_prefix_sha256": "c1bb7f97f3df53575ba8f0e1da792ea160e0cb4c39d9ff39e8de460f4103e880",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15e66-00d2-7e92-a9ae-cf09ff49c8e0",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-21T12:18:25.619Z",
+      "last_record_at": "2026-10-21T12:18:31.666Z",
+      "first_usage_at": "2026-10-21T12:18:31.645Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-21T12:18:31.645Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-21T12:18:31.645Z",
+        "total": {
+          "input_tokens": 52984,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 256,
+          "reasoning_output_tokens": 195,
+          "total_tokens": 53240
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T15-18-25-01a15e66-00d2-7e92-a9ae-cf09ff49c8e0.jsonl",
+      "source_prefix_bytes": 294026,
+      "source_prefix_sha256": "2e2578f37301f87b2409dee7cd3f95d360971f36ace39c481a39ff40d4a389a5",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15f86-6957-7db0-b282-7332decba9aa",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-21T17:33:26.744Z",
+      "last_record_at": "2026-10-21T17:33:26.824Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T20-33-26-01a15f86-6957-7db0-b282-7332decba9aa.jsonl",
+      "source_prefix_bytes": 75176,
+      "source_prefix_sha256": "6b749895d188d9afc9f2d7ba89e6898ce11a93ce118b0cb310495225e9b2e67a",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a15f89-4040-7623-b47d-1b7278ec282c",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-21T17:36:32.832Z",
+      "last_record_at": "2026-10-21T17:49:29.086Z",
+      "first_usage_at": "2026-10-21T17:36:38.492Z",
+      "last_token_event": {
+        "line": 53,
+        "timestamp": "2026-10-21T17:49:29.063Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 53,
+        "timestamp": "2026-10-21T17:49:29.063Z",
+        "total": {
+          "input_tokens": 257941,
+          "cached_input_tokens": 184704,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 598,
+          "reasoning_output_tokens": 293,
+          "total_tokens": 258539
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 4,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\21\\rollout-2026-10-21T20-36-32-01a15f89-4040-7623-b47d-1b7278ec282c.jsonl",
+      "source_prefix_bytes": 424266,
+      "source_prefix_sha256": "9610d4c1cca8acd3af59c2699b994fcb0e149d6bab7a92e36c472422edd379e8",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a160b9-f864-7a22-b269-8d0b11c60e5a",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-21T23:09:22.918Z",
+      "last_record_at": "2026-10-21T23:09:22.950Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T02-09-22-01a160b9-f864-7a22-b269-8d0b11c60e5a.jsonl",
+      "source_prefix_bytes": 88151,
+      "source_prefix_sha256": "e469a6ccb0b123eca523d95df99378531e9763677f3b47de773384c54dbb02cf",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a160bb-1fce-79a2-9f17-09420bd794c9",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-21T23:10:38.543Z",
+      "last_record_at": "2026-10-21T23:10:43.371Z",
+      "first_usage_at": "2026-10-21T23:10:43.354Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-21T23:10:43.354Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-21T23:10:43.354Z",
+        "total": {
+          "input_tokens": 58625,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 180,
+          "reasoning_output_tokens": 83,
+          "total_tokens": 58805
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T02-10-38-01a160bb-1fce-79a2-9f17-09420bd794c9.jsonl",
+      "source_prefix_bytes": 319955,
+      "source_prefix_sha256": "ed5d495aa7b0090173a1129637ece94fbdd82e7390b589e168cc7b159494c5b8",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16102-f846-7dd3-90df-9daeeb564799",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-22T00:29:07.015Z",
+      "last_record_at": "2026-10-22T00:56:12.585Z",
+      "first_usage_at": "2026-10-22T00:29:11.107Z",
+      "last_token_event": {
+        "line": 109,
+        "timestamp": "2026-10-22T00:56:12.561Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 109,
+        "timestamp": "2026-10-22T00:56:12.561Z",
+        "total": {
+          "input_tokens": 874809,
+          "cached_input_tokens": 757376,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1521,
+          "reasoning_output_tokens": 777,
+          "total_tokens": 876330
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 9,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T03-29-07-01a16102-f846-7dd3-90df-9daeeb564799.jsonl",
+      "source_prefix_bytes": 690110,
+      "source_prefix_sha256": "e03f3c791ff54968cf1c0fa6fc7816caa584bd1612458a541fd6734ae98a92d1",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a1635c-f138-7720-9ab9-07afac234a22",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-22T11:26:37.881Z",
+      "last_record_at": "2026-10-22T11:26:37.926Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T14-26-37-01a1635c-f138-7720-9ab9-07afac234a22.jsonl",
+      "source_prefix_bytes": 107174,
+      "source_prefix_sha256": "1124c4fabfec8a98ebaa515de7c4bc6932cb4cd695f6e018d35fee6844a68465",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16380-bcac-70a1-9073-f53c19c5d870",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-22T12:05:43.727Z",
+      "last_record_at": "2026-10-22T12:05:50.047Z",
+      "first_usage_at": "2026-10-22T12:05:50.021Z",
+      "last_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-22T12:05:50.021Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 19,
+        "timestamp": "2026-10-22T12:05:50.021Z",
+        "total": {
+          "input_tokens": 64198,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 210,
+          "reasoning_output_tokens": 110,
+          "total_tokens": 64408
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 1,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T15-05-43-01a16380-bcac-70a1-9073-f53c19c5d870.jsonl",
+      "source_prefix_bytes": 346933,
+      "source_prefix_sha256": "865dd86f971cf0436e0c5c2070ca12b052496c4c6023fe1ba52ba47d8f074601",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16380-e426-7323-813c-60828791b5c9",
+      "role": "Kapanış C",
+      "parent_id": null,
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": "vscode",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "started_at": "2026-10-22T12:05:53.844Z",
+      "last_record_at": "2026-10-22T22:03:53.004Z",
+      "first_usage_at": "2026-10-22T12:06:07.406Z",
+      "last_token_event": {
+        "line": 801,
+        "timestamp": "2026-10-22T22:03:52.687Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 801,
+        "timestamp": "2026-10-22T22:03:52.687Z",
+        "total": {
+          "input_tokens": 17213819,
+          "cached_input_tokens": 16920576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 136142,
+          "reasoning_output_tokens": 43450,
+          "total_tokens": 17349961
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 93,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T15-05-53-01a16380-e426-7323-813c-60828791b5c9.jsonl",
+      "source_prefix_bytes": 2969456,
+      "source_prefix_sha256": "d0467486e8cb93cbbb61f6c3e5c226047f19132a2e33883999f5805b842adac6",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16569-1bb9-7633-a49c-20334b4312e1",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [],
+      "started_at": "2026-10-22T20:59:09.626Z",
+      "last_record_at": "2026-10-22T20:59:09.658Z",
+      "first_usage_at": null,
+      "last_token_event": null,
+      "last_usable_token_event": null,
+      "measured": false,
+      "unique_usage_increments": 0,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\22\\rollout-2026-10-22T23-59-09-01a16569-1bb9-7633-a49c-20334b4312e1.jsonl",
+      "source_prefix_bytes": 93609,
+      "source_prefix_sha256": "0840587ae6dc63cc024bbb12935279d4e188d364bbdaaadaa438db670aae1271",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16571-6769-72b2-a58b-f2eaa35021ed",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-22T21:08:13.289Z",
+      "last_record_at": "2026-10-22T21:31:28.981Z",
+      "first_usage_at": "2026-10-22T21:08:17.722Z",
+      "last_token_event": {
+        "line": 122,
+        "timestamp": "2026-10-22T21:31:28.955Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 122,
+        "timestamp": "2026-10-22T21:31:28.955Z",
+        "total": {
+          "input_tokens": 806371,
+          "cached_input_tokens": 690048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1459,
+          "reasoning_output_tokens": 539,
+          "total_tokens": 807830
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 10,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\23\\rollout-2026-10-23T00-08-13-01a16571-6769-72b2-a58b-f2eaa35021ed.jsonl",
+      "source_prefix_bytes": 664451,
+      "source_prefix_sha256": "4f46aa1db037c760358b6e8ac67db9ae011dfaaee0b6e561c3336ea93dae5bf6",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16578-d3a5-7c72-ba06-ba361c4bfb54",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a16380-e426-7323-813c-60828791b5c9",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-22T21:16:19.750Z",
+      "last_record_at": "2026-10-22T21:59:04.740Z",
+      "first_usage_at": "2026-10-22T21:16:24.264Z",
+      "last_token_event": {
+        "line": 236,
+        "timestamp": "2026-10-22T21:59:04.719Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 236,
+        "timestamp": "2026-10-22T21:59:04.719Z",
+        "total": {
+          "input_tokens": 1099409,
+          "cached_input_tokens": 968320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2391,
+          "reasoning_output_tokens": 1039,
+          "total_tokens": 1101800
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 20,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\23\\rollout-2026-10-23T00-16-19-01a16578-d3a5-7c72-ba06-ba361c4bfb54.jsonl",
+      "source_prefix_bytes": 818797,
+      "source_prefix_sha256": "6027303c5abace836b8e5ac546a07c28e19edf21d696e91cd19916fca5ade6fb",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    },
+    {
+      "id": "01a16595-43b6-7260-bd3f-d6f43438e33e",
+      "role": "Otomatik izin denetimi (guardian)",
+      "parent_id": "01a14bcf-3a89-7e90-b959-e6705d5b32f0",
+      "cwd": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "models": [
+        "codex-auto-review"
+      ],
+      "started_at": "2026-10-22T21:47:23.447Z",
+      "last_record_at": "2026-10-22T21:55:40.783Z",
+      "first_usage_at": "2026-10-22T21:47:29.988Z",
+      "last_token_event": {
+        "line": 42,
+        "timestamp": "2026-10-22T21:55:40.761Z",
+        "info_present": true
+      },
+      "last_usable_token_event": {
+        "line": 42,
+        "timestamp": "2026-10-22T21:55:40.761Z",
+        "total": {
+          "input_tokens": 214429,
+          "cached_input_tokens": 150528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 482,
+          "reasoning_output_tokens": 179,
+          "total_tokens": 214911
+        }
+      },
+      "measured": true,
+      "unique_usage_increments": 3,
+      "source_path": "C:\\Users\\Burak\\.codex\\sessions\\2026\\10\\23\\rollout-2026-10-23T00-47-23-01a16595-43b6-7260-bd3f-d6f43438e33e.jsonl",
+      "source_prefix_bytes": 428154,
+      "source_prefix_sha256": "29fdd6bc9d29533b69622e32fa7dbc2abb7c500269981b1afefb83f3f74ee881",
+      "rea_invocations": [],
+      "counter_validation_issues": []
+    }
+  ],
+  "by_model": [
+    {
+      "model": "codex-auto-review",
+      "input_tokens": 11238928,
+      "cached_input_tokens": 9286528,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23709,
+      "reasoning_output_tokens": 9857,
+      "total_tokens": 11262637
+    },
+    {
+      "model": "gpt-6-astra",
+      "input_tokens": 24344279,
+      "cached_input_tokens": 22870400,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 109085,
+      "reasoning_output_tokens": 28394,
+      "total_tokens": 24453364
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "input_tokens": 388956839,
+      "cached_input_tokens": 378618624,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1880262,
+      "reasoning_output_tokens": 871174,
+      "total_tokens": 390837101
+    }
+  ],
+  "by_phase_model": [
+    {
+      "phase": "P1",
+      "model": "codex-auto-review",
+      "input_tokens": 47566,
+      "cached_input_tokens": 12288,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 311,
+      "reasoning_output_tokens": 188,
+      "total_tokens": 47877
+    },
+    {
+      "phase": "P1",
+      "model": "gpt-6-astra",
+      "input_tokens": 12485519,
+      "cached_input_tokens": 11814784,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 64689,
+      "reasoning_output_tokens": 10584,
+      "total_tokens": 12550208
+    },
+    {
+      "phase": "P1",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 6270295,
+      "cached_input_tokens": 5899264,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10856,
+      "reasoning_output_tokens": 4279,
+      "total_tokens": 6281151
+    },
+    {
+      "phase": "P2",
+      "model": "codex-auto-review",
+      "input_tokens": 5943831,
+      "cached_input_tokens": 4944512,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12931,
+      "reasoning_output_tokens": 4994,
+      "total_tokens": 5956762
+    },
+    {
+      "phase": "P2",
+      "model": "gpt-6-astra",
+      "input_tokens": 11858760,
+      "cached_input_tokens": 11055616,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44396,
+      "reasoning_output_tokens": 17810,
+      "total_tokens": 11903156
+    },
+    {
+      "phase": "P2",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 124117843,
+      "cached_input_tokens": 120059392,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 629812,
+      "reasoning_output_tokens": 297035,
+      "total_tokens": 124747655
+    },
+    {
+      "phase": "P3",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 22140789,
+      "cached_input_tokens": 21092224,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 97873,
+      "reasoning_output_tokens": 41468,
+      "total_tokens": 22238662
+    },
+    {
+      "phase": "P4",
+      "model": "codex-auto-review",
+      "input_tokens": 2129690,
+      "cached_input_tokens": 1763456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4224,
+      "reasoning_output_tokens": 1948,
+      "total_tokens": 2133914
+    },
+    {
+      "phase": "P4",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 146124033,
+      "cached_input_tokens": 143109504,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 632090,
+      "reasoning_output_tokens": 313169,
+      "total_tokens": 146756123
+    },
+    {
+      "phase": "P5",
+      "model": "codex-auto-review",
+      "input_tokens": 3117841,
+      "cached_input_tokens": 2566272,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 6243,
+      "reasoning_output_tokens": 2727,
+      "total_tokens": 3124084
+    },
+    {
+      "phase": "P5",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 90303879,
+      "cached_input_tokens": 88458240,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 509631,
+      "reasoning_output_tokens": 215223,
+      "total_tokens": 90813510
+    }
+  ],
+  "product_groups": [
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "requests": 14,
+      "usage_recorded": 0,
+      "usage_missing": 14,
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requests": 29,
+      "usage_recorded": 28,
+      "usage_missing": 1,
+      "input": 32686,
+      "output": 1996,
+      "total": 34682
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requests": 25,
+      "usage_recorded": 23,
+      "usage_missing": 2,
+      "input": 58049,
+      "output": 6704,
+      "total": 64753
+    }
+  ],
+  "product_requests": [
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:07.434689+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-01_attempt_1.json",
+      "sha256": "74bd37bc459b0709bd021af46d6daf626bb9c5a34162c4084b4b16daa9d80ceb"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:11.294512+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-02_attempt_1.json",
+      "sha256": "aee6ffbd091a0957d333d8b0921d08338bd48d3870a592af147e2fe8a0d7632a"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:11.799903+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-03_attempt_1.json",
+      "sha256": "6722341055339d61f869117632fdac3e5b1fc358218f8a5a3d3aebc56f5cdcce"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:12.414002+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-04_attempt_1.json",
+      "sha256": "0a4935d20a9ed1a4667eb543265bf5621fe5cdf84b43c4384c7a266803da8d98"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:13.027440+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-05_attempt_1.json",
+      "sha256": "bd3fde719c76526b4e2f16bbd9a57f08c692abf9823e09f131fd0201711db352"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:13.546099+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-06_attempt_1.json",
+      "sha256": "d56f79bf31dba006aff541324e2d9fdedfb77775600f71f2a3606fd08b33f5d2"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:13.941395+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-07_attempt_1.json",
+      "sha256": "be60f8a7da9e01a9d123a83c95904c5bdcbcfae5b7bd6ca0959ed4a4fe1f98e7"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:14.461241+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-08_attempt_1.json",
+      "sha256": "ec139f4461dba1e4bb3a88174c108fb2ea9328fb33d11314e4f084bd63c61c79"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:14.973903+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-09_attempt_1.json",
+      "sha256": "a2167eddbd675a561eb087a18eef38be8933378406f1131a1c6c1102c7f713f1"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:15.794411+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-10_attempt_1.json",
+      "sha256": "bc76999599459595448979c4b97d60f15c007780c035d94d103f6659f17cd828"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:16.260615+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-C1_attempt_1.json",
+      "sha256": "f8de3c0a0912b8faf2a5e14e4970659f94360dbca3b5bb1f88b7ef6813c52bfb"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:16.819256+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-C2_attempt_1.json",
+      "sha256": "604e47a9078525b4ce284737ad0f71ab2a9dcf07ce2a2f19f1d0823885268f4d"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:17.387076+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-C3_attempt_1.json",
+      "sha256": "0301ed398397770ef5f87c492c4ba43e9d1f45edaab45eff2f0996b1bb9531c4"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T07:52:17.819864+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_105207_429777\\AG-C4_attempt_1.json",
+      "sha256": "e30550c44ee5116c670f0a207608f4fff71400e1df0fec58c150145fe36391da"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": 403,
+      "timestamp": "2026-10-19T08:17:02.367960+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_111702_366236\\AG-01_attempt_1.json",
+      "sha256": "cf8c7ab3d57578a2335675c6d9a5b6e3f1a6c614f3eaf3ae5759951f0e999805"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59m6z32easv3mmgvdydyrwn",
+      "response_id": "chatcmpl-c864d437-d5ab-49bf-920d-55b980f3d6d5",
+      "usage": {
+        "queue_time": 0.049946224,
+        "prompt_tokens": 1110,
+        "prompt_time": 0.092364829,
+        "completion_tokens": 84,
+        "completion_time": 0.175980592,
+        "total_tokens": 1194,
+        "total_time": 0.268345421
+      },
+      "input": 1110,
+      "output": 84,
+      "total": 1194,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:24:50.632796+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-01_attempt_1.json",
+      "sha256": "63e87a50470a37038a4b7efc2f83d0d6d49ddfa9dea5558b9bedf511cf73717a"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mjhcwedt8wejm2e3g5m8r",
+      "response_id": "chatcmpl-35782d6a-dd7f-4c50-8b93-372cdd4949bb",
+      "usage": {
+        "queue_time": 0.051221975,
+        "prompt_tokens": 1094,
+        "prompt_time": 0.080938928,
+        "completion_tokens": 84,
+        "completion_time": 0.181703324,
+        "total_tokens": 1178,
+        "total_time": 0.262642252
+      },
+      "input": 1094,
+      "output": 84,
+      "total": 1178,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:31:09.334846+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-02_attempt_1.json",
+      "sha256": "a2938a689f51dceb65797e051d752aaf047e577b64affbd28086c0e26452a16d"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mk4egece8ahng644p8rqa",
+      "response_id": "chatcmpl-ef9a8702-5431-4ad9-a7f4-baea7c2b827b",
+      "usage": {
+        "queue_time": 0.02069124,
+        "prompt_tokens": 1096,
+        "prompt_time": 0.079719706,
+        "completion_tokens": 83,
+        "completion_time": 0.184733435,
+        "total_tokens": 1179,
+        "total_time": 0.264453141
+      },
+      "input": 1096,
+      "output": 83,
+      "total": 1179,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:31:29.435212+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-03_attempt_1.json",
+      "sha256": "83826704732fbee1fca1da68df21dff89229f1e7cd632265ec04a341c0b6a621"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mkrszek38aef4e80n90ga",
+      "response_id": "chatcmpl-5e3e8a98-800c-4600-b79c-9e14d8b4f4e1",
+      "usage": {
+        "queue_time": 0.841882015,
+        "prompt_tokens": 1097,
+        "prompt_time": 0.098249996,
+        "completion_tokens": 83,
+        "completion_time": 0.184977647,
+        "total_tokens": 1180,
+        "total_time": 0.283227643
+      },
+      "input": 1097,
+      "output": 83,
+      "total": 1180,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:31:49.443363+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-04_attempt_1.json",
+      "sha256": "6181f29aaf577326ba078824c8ad8d1f8b3a78e3db3d814e9cb6920c4249ef3d"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mmbskem28ekr01gnx7skc",
+      "response_id": "chatcmpl-fe36b3cc-5937-4ad1-8402-46e5d7548f0d",
+      "usage": {
+        "queue_time": 0.020738862,
+        "prompt_tokens": 1093,
+        "prompt_time": 0.079859172,
+        "completion_tokens": 85,
+        "completion_time": 0.167998663,
+        "total_tokens": 1178,
+        "total_time": 0.247857835
+      },
+      "input": 1093,
+      "output": 85,
+      "total": 1178,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:32:09.446477+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-05_attempt_1.json",
+      "sha256": "ff82be040432e5f02f24f86ce8ce002edb1b7cc18b32ddb66f4496401ecdac00"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mmz0je8ws48bj8ew58dvd",
+      "response_id": "chatcmpl-4d76936d-ebc8-4037-96f0-92f63fe06255",
+      "usage": {
+        "queue_time": 0.980726965,
+        "prompt_tokens": 1091,
+        "prompt_time": 0.079887013,
+        "completion_tokens": 85,
+        "completion_time": 0.18307312,
+        "total_tokens": 1176,
+        "total_time": 0.262960133
+      },
+      "input": 1091,
+      "output": 85,
+      "total": 1176,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:32:29.457896+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-06_attempt_1.json",
+      "sha256": "1c1e810d0e124538d79836b9489cee0b7856bc9ecd9672d9b9671cbb65d64923"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mnjhhec4awk75nas6scgf",
+      "response_id": "chatcmpl-151d66aa-af16-40c8-a46d-6e2390d8db36",
+      "usage": {
+        "queue_time": 0.019542913,
+        "prompt_tokens": 1102,
+        "prompt_time": 0.091836104,
+        "completion_tokens": 83,
+        "completion_time": 0.171738669,
+        "total_tokens": 1185,
+        "total_time": 0.263574773
+      },
+      "input": 1102,
+      "output": 83,
+      "total": 1185,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:32:49.473186+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-07_attempt_1.json",
+      "sha256": "4de44191248301f03123f9df99950341682c9d55b71284376ee9b73c95353da3"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mp653edw8vreq326t3261",
+      "response_id": "chatcmpl-dd688150-24e7-4c6d-bc01-a35c60f13531",
+      "usage": {
+        "queue_time": 0.172053577,
+        "prompt_tokens": 1099,
+        "prompt_time": 0.083050378,
+        "completion_tokens": 83,
+        "completion_time": 0.165057594,
+        "total_tokens": 1182,
+        "total_time": 0.248107972
+      },
+      "input": 1099,
+      "output": 83,
+      "total": 1182,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:33:09.490025+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-08_attempt_1.json",
+      "sha256": "c4adbaf472fa26b002fa61305aec4b60075aad20b6754a20c6b8feaa24d07c0e"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mpt0xe7w9h9mykw2snj70",
+      "response_id": "chatcmpl-f6a19c15-fde0-40b9-926c-097fbe79b841",
+      "usage": {
+        "queue_time": 0.020890966,
+        "prompt_tokens": 1116,
+        "prompt_time": 0.079344106,
+        "completion_tokens": 85,
+        "completion_time": 0.187804571,
+        "total_tokens": 1201,
+        "total_time": 0.267148677
+      },
+      "input": 1116,
+      "output": 85,
+      "total": 1201,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:33:29.500281+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-09_attempt_1.json",
+      "sha256": "7a9558ecb2295683e21f8690232247562f75819158c4d7db4fb2e92b63eee73e"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mqdaweq19jw1teeq6mwjn",
+      "response_id": "chatcmpl-2f45c8c9-2c7a-4046-a5c3-7d86678605c4",
+      "usage": {
+        "queue_time": 0.261145932,
+        "prompt_tokens": 1094,
+        "prompt_time": 0.094453514,
+        "completion_tokens": 83,
+        "completion_time": 0.193017857,
+        "total_tokens": 1177,
+        "total_time": 0.287471371
+      },
+      "input": 1094,
+      "output": 83,
+      "total": 1177,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:33:49.517078+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-10_attempt_1.json",
+      "sha256": "9476195f791cfde62ef96272b84cc68da87ee48e12dab5eaf41da56764def519"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mr0pye2dbzpe2cajy8fft",
+      "response_id": "chatcmpl-48cbcce8-6a37-419a-ba60-cde6ebd65952",
+      "usage": {
+        "queue_time": 0.0722532,
+        "prompt_tokens": 1069,
+        "prompt_time": 0.078075074,
+        "completion_tokens": 31,
+        "completion_time": 0.060795297,
+        "total_tokens": 1100,
+        "total_time": 0.138870371
+      },
+      "input": 1069,
+      "output": 31,
+      "total": 1100,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:34:09.532996+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-C1_attempt_1.json",
+      "sha256": "8f3223c7811f03a8e3f7faa02115b1d53cc5af2750dcf3a8b65846d3df82926f"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59mrmdkeqa8y7dzk7g8kngc",
+      "response_id": "chatcmpl-c72079ff-87f2-49bd-8626-9052943f1665",
+      "usage": {
+        "queue_time": 0.150320481,
+        "prompt_tokens": 1062,
+        "prompt_time": 0.088416166,
+        "completion_tokens": 34,
+        "completion_time": 0.068796497,
+        "total_tokens": 1096,
+        "total_time": 0.157212663
+      },
+      "input": 1062,
+      "output": 34,
+      "total": 1096,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:34:29.540226+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-C2_attempt_1.json",
+      "sha256": "4795999429083e254478c5450c69f0a50617009792fcdb8021a0c2363e18dfb8"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59ms7reevgsjgd4g2ppr3xh",
+      "response_id": "chatcmpl-a7c85ecb-097f-442b-89dc-5a284e405bb6",
+      "usage": {
+        "queue_time": 0.020268613,
+        "prompt_tokens": 1068,
+        "prompt_time": 0.078291749,
+        "completion_tokens": 30,
+        "completion_time": 0.058600162,
+        "total_tokens": 1098,
+        "total_time": 0.136891911
+      },
+      "input": 1068,
+      "output": 30,
+      "total": 1098,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:34:49.545750+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-C3_attempt_1.json",
+      "sha256": "9bdadf66bc56e5e29d524a005e2ded6c4bed0d90343eeab7a7effc25e7270ca9"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m59msveneybbsrzwzkcv0pjf",
+      "response_id": "chatcmpl-b96b51e6-9866-4e56-b073-c407b574e85f",
+      "usage": {
+        "queue_time": 0.05105164,
+        "prompt_tokens": 1081,
+        "prompt_time": 0.086771548,
+        "completion_tokens": 83,
+        "completion_time": 0.169840128,
+        "total_tokens": 1164,
+        "total_time": 0.256611676
+      },
+      "input": 1081,
+      "output": 83,
+      "total": 1164,
+      "http_status": null,
+      "timestamp": "2026-10-19T08:35:09.559083+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_112450_630916\\AG-C4_attempt_1.json",
+      "sha256": "df3f06379eaa16beea7ff4008cd7cff31eb0c4b2fe74409a2ea41e35a6d59ae9"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5bxw2ew5avr11mqssqgjy",
+      "response_id": "chatcmpl-96f744c4-99cc-4e20-9c05-41b61c363c17",
+      "usage": {
+        "queue_time": 1.725154892,
+        "prompt_tokens": 1263,
+        "prompt_time": 0.109145766,
+        "completion_tokens": 84,
+        "completion_time": 0.187971956,
+        "total_tokens": 1347,
+        "total_time": 0.297117722
+      },
+      "input": 1263,
+      "output": 84,
+      "total": 1347,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:24:41.197020+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-01_attempt_1.json",
+      "sha256": "3fe5f3a75d077736325f7c039d01eef6a6fbb4eec9dbd9839ff1c5fbfd23561c"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5chc3eqb9ax7wsqp5b5vp",
+      "response_id": "chatcmpl-2969aa1f-46c8-4380-9b80-de066eaa301e",
+      "usage": {
+        "queue_time": 0.484024395,
+        "prompt_tokens": 1247,
+        "prompt_time": 0.102017232,
+        "completion_tokens": 84,
+        "completion_time": 0.216553553,
+        "total_tokens": 1331,
+        "total_time": 0.318570785
+      },
+      "input": 1247,
+      "output": 84,
+      "total": 1331,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:25:01.279977+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-02_attempt_1.json",
+      "sha256": "24e8b22583f4489c99c46a9a2291147e06f513c2b82250d865a5cd76f5e2d486"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5d4yqetd9tfv7h7hr5mgd",
+      "response_id": "chatcmpl-7eb81037-c561-4aa3-8b2c-ff074ea51a9a",
+      "usage": {
+        "queue_time": 0.294829008,
+        "prompt_tokens": 1249,
+        "prompt_time": 0.110490145,
+        "completion_tokens": 83,
+        "completion_time": 0.167131507,
+        "total_tokens": 1332,
+        "total_time": 0.277621652
+      },
+      "input": 1249,
+      "output": 83,
+      "total": 1332,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:25:21.288983+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-03_attempt_1.json",
+      "sha256": "213d125e3ab307a1a60c7f81dd7376dd940bc8bfb841cbfdc1a1c38a27e85510"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5drj6e00vm8rn8q06hqq6",
+      "response_id": "chatcmpl-08f39209-3ca4-4485-a4bf-53b6e3db0666",
+      "usage": {
+        "queue_time": 0.00624818,
+        "prompt_tokens": 1250,
+        "prompt_time": 0.100406052,
+        "completion_tokens": 83,
+        "completion_time": 0.167353096,
+        "total_tokens": 1333,
+        "total_time": 0.267759148
+      },
+      "input": 1250,
+      "output": 83,
+      "total": 1333,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:25:41.302120+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-04_attempt_1.json",
+      "sha256": "bed0305df6169a5547cd374c4630153cec102a78f42e42189690c3f13685ff30"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5ec14e1hs9bjdcqhfkryd",
+      "response_id": "chatcmpl-efae7bc8-75a6-49e1-9bd3-75937043ca34",
+      "usage": {
+        "queue_time": 0.005505151,
+        "prompt_tokens": 1246,
+        "prompt_time": 0.100045358,
+        "completion_tokens": 83,
+        "completion_time": 0.166890095,
+        "total_tokens": 1329,
+        "total_time": 0.266935453
+      },
+      "input": 1246,
+      "output": 83,
+      "total": 1329,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:26:01.319432+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-05_attempt_1.json",
+      "sha256": "56f23a892f364f021d765239084a145f2409bf772b125966b87e1e2f2b2e989e"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5ezkpeqj8b9298zxhksrz",
+      "response_id": "chatcmpl-82cb1ea8-adcb-4983-a800-3b040ec5a8be",
+      "usage": {
+        "queue_time": 0.019558974,
+        "prompt_tokens": 1244,
+        "prompt_time": 0.110043008,
+        "completion_tokens": 83,
+        "completion_time": 0.176559884,
+        "total_tokens": 1327,
+        "total_time": 0.286602892
+      },
+      "input": 1244,
+      "output": 83,
+      "total": 1327,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:26:21.323061+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-06_attempt_1.json",
+      "sha256": "ba3384fa00ce76b85db86bd25afb54239ae5af2a8af691b5b61214766b5a59d3"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5fn7re0cv7nmfpm855cag",
+      "response_id": "chatcmpl-0291eb5f-34e3-41c2-b6fb-2f689f35c535",
+      "usage": {
+        "queue_time": 0.227556642,
+        "prompt_tokens": 1255,
+        "prompt_time": 0.113010403,
+        "completion_tokens": 83,
+        "completion_time": 0.167414987,
+        "total_tokens": 1338,
+        "total_time": 0.28042539
+      },
+      "input": 1255,
+      "output": 83,
+      "total": 1338,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:26:41.335442+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-07_attempt_1.json",
+      "sha256": "ed8371d1538af619f3bba77e9d215607ea68947a185fa978ba3d46254e426991"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5g6njety8mmkkced0778j",
+      "response_id": "chatcmpl-40f8dea9-e6ed-48c4-a91f-7617090ead2c",
+      "usage": {
+        "queue_time": 0.041917243,
+        "prompt_tokens": 1252,
+        "prompt_time": 0.088390633,
+        "completion_tokens": 83,
+        "completion_time": 0.162035833,
+        "total_tokens": 1335,
+        "total_time": 0.250426466
+      },
+      "input": 1252,
+      "output": 83,
+      "total": 1335,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:27:01.342003+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-08_attempt_1.json",
+      "sha256": "a21e3d29eca77743de3122553a71cc8a9b529c827d12bf2259df7a34abd57577"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5gt8fesea9vvdda94kcfp",
+      "response_id": "chatcmpl-16e4fe74-016e-4e56-b7d8-651ba7b16403",
+      "usage": {
+        "queue_time": 0.019712455,
+        "prompt_tokens": 1269,
+        "prompt_time": 0.109588572,
+        "completion_tokens": 85,
+        "completion_time": 0.179829981,
+        "total_tokens": 1354,
+        "total_time": 0.289418553
+      },
+      "input": 1269,
+      "output": 85,
+      "total": 1354,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:27:21.353216+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-09_attempt_1.json",
+      "sha256": "c79798f83756c619e9c37ace1826ce683a25c37395ff3bcbbdebf2941ac59898"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5hdvbe3trtkmyv72j4129",
+      "response_id": "chatcmpl-28e162d4-aa87-4593-be0a-270d19fda2a3",
+      "usage": {
+        "queue_time": 0.020046891,
+        "prompt_tokens": 1247,
+        "prompt_time": 0.089030754,
+        "completion_tokens": 83,
+        "completion_time": 0.161818096,
+        "total_tokens": 1330,
+        "total_time": 0.25084885
+      },
+      "input": 1247,
+      "output": 83,
+      "total": 1330,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:27:41.358794+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-10_attempt_1.json",
+      "sha256": "029ec1eef8cc101296473bb0b211af8e29ab1dc628936a2d331969884bb6d44e"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5j17ne90rth8p3s18t78f",
+      "response_id": "chatcmpl-c625b731-1f02-443f-aaba-93a4194a5f06",
+      "usage": {
+        "queue_time": 0.019213217,
+        "prompt_tokens": 1222,
+        "prompt_time": 0.104056381,
+        "completion_tokens": 31,
+        "completion_time": 0.06541329,
+        "total_tokens": 1253,
+        "total_time": 0.169469671
+      },
+      "input": 1222,
+      "output": 31,
+      "total": 1253,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:28:01.363729+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-C1_attempt_1.json",
+      "sha256": "438be194f6590b83594b6a26812b2c5d2ccba4b552d2441ed029e5edba0c997c"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5jmxre0ytvb7sjfphzmha",
+      "response_id": "chatcmpl-f2d149a3-b385-4a00-a327-dfb263525a95",
+      "usage": {
+        "queue_time": 0.051225328,
+        "prompt_tokens": 1215,
+        "prompt_time": 0.097814639,
+        "completion_tokens": 40,
+        "completion_time": 0.081079851,
+        "total_tokens": 1255,
+        "total_time": 0.17889449
+      },
+      "input": 1215,
+      "output": 40,
+      "total": 1255,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:28:21.370025+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-C2_attempt_1.json",
+      "sha256": "b9c10f1b6c844f51fdea5824432ef87f1953a86a3e7a273b8ba4b83bb3be6624"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5k8crebgssmb5arey18bc",
+      "response_id": "chatcmpl-33129149-7da4-4459-9e46-7761c6b132f8",
+      "usage": {
+        "queue_time": 0.329398603,
+        "prompt_tokens": 1221,
+        "prompt_time": 0.231590466,
+        "completion_tokens": 43,
+        "completion_time": 0.201777179,
+        "total_tokens": 1264,
+        "total_time": 0.433367645
+      },
+      "input": 1221,
+      "output": 43,
+      "total": 1264,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:28:41.382873+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-C3_attempt_1.json",
+      "sha256": "190d8799e0a1bb8d4dd26cc31b66fcaccfa057075d9f0f3a2b8a9ea0d663d856"
+    },
+    {
+      "kind": "MCP ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a5kvw2eejrdeerpjvtpfdt",
+      "response_id": "chatcmpl-0ac1cade-e4fc-40a4-b6a9-6092724c4021",
+      "usage": {
+        "queue_time": 0.019949638,
+        "prompt_tokens": 1234,
+        "prompt_time": 0.099241141,
+        "completion_tokens": 32,
+        "completion_time": 0.074928958,
+        "total_tokens": 1266,
+        "total_time": 0.174170099
+      },
+      "input": 1234,
+      "output": 32,
+      "total": 1266,
+      "http_status": null,
+      "timestamp": "2026-10-19T13:29:01.385711+00:00",
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\reports\\agent_runs\\20261019_162441_194101\\AG-C4_attempt_1.json",
+      "sha256": "b78f561c9d2b5c3e760247a457e469006bb434adcb32169d90b1c8590882dee9"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a6j2cmejftvvdhg7cbyhx4",
+      "response_id": "chatcmpl-77d3bece-93e4-4fd5-8a04-fcedf492b451",
+      "usage": {
+        "queue_time": 0.107127443,
+        "prompt_tokens": 1772,
+        "prompt_time": 0.135373792,
+        "completion_tokens": 221,
+        "completion_time": 0.469941725,
+        "total_tokens": 1993,
+        "total_time": 0.605315517
+      },
+      "input": 1772,
+      "output": 221,
+      "total": 1993,
+      "http_status": null,
+      "timestamp": 1792417533,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_164530_577188_AG-01\\response_01.json",
+      "sha256": "ad4d5c5dee44f8e54e0de881e86422e4b5496586c40ee8260a226e6274648268"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a6xn1cethswxnp5wee3c95",
+      "response_id": "chatcmpl-c50bade1-8220-40e5-8816-311755b99fde",
+      "usage": {
+        "queue_time": 0.286006993,
+        "prompt_tokens": 1772,
+        "prompt_time": 0.159286301,
+        "completion_tokens": 371,
+        "completion_time": 0.757275111,
+        "total_tokens": 2143,
+        "total_time": 0.916561412
+      },
+      "input": 1772,
+      "output": 371,
+      "total": 2143,
+      "http_status": null,
+      "timestamp": 1792417913,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_165150_191638_AG-01\\response_01.json",
+      "sha256": "446e908c72e5c3f4a7c921aa352d7ee38eef4bd5c201adcc3131b72b07dcbbf2"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a7j70ae6xrkshh4wk06ftw",
+      "response_id": "chatcmpl-4803ddbf-18e9-4b6b-ab50-8c6f156115f4",
+      "usage": {
+        "queue_time": 0.263801926,
+        "prompt_tokens": 3541,
+        "prompt_time": 0.299061874,
+        "completion_tokens": 283,
+        "completion_time": 0.659089677,
+        "total_tokens": 3824,
+        "total_time": 0.958151551
+      },
+      "input": 3541,
+      "output": 283,
+      "total": 3824,
+      "http_status": null,
+      "timestamp": 1792418586,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_165150_191638_AG-01\\response_02.json",
+      "sha256": "969ab622e0fed7122bfb2fea7321bb4f21b1c05b9dbcc707e8d9a4fe6f7e4dda"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": null,
+      "timestamp": null,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_165150_191638_AG-01\\response_03.json",
+      "sha256": "a9332b388a613864dc24daa83c6e8a271d200cd4ab174e29067df6c4678bb408"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a8y161edjvyem8nn4hpne3",
+      "response_id": "chatcmpl-4e91dba0-fa3c-40dc-bd39-5586f0f6879a",
+      "usage": {
+        "queue_time": 0.285012342,
+        "prompt_tokens": 1756,
+        "prompt_time": 0.151923873,
+        "completion_tokens": 347,
+        "completion_time": 0.792890268,
+        "total_tokens": 2103,
+        "total_time": 0.944814141
+      },
+      "input": 1756,
+      "output": 347,
+      "total": 2103,
+      "http_status": null,
+      "timestamp": 1792420022,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_172659_560273_AG-02\\response_01.json",
+      "sha256": "50d6a81debf2658b49137afa6e35de95a892d3a0bea2080520796d5f5906e148"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a91rdeenjvw8kyy8mwz3fz",
+      "response_id": "chatcmpl-ffc3bf7e-6144-43c5-8fe7-8ce886576fcf",
+      "usage": {
+        "queue_time": 0.154929264,
+        "prompt_tokens": 3437,
+        "prompt_time": 0.287016051,
+        "completion_tokens": 199,
+        "completion_time": 0.396778339,
+        "total_tokens": 3636,
+        "total_time": 0.68379439
+      },
+      "input": 3437,
+      "output": 199,
+      "total": 3636,
+      "http_status": null,
+      "timestamp": 1792420144,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_172659_560273_AG-02\\response_02.json",
+      "sha256": "6dd66973d0772778c68ea3d5637126f21e84c5984060a207add3cc9a53af7ae8"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5appj01ed686ypfsrywgfrh",
+      "response_id": "chatcmpl-36add4d2-b113-4af6-82d7-26843a458c4c",
+      "usage": {
+        "queue_time": 0.142478202,
+        "prompt_tokens": 1758,
+        "prompt_time": 0.131084018,
+        "completion_tokens": 415,
+        "completion_time": 0.817599008,
+        "total_tokens": 2173,
+        "total_time": 0.948683026
+      },
+      "input": 1758,
+      "output": 415,
+      "total": 2173,
+      "http_status": null,
+      "timestamp": 1792434457,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_212734_128867_AG-03\\response_01.json",
+      "sha256": "132da7ad84de6dcf34e2294bef13c23fb5b70a534a8b4d04d068556bd9e645b8"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5apt3p7e4gvyfy150k2y0vy",
+      "response_id": "chatcmpl-82392c9d-68d6-4a63-8d8e-a14b340982dd",
+      "usage": {
+        "queue_time": 0.177803645,
+        "prompt_tokens": 3508,
+        "prompt_time": 0.292679838,
+        "completion_tokens": 216,
+        "completion_time": 0.425235331,
+        "total_tokens": 3724,
+        "total_time": 0.717915169
+      },
+      "input": 3508,
+      "output": 216,
+      "total": 3724,
+      "http_status": null,
+      "timestamp": 1792434573,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_212734_128867_AG-03\\response_02.json",
+      "sha256": "cbee31e501a0eae53ba10b07c5e6d8e238ab987e8dcaedb127cebfb5992c9b54"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5apwxjneb397adhrr0ynw3d",
+      "response_id": "chatcmpl-492d2c17-aeff-4f59-b197-62a427aebac4",
+      "usage": {
+        "queue_time": 0.722017995,
+        "prompt_tokens": 1759,
+        "prompt_time": 0.280762781,
+        "completion_tokens": 381,
+        "completion_time": 1.09234001,
+        "total_tokens": 2140,
+        "total_time": 1.373102791
+      },
+      "input": 1759,
+      "output": 381,
+      "total": 2140,
+      "http_status": null,
+      "timestamp": 1792434667,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_213102_423060_AG-04\\response_01.json",
+      "sha256": "791c8c7af3e8904ae17304e26589396ab0819afce32d39948091418ba89c89c4"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aq1cpeezzbfa2jsg9r8sz0",
+      "response_id": "chatcmpl-a7387913-101e-4f49-9dd0-d5aee6cfc1a6",
+      "usage": {
+        "queue_time": 0.179168702,
+        "prompt_tokens": 3474,
+        "prompt_time": 0.298453806,
+        "completion_tokens": 181,
+        "completion_time": 0.418448369,
+        "total_tokens": 3655,
+        "total_time": 0.716902175
+      },
+      "input": 3474,
+      "output": 181,
+      "total": 3655,
+      "http_status": null,
+      "timestamp": 1792434812,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_213102_423060_AG-04\\response_02.json",
+      "sha256": "df950b42cfff98782cd03d10d4d71e38ad722cec4cf8f5c99c3828cc6f531fe7"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aq5h1gevt8kvfn21p30zt2",
+      "response_id": "chatcmpl-5717838c-a114-4f28-a26b-803a0947b20e",
+      "usage": {
+        "queue_time": 0.112158799,
+        "prompt_tokens": 1755,
+        "prompt_time": 0.126081489,
+        "completion_tokens": 122,
+        "completion_time": 0.235062916,
+        "total_tokens": 1877,
+        "total_time": 0.361144405
+      },
+      "input": 1755,
+      "output": 122,
+      "total": 1877,
+      "http_status": null,
+      "timestamp": 1792434947,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_213544_624212_AG-05\\response_01.json",
+      "sha256": "ef3f738f853dcfcd5e8ff3975d24c5a1763b70ffc06e0292ac0b95532171d5eb"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aqa3ezeamsb980cakhfzfm",
+      "response_id": "chatcmpl-016f37d2-034d-4132-adbe-ae5cc9406360",
+      "usage": {
+        "queue_time": 0.214866687,
+        "prompt_tokens": 2023,
+        "prompt_time": 0.159410492,
+        "completion_tokens": 320,
+        "completion_time": 0.669739986,
+        "total_tokens": 2343,
+        "total_time": 0.829150478
+      },
+      "input": 2023,
+      "output": 320,
+      "total": 2343,
+      "http_status": null,
+      "timestamp": 1792435098,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_213544_624212_AG-05\\response_02.json",
+      "sha256": "84fcdf06e72e1e5c6b181d35d5b5004d674bd5041041a7243a2e1d5a2455abc3"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aqfbtne029pbe79xdjsxze",
+      "response_id": "chatcmpl-15d45a39-77d3-4d3e-8f2c-adec972e53f5",
+      "usage": {
+        "queue_time": 0.180958138,
+        "prompt_tokens": 3677,
+        "prompt_time": 0.279141044,
+        "completion_tokens": 166,
+        "completion_time": 0.338742276,
+        "total_tokens": 3843,
+        "total_time": 0.61788332
+      },
+      "input": 3677,
+      "output": 166,
+      "total": 3843,
+      "http_status": null,
+      "timestamp": 1792435270,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_213544_624212_AG-05\\response_03.json",
+      "sha256": "746ccf2bff47805a72319cdee513ddd760bccab6a1e439515809dbedbfaa57f3"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aqmktjersadqadf2rn9fn8",
+      "response_id": "chatcmpl-6bafb460-69b1-430b-b085-bd685e17bf6d",
+      "usage": {
+        "queue_time": 0.109136649,
+        "prompt_tokens": 1753,
+        "prompt_time": 0.138275707,
+        "completion_tokens": 235,
+        "completion_time": 0.448846141,
+        "total_tokens": 1988,
+        "total_time": 0.587121848
+      },
+      "input": 1753,
+      "output": 235,
+      "total": 1988,
+      "http_status": null,
+      "timestamp": 1792435442,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_214358_646052_AG-06\\response_01.json",
+      "sha256": "7f9996048ceef7b7d26489145e53a45909a50759a2a0af153b2f0dc35df91afe"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aqqmntecp98en07416mn3a",
+      "response_id": "chatcmpl-abf80ff0-2bf6-4a0f-a28b-8b0175bcb221",
+      "usage": {
+        "queue_time": 0.172687702,
+        "prompt_tokens": 3322,
+        "prompt_time": 0.243700231,
+        "completion_tokens": 229,
+        "completion_time": 0.444830052,
+        "total_tokens": 3551,
+        "total_time": 0.688530283
+      },
+      "input": 3322,
+      "output": 229,
+      "total": 3551,
+      "http_status": null,
+      "timestamp": 1792435541,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_214358_646052_AG-06\\response_02.json",
+      "sha256": "a3bc4fb46c7a913bd0bc913740f9b2d1c20764ead0f6856439fa68c845f0d282"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5aqysb6ehwb2wtzr4hwv8q4",
+      "response_id": "chatcmpl-f73d3865-f20e-47ee-b286-80eb6022f7f0",
+      "usage": {
+        "queue_time": 0.14755052,
+        "prompt_tokens": 1764,
+        "prompt_time": 0.148561847,
+        "completion_tokens": 361,
+        "completion_time": 0.828814467,
+        "total_tokens": 2125,
+        "total_time": 0.977376314
+      },
+      "input": 1764,
+      "output": 361,
+      "total": 2125,
+      "http_status": null,
+      "timestamp": 1792435775,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_214932_117276_AG-07\\response_01.json",
+      "sha256": "200bc7738a8234a350a8399cff053205b5d2d8f576d6fb1796ace0e42b4d81e7"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5ar2nd1e1m921x0mj25b0c0",
+      "response_id": "chatcmpl-4018882d-7070-4595-af71-8d4f9fb425a0",
+      "usage": {
+        "queue_time": 0.324171381,
+        "prompt_tokens": 3459,
+        "prompt_time": 0.304720083,
+        "completion_tokens": 210,
+        "completion_time": 0.466558306,
+        "total_tokens": 3669,
+        "total_time": 0.771278389
+      },
+      "input": 3459,
+      "output": 210,
+      "total": 3669,
+      "http_status": null,
+      "timestamp": 1792435902,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_214932_117276_AG-07\\response_02.json",
+      "sha256": "ec6c14c29046d56de72d1d6a14a9db1ea2b24f25810f3ff84c354ef5ccdbbc15"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5ar8rkje6vbay1s9g9kfkj1",
+      "response_id": "chatcmpl-c092a5d9-f19f-4f26-a0a2-9f5ac1c78b20",
+      "usage": {
+        "queue_time": 0.117558052,
+        "prompt_tokens": 1761,
+        "prompt_time": 0.293111704,
+        "completion_tokens": 333,
+        "completion_time": 0.766283698,
+        "total_tokens": 2094,
+        "total_time": 1.059395402
+      },
+      "input": 1761,
+      "output": 333,
+      "total": 2094,
+      "http_status": null,
+      "timestamp": 1792436102,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_215459_028722_AG-08\\response_01.json",
+      "sha256": "353277f192227bfe06b3c0c170343440bd3f451a544d0c6c06f1cc099ce129f9"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5arg69ee1sbwzmv9r03cz0f",
+      "response_id": "chatcmpl-2944115e-96e8-4072-8c3c-d1c8aabd2994",
+      "usage": {
+        "queue_time": 0.174433785,
+        "prompt_tokens": 3428,
+        "prompt_time": 0.253780542,
+        "completion_tokens": 246,
+        "completion_time": 0.51760007,
+        "total_tokens": 3674,
+        "total_time": 0.771380612
+      },
+      "input": 3428,
+      "output": 246,
+      "total": 3674,
+      "http_status": null,
+      "timestamp": 1792436346,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_215459_028722_AG-08\\response_02.json",
+      "sha256": "a99cbfd0694c5cb4a9f879dde39967f952048b5f4b7d1373fc2ec54c7e080117"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5artsdneqe86k3e2fxmwmp7",
+      "response_id": "chatcmpl-456558fa-4d1b-4eaf-9de6-db9dd0eb0f76",
+      "usage": {
+        "queue_time": 0.111445604,
+        "prompt_tokens": 1778,
+        "prompt_time": 0.148237179,
+        "completion_tokens": 451,
+        "completion_time": 0.928696144,
+        "total_tokens": 2229,
+        "total_time": 1.076933323
+      },
+      "input": 1778,
+      "output": 451,
+      "total": 2229,
+      "http_status": null,
+      "timestamp": 1792436693,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_220449_755644_AG-09\\response_01.json",
+      "sha256": "896b3ca46398e7a0cf1e00595aa222bdf0ff20097844284b8241d4323f85ecde"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5as07y0e38vpmmw8ev019xm",
+      "response_id": "chatcmpl-d9dfc87e-e9af-45c7-9b1e-f5ada99c618d",
+      "usage": {
+        "queue_time": 0.174151515,
+        "prompt_tokens": 3563,
+        "prompt_time": 0.288362935,
+        "completion_tokens": 131,
+        "completion_time": 0.313513731,
+        "total_tokens": 3694,
+        "total_time": 0.601876666
+      },
+      "input": 3563,
+      "output": 131,
+      "total": 3694,
+      "http_status": null,
+      "timestamp": 1792436871,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_220449_755644_AG-09\\response_02.json",
+      "sha256": "34ae6bb3e6b2a46035617b1c7e4ee8d27bdd2adc5d5fc630a9aea413bc5a09cf"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": null,
+      "request_id": null,
+      "response_id": null,
+      "usage": null,
+      "input": null,
+      "output": null,
+      "total": null,
+      "http_status": null,
+      "timestamp": null,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_220750_388004_AG-10\\response_01.json",
+      "sha256": "80e8c04bb3d5ae588c7e92f74b3fdfa2e214d19adf95d96ed5f8be789b56d807"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5as541medhtdqmv91c80qar",
+      "response_id": "chatcmpl-0246af5c-b6bf-4b9a-b500-035c681b2e41",
+      "usage": {
+        "queue_time": 0.234502378,
+        "prompt_tokens": 1756,
+        "prompt_time": 0.128907833,
+        "completion_tokens": 509,
+        "completion_time": 0.966101254,
+        "total_tokens": 2265,
+        "total_time": 1.095009087
+      },
+      "input": 1756,
+      "output": 509,
+      "total": 2265,
+      "http_status": null,
+      "timestamp": 1792437032,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_221028_006866_AG-10\\response_01.json",
+      "sha256": "3635aee15abcac0bd5d163c7b0a4d4eb19d7ba508fd7c3b449b36424773325b0"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5asbfeted78rh26s6c1fhw4",
+      "response_id": "chatcmpl-2ad9e4c2-9beb-4795-bbd8-b0eb0981045c",
+      "usage": {
+        "queue_time": 0.159791901,
+        "prompt_tokens": 3599,
+        "prompt_time": 0.313060936,
+        "completion_tokens": 197,
+        "completion_time": 0.4153053,
+        "total_tokens": 3796,
+        "total_time": 0.728366236
+      },
+      "input": 3599,
+      "output": 197,
+      "total": 3796,
+      "http_status": null,
+      "timestamp": 1792437240,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\20261019_221028_006866_AG-10\\response_02.json",
+      "sha256": "ba345f672963d0a8479d069d2941c63bfdcd8302993cf9540dff76ef67a20c6e"
+    },
+    {
+      "kind": "GUI ajanı",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "actual_model": "qwen/qwen3.8-27b",
+      "request_id": "req_01m5a7z5veefds6c6190px2bgy",
+      "response_id": "chatcmpl-843f74e8-1d02-4068-b0e8-22b39a359273",
+      "usage": {
+        "queue_time": 0.10578172,
+        "prompt_tokens": 1634,
+        "prompt_time": 0.133049789,
+        "completion_tokens": 580,
+        "completion_time": 1.278669353,
+        "total_tokens": 2214,
+        "total_time": 1.411719142
+      },
+      "input": 1634,
+      "output": 580,
+      "total": 2214,
+      "http_status": null,
+      "timestamp": 1792419011,
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\GUI_DENEYI_030\\AG-01_result_recovery_after_413\\response_01.json",
+      "sha256": "6f5491ce4e3fb81846267c34b7f6644536126deb43a003c532bb4e5f3d390b86"
+    }
+  ],
+  "product_duplicates_removed": [],
+  "excluded_product_files": [],
+  "additional_connection_probes": [
+    {
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\gemini_baglanti_20261019_075505_884762.json",
+      "sha256": "7557419a18d960f3ac35c6f099ade5dd561427f491ba63c10bd0d02ebbbc2c28",
+      "purpose": "single_connection_probe_not_agent_evaluation",
+      "model": "gemini-3.8-flash",
+      "requests": 1,
+      "http_status": 403,
+      "usage": null
+    },
+    {
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\gemini_baglanti_20261019_080301_946813.json",
+      "sha256": "8e7dab747991fba47545ddfb5c0b68a47d6f8aa7354efccfc2d837f1a473faa6",
+      "purpose": "single_connection_probe_not_agent_evaluation",
+      "model": "gemini-3.8-flash",
+      "requests": 1,
+      "http_status": 403,
+      "usage": null
+    },
+    {
+      "path": "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\gemini_baglanti_20261019_080543_328804.json",
+      "sha256": "07c94d3f5ea9129dacd4a0b1507d51ab22314a34dbda97825d7a3a954cf53fd7",
+      "purpose": "single_connection_probe_not_agent_evaluation",
+      "model": "gemini-3.8-flash",
+      "requests": 1,
+      "http_status": 403,
+      "usage": null
+    }
+  ],
+  "claude_authoritative_unchanged": {
+    "MODEL <synthetic>": {
+      "yanit": 1,
+      "arac": 0,
+      "i": 0,
+      "cw": 0,
+      "cr": 0,
+      "o": 0,
+      "toplam_girdi": 0,
+      "ilk": "18.10 13:14",
+      "son": "18.10 13:14"
+    },
+    "MODEL claude-opus-4-8": {
+      "yanit": 19,
+      "arac": 20,
+      "i": 38,
+      "cw": 456240,
+      "cr": 8675107,
+      "o": 36396,
+      "toplam_girdi": 9131385,
+      "ilk": "18.10 13:25",
+      "son": "18.10 13:34"
+    },
+    "MODEL claude-opus-5-5": {
+      "yanit": 887,
+      "arac": 1012,
+      "i": 1778,
+      "cw": 8197681,
+      "cr": 424908853,
+      "o": 890719,
+      "toplam_girdi": 433108312,
+      "ilk": "18.10 12:15",
+      "son": "23.10 01:13"
+    },
+    "P1 inceleme→SPEC 1.0.0": {
+      "yanit": 338,
+      "arac": 487,
+      "i": 676,
+      "cw": 2452135,
+      "cr": 143604594,
+      "o": 382379,
+      "toplam_girdi": 146057405,
+      "ilk": "18.10 12:15",
+      "son": "18.10 18:13"
+    },
+    "P2 SPEC 1.0.1–1.0.2, küçük d (18–19 Eki)": {
+      "yanit": 54,
+      "arac": 40,
+      "i": 108,
+      "cw": 1959390,
+      "cr": 37733831,
+      "o": 66811,
+      "toplam_girdi": 39693329,
+      "ilk": "18.10 18:15",
+      "son": "19.10 23:09"
+    },
+    "P3 REA/dağılım, SPEC 1.0.3–1.0.4 (20 Eki)": {
+      "yanit": 166,
+      "arac": 179,
+      "i": 332,
+      "cw": 387550,
+      "cr": 43369912,
+      "o": 143521,
+      "toplam_girdi": 43757794,
+      "ilk": "20.10 21:44",
+      "son": "20.10 23:35"
+    },
+    "P4 holdout, tur 6–8, CONTRACT (21 Eki)": {
+      "yanit": 261,
+      "arac": 267,
+      "i": 522,
+      "cw": 1849812,
+      "cr": 162418127,
+      "o": 247221,
+      "toplam_girdi": 164268461,
+      "ilk": "21.10 00:27",
+      "son": "21.10 23:31"
+    },
+    "P5 SPEC 1.1.0, olay, paket denetimi (22–23 Eki)": {
+      "yanit": 88,
+      "arac": 59,
+      "i": 178,
+      "cw": 2005034,
+      "cr": 46457496,
+      "o": 87183,
+      "toplam_girdi": 48462708,
+      "ilk": "22.10 02:26",
+      "son": "23.10 01:13"
+    },
+    "TOPLAM": {
+      "yanit": 907,
+      "arac": 1032,
+      "i": 1816,
+      "cw": 8653921,
+      "cr": 433583960,
+      "o": 927115,
+      "toplam_girdi": 442239697,
+      "ilk": "18.10 12:15",
+      "son": "23.10 01:13"
+    }
+  },
+  "protected_source_hashes": {
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\TEARDOWN_BASLANGIC_PAKETI\\AGENT_COST_INCELEME.md": "4c005b67096d3a0e6acd84f24cb96e79ae7d88ea1f2b57d77c09cfd136a39290",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\AGENT_COST_YAZIM.md": "fb533d2a588bad7b9ac3fed650784e5d858af7056cc53474ade5cb7b0d32d762",
+    "C:\\Users\\Burak\\Documents\\Codex\\2026-10-18\\bu-k\\outputs\\INCELEME_KONTROLU\\agent_cost_claude_20261023.json": "141364c0d060f3ae6e0ed91fa7ca6807feee9f0cd5a56d5338959730f3a33b52"
+  }
+}

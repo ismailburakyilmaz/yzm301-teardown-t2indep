@@ -1,0 +1,362 @@
+{
+ "1": {
+  "time": "22:34:38",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.010.5",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.80.95",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864835",
+   "Critical t": "1.6448598",
+   "Df": "247302",
+   "Sample size group 1": "123652",
+   "Sample size group 2": "123652",
+   "Total sample size": "247304",
+   "Actual power": "0.8000005"
+  }
+ },
+ "2": {
+  "time": "22:34:46",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.01",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864835",
+   "Critical t": "1.6448598",
+   "Df": "247302",
+   "Sample size group 1": "123652",
+   "Sample size group 2": "123652",
+   "Total sample size": "247304",
+   "Actual power": "0.8000005"
+  }
+ },
+ "3": {
+  "time": "22:34:58",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.005",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864784",
+   "Critical t": "1.6448552",
+   "Df": "989210",
+   "Sample size group 1": "494606",
+   "Sample size group 2": "494606",
+   "Total sample size": "989212",
+   "Actual power": "0.8000005"
+  }
+ },
+ "4": {
+  "time": "22:35:08",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.002",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864754",
+   "Critical t": "1.6448539",
+   "Df": "6182558",
+   "Sample size group 1": "3091280",
+   "Sample size group 2": "3091280",
+   "Total sample size": "6182560",
+   "Actual power": "0.8000001"
+  }
+ },
+ "5": {
+  "time": "22:35:17",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864750",
+   "Critical t": "1.6448537",
+   "Df": "24730230",
+   "Sample size group 1": "12365116",
+   "Sample size group 2": "12365116",
+   "Total sample size": "24730232",
+   "Actual power": "0.8000000"
+  }
+ },
+ "6": {
+  "time": "22:35:28",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.0005",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864749",
+   "Critical t": "1.6448536",
+   "Df": "98920914",
+   "Sample size group 1": "49460458",
+   "Sample size group 2": "49460458",
+   "Total sample size": "98920916",
+   "Actual power": "0.8000000"
+  }
+ },
+ "7": {
+  "time": "22:35:40",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.0002",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864749",
+   "Critical t": "1.6448536",
+   "Df": "618255740",
+   "Sample size group 1": "309127871",
+   "Sample size group 2": "309127871",
+   "Total sample size": "618255742",
+   "Actual power": "0.8000000"
+  }
+ },
+ "8": {
+  "time": "22:35:50",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.0001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864764",
+   "Critical t": "1.6448536",
+   "Df": "2473025908",
+   "Sample size group 1": "1236512955",
+   "Sample size group 2": "1236512955",
+   "Total sample size": "2473025910",
+   "Actual power": "0.8000004"
+  }
+ },
+ "9": {
+  "time": "22:36:01",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.00005",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864755",
+   "Critical t": "1.6448536",
+   "Df": "9892096270",
+   "Sample size group 1": "4946048136",
+   "Sample size group 2": "4946048136",
+   "Total sample size": "9892096272",
+   "Actual power": "0.8000000"
+  }
+ },
+ "10": {
+  "time": "22:36:11",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.00002",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864856",
+   "Critical t": "1.6448536",
+   "Df": "61826107834",
+   "Sample size group 1": "30913053918",
+   "Sample size group 2": "30913053918",
+   "Total sample size": "61826107836",
+   "Actual power": "0.8000056"
+  }
+ },
+ "11": {
+  "time": "22:36:21",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.00001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4863472",
+   "Critical t": "1.6448536",
+   "Df": "247276887662",
+   "Sample size group 1": "123638443832",
+   "Sample size group 2": "123638443832",
+   "Total sample size": "247276887664",
+   "Actual power": "0.7999212"
+  }
+ },
+ "12": {
+  "time": "22:36:32",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "-0.0000101",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "-2.4866106",
+   "Critical t": "-1.6448536",
+   "Df": "242455929076",
+   "Sample size group 1": "121227964539",
+   "Sample size group 2": "121227964539",
+   "Total sample size": "242455929078",
+   "Actual power": "0.8000690"
+  }
+ },
+ "13": {
+  "time": "22:37:18",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.0008",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864749",
+   "Critical t": "1.6448537",
+   "Df": "38640982",
+   "Sample size group 1": "19320492",
+   "Sample size group 2": "19320492",
+   "Total sample size": "38640984",
+   "Actual power": "0.8000000"
+  }
+ },
+ "14": {
+  "time": "22:37:33",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.0009",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.4864750",
+   "Critical t": "1.6448537",
+   "Df": "30531148",
+   "Sample size group 1": "15265575",
+   "Sample size group 2": "15265575",
+   "Total sample size": "30531150",
+   "Actual power": "0.8000000"
+  }
+ },
+ "15": {
+  "time": "22:37:52",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "One",
+   "Effect size d": "0.001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.95",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "3.2897074",
+   "Critical t": "1.6448537",
+   "Df": "43288696",
+   "Sample size group 1": "21644349",
+   "Sample size group 2": "21644349",
+   "Total sample size": "43288698",
+   "Actual power": "0.9500000"
+  }
+ },
+ "16": {
+  "time": "22:38:25",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "Two",
+   "Effect size d": "0.001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.8015820",
+   "Critical t": "1.9599641",
+   "Df": "31395444",
+   "Sample size group 1": "15697723",
+   "Sample size group 2": "15697723",
+   "Total sample size": "31395446",
+   "Actual power": "0.8000000"
+  }
+ },
+ "17": {
+  "time": "22:38:38",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "Two",
+   "Effect size d": "0.001",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "2",
+   "Noncentrality parameter delta": "2.8015818",
+   "Critical t": "1.9599641",
+   "Df": "35319872",
+   "Sample size group 1": "11773291",
+   "Sample size group 2": "23546583",
+   "Total sample size": "35319874",
+   "Actual power": "0.8000000"
+  }
+ },
+ "18": {
+  "time": "22:38:55",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "Two",
+   "Effect size d": "0.0005",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.8015819",
+   "Critical t": "1.9599640",
+   "Df": "125581776",
+   "Sample size group 1": "62790889",
+   "Sample size group 2": "62790889",
+   "Total sample size": "125581778",
+   "Actual power": "0.8000001"
+  }
+ },
+ "19": {
+  "time": "22:39:06",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "Two",
+   "Effect size d": "0.0005",
+   "alpha err prob": "0.01",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "3.4174505",
+   "Critical t": "2.5758293",
+   "Df": "186863488",
+   "Sample size group 1": "93431745",
+   "Sample size group 2": "93431745",
+   "Total sample size": "186863490",
+   "Actual power": "0.8000000"
+  }
+ },
+ "20": {
+  "time": "22:39:23",
+  "analysis": "A priori: Compute required sample size",
+  "fields": {
+   "Tail(s)": "Two",
+   "Effect size d": "0.002",
+   "alpha err prob": "0.05",
+   "Power (1-beta err prob)": "0.8",
+   "Allocation ratio N2/N1": "1",
+   "Noncentrality parameter delta": "2.8015824",
+   "Critical t": "1.9599643",
+   "Df": "7848862",
+   "Sample size group 1": "3924432",
+   "Sample size group 2": "3924432",
+   "Total sample size": "7848864",
+   "Actual power": "0.8000001"
+  }
+ }
+}

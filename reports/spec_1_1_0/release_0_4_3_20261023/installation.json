@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\install.ps1",
+    "-Destination",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final",
+    "-Offline",
+    "-NoPath",
+    "-UvPath",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\install_check_python314_retry\\runtime\\.tools\\uv\\uv.exe",
+    "-PythonExecutable",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\.guard-venv\\Scripts\\python.exe",
+    "-WheelPath",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\independent_t_power-0.4.3-py3-none-any.whl",
+    "-CacheDirectory",
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\install_check_python314_retry\\runtime\\.cache"
+  ],
+  "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-prepared-9ns68qau",
+  "exit_code": 0,
+  "stdout": "Explicit installed-CLI preparation: 7.7535738000000265 s; exit=0\r\n{\"n1\":105,\"n2\":105,\"n_total\":210,\"actual_power\":0.9501287033889153,\"critical_t\":1.9714346585183504,\"df\":208,\"ncp\":3.6228441865473595}\r\n{\"contract_version\":\"1.0.0\",\"name\":\"Takim 20 - Ismail Burak Yilmaz\",\"engine\":\"Python 3.14.8\"}\r\nInstalled: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\python.exe\r\nNoPath: PATH registration skipped. Project-root fallback: .\\gpower-clone.cmd --version\r\n",
+  "stderr": "Using CPython 3.14.8 interpreter at: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\.guard-venv\\Scripts\\python.exe\nCreating virtual environment at: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\nActivate with: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\activate\nUsing Python 3.14.8 environment at: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\nResolved 48 packages in 211ms\nInstalled 48 packages in 3.94s\nBytecode compiled 5879 files in 5.13s\n + annotated-types==0.8.0\n + anyio==4.15.1\n + attrs==26.1.0\n + cffi==2.1.1\n + click==8.5.0\n + colorama==0.4.6\n + cryptography==50.0.2\n + formulaic==1.2.2\n + h11==0.16.0\n + httpcore2==2.14.0\n + httpx2==2.14.0\n + idna==3.20\n + iniconfig==2.3.1\n + interface-meta==2.0.1\n + jsonschema==4.26.0\n + jsonschema-specifications==2025.9.1\n + mcp==2.3.0\n + mcp-types==2.3.0\n + narwhals==2.27.1\n + numpy==2.5.4\n + opentelemetry-api==1.45.1\n + packaging==26.3\n + pandas==3.0.6\n + patsy==1.0.3\n + pluggy==1.7.0\n + pycparser==3.11\n + pydantic==2.14.1\n + pydantic-core==2.50.1\n + pygments==2.21.0\n + pyjwt==2.15.1\n + pytest==9.1.1\n + python-dateutil==2.9.0.post0\n + python-multipart==0.0.32\n + pywin32==312\n + referencing==0.37.0\n + rpds-py==2026.9.1\n + scipy==1.16.3\n + setuptools==84.0.0\n + six==1.17.0\n + sse-starlette==3.5.0\n + starlette==1.9.0\n + statsmodels==0.15.0\n + truststore==0.10.5\n + typing-extensions==4.16.0\n + typing-inspection==0.4.4\n + tzdata==2026.5\n + uvicorn==0.54.0\n + wrapt==2.5.1\nUsing Python 3.14.8 environment at: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\nResolved 1 package in 25ms\nPrepared 1 package in 33ms\nInstalled 1 package in 27ms\nBytecode compiled 17 files in 342ms\n + independent-t-power==0.4.3 (from file:///C:/Users/Burak/Documents/Codex/GPOWER_YAZIM/deliverables/release_0_4_3_20261023/independent_t_power-0.4.3-py3-none-any.whl)\nUsing Python 3.14.8 environment at: C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\nChecked 49 packages in 4ms\nAll installed packages are compatible\n",
+  "elapsed_seconds": 27.92137200000002,
+  "recorded_at": "2026-10-23T20:05:58.845017+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "before": {
+    "user": {
+      "value": "C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Launcher\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Burak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;%USERPROFILE%\\.dotnet\\tools;C:\\Users\\Burak\\AppData\\Roaming\\npm;C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\.run\\.venv\\Scripts",
+      "kind": 2
+    },
+    "machine": {
+      "value": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd",
+      "kind": 2
+    }
+  },
+  "after": {
+    "user": {
+      "value": "C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Burak\\AppData\\Local\\Programs\\Python\\Launcher\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Burak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;%USERPROFILE%\\.dotnet\\tools;C:\\Users\\Burak\\AppData\\Roaming\\npm;C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\.run\\.venv\\Scripts",
+      "kind": 2
+    },
+    "machine": {
+      "value": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd",
+      "kind": 2
+    }
+  },
+  "registry_unchanged": true,
+  "process_path_unchanged": true
+}

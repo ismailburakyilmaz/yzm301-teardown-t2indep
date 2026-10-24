@@ -1,0 +1,20 @@
+{
+  "authorization": "User-approved 0.4.3 scalar SciPy distribution import exception; no change to search/allocation/rounding",
+  "engine_before": "439e43df7464de82d192c69d87d5e3b0c1230ca953bf0645346675f91d20838c",
+  "engine_after": "60d856fefe398633a4561adfa6d6ec48d04cc21cb04655be6cfce2170f52bd48",
+  "shim": "bd73505472aa41ebf3865af5264b5e97e73ad55c5383f273edbbda31417d0147",
+  "scipy_version": "1.16.3",
+  "license": "BSD-3-Clause",
+  "license_sha256": "442c6596bcfd6c1a9d9a5a8492a58a7d7cd8c78f3c8fcef92e6ff4a6ab51f2b8",
+  "sources": [
+    "https://github.com/scipy/scipy/blob/v1.16.3/scipy/stats/_continuous_distns.py",
+    "https://github.com/scipy/scipy/blob/v1.16.3/scipy/stats/_distn_infrastructure.py",
+    "https://github.com/scipy/scipy/blob/v1.16.3/LICENSE.txt"
+  ],
+  "local_distribution_source_hashes": {
+    "_continuous_distns.py": "f49b5bbf66a2530661f841240aea310c9eb95c7efff1e19302b8e4005be17f5d",
+    "_distn_infrastructure.py": "bb4c93d1b48d6e97e609b81d3e5930f962eed85014a70a5da12bd244388024fd"
+  },
+  "private_api": "_nct_sf, guarded to scipy==1.16.3",
+  "historical_SPEC_hashes_preserved": true
+}

@@ -1,0 +1,65 @@
+{
+  "files": 380,
+  "forbidden_paths": [],
+  "possible_secret_locations": [],
+  "secret_values_printed": false,
+  "fixed_hashes_match": {
+    "SPEC.md": true,
+    "src/independent_t/contract.py": true,
+    "requirements.lock.txt": true
+  },
+  "oracle": {
+    "gpower_vectors.csv": {
+      "rows": 142,
+      "expected_rows": 142,
+      "source_bytes_equal": true
+    },
+    "invalid_cases.csv": {
+      "rows": 25,
+      "expected_rows": 25,
+      "source_bytes_equal": true
+    },
+    "holdout_vectors.csv": {
+      "rows": 12,
+      "expected_rows": 12,
+      "source_bytes_equal": true
+    },
+    "contract_expectations.csv": {
+      "rows": 167,
+      "expected_rows": 167,
+      "source_bytes_equal": true
+    }
+  },
+  "manifest_rows": 213,
+  "manifest_missing": [],
+  "manifest_wrong_sha": [],
+  "primary_doc_broken_links": [],
+  "primary_doc_absolute_paths": [],
+  "demo_placeholder_count": 1,
+  "mcp_schema_has_power_analysis": true,
+  "junit_3_14": {
+    "tests": 2280,
+    "passed": 2178,
+    "failures": 102,
+    "errors": 0,
+    "skipped": 0,
+    "same_old_failure_ids": true
+  },
+  "junit_3_13": {
+    "tests": 2280,
+    "passed": 2178,
+    "failures": 102,
+    "errors": 0,
+    "skipped": 0,
+    "same_old_failure_ids": true
+  },
+  "junit_3_12": {
+    "tests": 2280,
+    "passed": 2178,
+    "failures": 102,
+    "errors": 0,
+    "skipped": 0,
+    "same_old_failure_ids": true
+  },
+  "ok": true
+}

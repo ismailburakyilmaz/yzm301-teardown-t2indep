@@ -1,0 +1,1054 @@
+{
+  "total": 25,
+  "equal": 25,
+  "numeric": 2,
+  "unsupported": 23,
+  "rows": [
+    {
+      "id": "t2-indep/a-priori",
+      "input": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.05,
+        "power": 0.95,
+        "ratio": 1
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "a-priori",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--ratio",
+          "1"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 0,
+        "stdout": "{\"n1\":88,\"n2\":88,\"n_total\":176,\"actual_power\":0.9514254482776566,\"critical_t\":1.653658016514993,\"df\":174,\"ncp\":3.3166247903554}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.5284460000000308,
+        "recorded_at": "2026-10-23T20:07:16.046973+00:00"
+      },
+      "mcp": {
+        "n1": 88,
+        "n2": 88,
+        "n_total": 176,
+        "actual_power": 0.9514254482776566,
+        "critical_t": 1.653658016514993,
+        "df": 174,
+        "ncp": 3.3166247903554
+      },
+      "is_error": false,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/post-hoc",
+      "input": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.05,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "post-hoc",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 0,
+        "stdout": "{\"power\":0.9514254482776566,\"critical_t\":1.653658016514993,\"df\":174,\"ncp\":3.3166247903554}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.5145023000000037,
+        "recorded_at": "2026-10-23T20:07:17.038691+00:00"
+      },
+      "mcp": {
+        "power": 0.9514254482776566,
+        "critical_t": 1.653658016514993,
+        "df": 174,
+        "ncp": 3.3166247903554
+      },
+      "is_error": false,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/compromise",
+      "input": {
+        "test": "t2-indep",
+        "mode": "compromise",
+        "tails": 1,
+        "d": 0.5,
+        "beta_alpha_ratio": 1,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "compromise",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--beta_alpha_ratio",
+          "1",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09591869999997016,
+        "recorded_at": "2026-10-23T20:07:17.137285+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/criterion",
+      "input": {
+        "test": "t2-indep",
+        "mode": "criterion",
+        "tails": 1,
+        "d": 0.5,
+        "power": 0.95,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "criterion",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--power",
+          "0.95",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.092775999999958,
+        "recorded_at": "2026-10-23T20:07:17.232203+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/sensitivity",
+      "input": {
+        "test": "t2-indep",
+        "mode": "sensitivity",
+        "tails": 1,
+        "alpha": 0.05,
+        "power": 0.95,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "sensitivity",
+          "--tails",
+          "1",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09519939999995586,
+        "recorded_at": "2026-10-23T20:07:17.329593+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/a-priori",
+      "input": {
+        "test": "t-paired",
+        "mode": "a-priori",
+        "tails": 1,
+        "dz": 0.5,
+        "alpha": 0.05,
+        "power": 0.95
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "a-priori",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08452090000002954,
+        "recorded_at": "2026-10-23T20:07:17.416162+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/post-hoc",
+      "input": {
+        "test": "t-paired",
+        "mode": "post-hoc",
+        "tails": 1,
+        "dz": 0.5,
+        "alpha": 0.05,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "post-hoc",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.0936168999999154,
+        "recorded_at": "2026-10-23T20:07:17.512288+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/compromise",
+      "input": {
+        "test": "t-paired",
+        "mode": "compromise",
+        "tails": 1,
+        "dz": 0.5,
+        "beta_alpha_ratio": 1,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "compromise",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09937549999995099,
+        "recorded_at": "2026-10-23T20:07:17.614122+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/criterion",
+      "input": {
+        "test": "t-paired",
+        "mode": "criterion",
+        "tails": 1,
+        "dz": 0.5,
+        "power": 0.95,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "criterion",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--power",
+          "0.95",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09613139999999021,
+        "recorded_at": "2026-10-23T20:07:17.712633+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/sensitivity",
+      "input": {
+        "test": "t-paired",
+        "mode": "sensitivity",
+        "tails": 1,
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "sensitivity",
+          "--tails",
+          "1",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09687410000003638,
+        "recorded_at": "2026-10-23T20:07:17.811896+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/a-priori",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "a-priori",
+        "f": 0.25,
+        "alpha": 0.05,
+        "power": 0.95,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "a-priori",
+          "--f",
+          "0.25",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09039889999996831,
+        "recorded_at": "2026-10-23T20:07:17.904467+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/post-hoc",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "post-hoc",
+        "f": 0.25,
+        "alpha": 0.05,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "post-hoc",
+          "--f",
+          "0.25",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09773050000001149,
+        "recorded_at": "2026-10-23T20:07:18.004406+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/compromise",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "compromise",
+        "f": 0.25,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "compromise",
+          "--f",
+          "0.25",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.10195449999991979,
+        "recorded_at": "2026-10-23T20:07:18.108720+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/criterion",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "criterion",
+        "f": 0.25,
+        "power": 0.95,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "criterion",
+          "--f",
+          "0.25",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09561629999996057,
+        "recorded_at": "2026-10-23T20:07:18.206433+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/sensitivity",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09390280000002349,
+        "recorded_at": "2026-10-23T20:07:18.303252+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/a-priori",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "a-priori",
+        "w": 0.3,
+        "alpha": 0.05,
+        "power": 0.95,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "a-priori",
+          "--w",
+          "0.3",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09131119999995008,
+        "recorded_at": "2026-10-23T20:07:18.397347+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/post-hoc",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "post-hoc",
+        "w": 0.3,
+        "alpha": 0.05,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "post-hoc",
+          "--w",
+          "0.3",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.10120889999996052,
+        "recorded_at": "2026-10-23T20:07:18.500844+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/compromise",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "compromise",
+        "w": 0.3,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "compromise",
+          "--w",
+          "0.3",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.0902674000000161,
+        "recorded_at": "2026-10-23T20:07:18.593298+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/criterion",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "criterion",
+        "w": 0.3,
+        "power": 0.95,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "criterion",
+          "--w",
+          "0.3",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09000000000003183,
+        "recorded_at": "2026-10-23T20:07:18.685597+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/sensitivity",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09393539999996392,
+        "recorded_at": "2026-10-23T20:07:18.781716+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/a-priori",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "a-priori",
+        "f2": 0.15,
+        "alpha": 0.05,
+        "power": 0.95,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "a-priori",
+          "--f2",
+          "0.15",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09273830000006456,
+        "recorded_at": "2026-10-23T20:07:18.876623+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/post-hoc",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "post-hoc",
+        "f2": 0.15,
+        "alpha": 0.05,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "post-hoc",
+          "--f2",
+          "0.15",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09122490000004291,
+        "recorded_at": "2026-10-23T20:07:18.969949+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/compromise",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "compromise",
+        "f2": 0.15,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "compromise",
+          "--f2",
+          "0.15",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09746169999993981,
+        "recorded_at": "2026-10-23T20:07:19.069565+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/criterion",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "criterion",
+        "f2": 0.15,
+        "power": 0.95,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "criterion",
+          "--f2",
+          "0.15",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09459949999995843,
+        "recorded_at": "2026-10-23T20:07:19.166411+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/sensitivity",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-lrjm2f43",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09245720000001256,
+        "recorded_at": "2026-10-23T20:07:19.261222+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    }
+  ],
+  "scope": "Actual installed 0.4.3 executable and separate installed stdio server; after timing series"
+}

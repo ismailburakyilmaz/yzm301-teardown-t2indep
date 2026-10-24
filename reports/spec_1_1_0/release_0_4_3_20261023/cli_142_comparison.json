@@ -1,0 +1,9 @@
+{
+  "total": 142,
+  "exact_stdout_stderr_exit_equal": 142,
+  "changed_ids": [],
+  "byte_hex_compared": true,
+  "official_success": 120,
+  "official_rejections": 22,
+  "no_accuracy_gain_claim": true
+}

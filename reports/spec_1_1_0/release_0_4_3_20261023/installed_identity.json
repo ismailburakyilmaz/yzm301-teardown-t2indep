@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_3_20261023\\runtime_final\\.venv\\Scripts\\python.exe",
+    "-I",
+    "-c",
+    "import sys,json,independent_t,importlib.metadata as m;print(json.dumps(dict(prefix=sys.prefix,module=independent_t.__file__,version=m.version('independent-t-power'))))"
+  ],
+  "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-prepared-9ns68qau",
+  "exit_code": 0,
+  "stdout": "{\"prefix\": \"C:\\\\Users\\\\Burak\\\\Documents\\\\Codex\\\\GPOWER_YAZIM\\\\deliverables\\\\release_0_4_3_20261023\\\\runtime_final\\\\.venv\", \"module\": \"C:\\\\Users\\\\Burak\\\\Documents\\\\Codex\\\\GPOWER_YAZIM\\\\deliverables\\\\release_0_4_3_20261023\\\\runtime_final\\\\.venv\\\\Lib\\\\site-packages\\\\independent_t\\\\__init__.py\", \"version\": \"0.4.3\"}\r\n",
+  "stderr": "",
+  "elapsed_seconds": 0.1579864999999927,
+  "recorded_at": "2026-10-23T20:06:09.181733+00:00"
+}

@@ -1,0 +1,7568 @@
+{
+  "seed": 20261018,
+  "oracle": false,
+  "core_count": 600,
+  "special_count": 30,
+  "vectors": [
+    {
+      "id": "EX-001",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.1791606949184144,
+        "alpha": 0.0001,
+        "power": 0.7284915534747356,
+        "ratio": 0.017991995132980186
+      }
+    },
+    {
+      "id": "EX-002",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.2701743171517597,
+        "alpha": 0.05,
+        "power": 0.9085631233831941,
+        "ratio": 21.469013560049284
+      }
+    },
+    {
+      "id": "EX-003",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.265919414820996,
+        "alpha": 0.05,
+        "power": 0.706330921798061,
+        "ratio": 2.0093327303822557
+      }
+    },
+    {
+      "id": "EX-004",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.1535551055197093,
+        "alpha": 0.0001,
+        "power": 0.8853474774992018,
+        "ratio": 1.076800715080703
+      }
+    },
+    {
+      "id": "EX-005",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.05992806954469028,
+        "alpha": 0.25,
+        "power": 0.9110832483266147,
+        "ratio": 38.944895636404105
+      }
+    },
+    {
+      "id": "EX-006",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.07527880269404863,
+        "alpha": 0.05,
+        "power": 0.9076021671434238,
+        "ratio": 0.07740900051672406
+      }
+    },
+    {
+      "id": "EX-007",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.8033204402839692,
+        "alpha": 0.0001,
+        "power": 0.9415249385202393,
+        "ratio": 1.0125885099452254
+      }
+    },
+    {
+      "id": "EX-008",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.2868876470598902,
+        "alpha": 1e-07,
+        "power": 0.8658356970039598,
+        "ratio": 5.593834160589138
+      }
+    },
+    {
+      "id": "EX-009",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.050063969107108544,
+        "alpha": 1e-07,
+        "power": 0.8169826663278792,
+        "ratio": 5.700246712210934
+      }
+    },
+    {
+      "id": "EX-010",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.9067756473310264,
+        "alpha": 0.1,
+        "power": 0.8273657474655925,
+        "ratio": 0.01482361799159373
+      }
+    },
+    {
+      "id": "EX-011",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.039703379668302,
+        "alpha": 0.001,
+        "power": 0.8136019607222633,
+        "ratio": 7.0967352822719745
+      }
+    },
+    {
+      "id": "EX-012",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.3947093741265557,
+        "alpha": 1e-07,
+        "power": 0.8201875807537458,
+        "ratio": 0.020722783214469277
+      }
+    },
+    {
+      "id": "EX-013",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.8668267550935024,
+        "alpha": 0.05,
+        "power": 0.6890551596338965,
+        "ratio": 89.01036075157421
+      }
+    },
+    {
+      "id": "EX-014",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.286830600510159,
+        "alpha": 0.05,
+        "power": 0.9286197569875294,
+        "ratio": 67.9349486808025
+      }
+    },
+    {
+      "id": "EX-015",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.3393556026969012,
+        "alpha": 1e-07,
+        "power": 0.8920254824287219,
+        "ratio": 61.613317694954475
+      }
+    },
+    {
+      "id": "EX-016",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.41259802032073306,
+        "alpha": 0.25,
+        "power": 0.6779140997457056,
+        "ratio": 8.545633773660386
+      }
+    },
+    {
+      "id": "EX-017",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.05421033968906312,
+        "alpha": 0.05,
+        "power": 0.6460326468888905,
+        "ratio": 0.4151263506974614
+      }
+    },
+    {
+      "id": "EX-018",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.10490253341495097,
+        "alpha": 1e-07,
+        "power": 0.7459607156799113,
+        "ratio": 6.51750293067315
+      }
+    },
+    {
+      "id": "EX-019",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.10612736743093025,
+        "alpha": 1e-07,
+        "power": 0.8982182388731343,
+        "ratio": 0.020169320799808686
+      }
+    },
+    {
+      "id": "EX-020",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.4121863148844922,
+        "alpha": 0.25,
+        "power": 0.6587239472088738,
+        "ratio": 1.0571142533183584
+      }
+    },
+    {
+      "id": "EX-021",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.06714029239227753,
+        "alpha": 0.1,
+        "power": 0.7400193803153914,
+        "ratio": 5.612912611170237
+      }
+    },
+    {
+      "id": "EX-022",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.22699232838718164,
+        "alpha": 0.01,
+        "power": 0.6687263256317111,
+        "ratio": 73.77643148589854
+      }
+    },
+    {
+      "id": "EX-023",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.26830050253131377,
+        "alpha": 0.0001,
+        "power": 0.915573826023694,
+        "ratio": 0.10633496150874279
+      }
+    },
+    {
+      "id": "EX-024",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.20319450974368686,
+        "alpha": 0.25,
+        "power": 0.9129192350424331,
+        "ratio": 0.0204665482769947
+      }
+    },
+    {
+      "id": "EX-025",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.11713524221893915,
+        "alpha": 0.0001,
+        "power": 0.616460720899028,
+        "ratio": 41.67056354082884
+      }
+    },
+    {
+      "id": "EX-026",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.38596890016510094,
+        "alpha": 0.1,
+        "power": 0.6522143957845521,
+        "ratio": 0.12072903406414245
+      }
+    },
+    {
+      "id": "EX-027",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.20542703656246553,
+        "alpha": 0.01,
+        "power": 0.9006697826763685,
+        "ratio": 0.3841126459566456
+      }
+    },
+    {
+      "id": "EX-028",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.7992651089074293,
+        "alpha": 0.01,
+        "power": 0.7968296278938931,
+        "ratio": 0.08635969892166236
+      }
+    },
+    {
+      "id": "EX-029",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.18036869427986535,
+        "alpha": 0.05,
+        "power": 0.7740593164964344,
+        "ratio": 0.041638867849814604
+      }
+    },
+    {
+      "id": "EX-030",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.07306063384279597,
+        "alpha": 0.0001,
+        "power": 0.6564009612456149,
+        "ratio": 13.40866455490399
+      }
+    },
+    {
+      "id": "EX-031",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.47933673739848015,
+        "alpha": 1e-07,
+        "power": 0.9190586065742021,
+        "ratio": 35.51498693880372
+      }
+    },
+    {
+      "id": "EX-032",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.0598117477527181,
+        "alpha": 0.1,
+        "power": 0.7546769441995882,
+        "ratio": 0.1278181491549553
+      }
+    },
+    {
+      "id": "EX-033",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.7540602753643293,
+        "alpha": 0.001,
+        "power": 0.8413613457899415,
+        "ratio": 0.13134578544898431
+      }
+    },
+    {
+      "id": "EX-034",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.1762020629406991,
+        "alpha": 0.05,
+        "power": 0.9778967125348514,
+        "ratio": 0.34125708211996736
+      }
+    },
+    {
+      "id": "EX-035",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.10520235546556578,
+        "alpha": 0.05,
+        "power": 0.6687038575114481,
+        "ratio": 5.373298770561218
+      }
+    },
+    {
+      "id": "EX-036",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.1607348164080892,
+        "alpha": 0.25,
+        "power": 0.7142870587503778,
+        "ratio": 5.315639004003975
+      }
+    },
+    {
+      "id": "EX-037",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.3454967347829426,
+        "alpha": 0.1,
+        "power": 0.904028771967408,
+        "ratio": 90.35455167269012
+      }
+    },
+    {
+      "id": "EX-038",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.6347518619284825,
+        "alpha": 0.25,
+        "power": 0.6791872205711624,
+        "ratio": 21.84721852413244
+      }
+    },
+    {
+      "id": "EX-039",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.11812282794938692,
+        "alpha": 0.1,
+        "power": 0.8733222653652848,
+        "ratio": 74.39636271180436
+      }
+    },
+    {
+      "id": "EX-040",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.5361153333528326,
+        "alpha": 1e-07,
+        "power": 0.6584635526208185,
+        "ratio": 0.10725474792938201
+      }
+    },
+    {
+      "id": "EX-041",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.15940695866952748,
+        "alpha": 0.01,
+        "power": 0.6241343833527659,
+        "ratio": 1.603874157750218
+      }
+    },
+    {
+      "id": "EX-042",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.05568089515216491,
+        "alpha": 0.0001,
+        "power": 0.6570662725230962,
+        "ratio": 23.28270509444952
+      }
+    },
+    {
+      "id": "EX-043",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.0673060816814794,
+        "alpha": 0.1,
+        "power": 0.6213510539405158,
+        "ratio": 0.013641434360638418
+      }
+    },
+    {
+      "id": "EX-044",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.4143374286482814,
+        "alpha": 1e-07,
+        "power": 0.6015983112731657,
+        "ratio": 10.130482338122127
+      }
+    },
+    {
+      "id": "EX-045",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.34455770213725256,
+        "alpha": 0.25,
+        "power": 0.7062104052541653,
+        "ratio": 79.69474049207075
+      }
+    },
+    {
+      "id": "EX-046",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08112616710647065,
+        "alpha": 0.01,
+        "power": 0.9468662711495339,
+        "ratio": 0.37952177469073756
+      }
+    },
+    {
+      "id": "EX-047",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.4953247258369586,
+        "alpha": 0.1,
+        "power": 0.8639488148686049,
+        "ratio": 0.0724729096441187
+      }
+    },
+    {
+      "id": "EX-048",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.35599018976438607,
+        "alpha": 0.1,
+        "power": 0.9298452642619314,
+        "ratio": 0.05518000112211014
+      }
+    },
+    {
+      "id": "EX-049",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.38310985891643823,
+        "alpha": 0.1,
+        "power": 0.8790756336360634,
+        "ratio": 0.03419074113042447
+      }
+    },
+    {
+      "id": "EX-050",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.4712394313692795,
+        "alpha": 0.1,
+        "power": 0.8245400587803771,
+        "ratio": 3.446974458924143
+      }
+    },
+    {
+      "id": "EX-051",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.25877995030120754,
+        "alpha": 0.1,
+        "power": 0.7902434625168029,
+        "ratio": 0.030516520901775906
+      }
+    },
+    {
+      "id": "EX-052",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.256885740236445,
+        "alpha": 0.05,
+        "power": 0.9685957599996411,
+        "ratio": 0.027628355178296
+      }
+    },
+    {
+      "id": "EX-053",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.7517578098384072,
+        "alpha": 0.001,
+        "power": 0.8912743333004267,
+        "ratio": 30.69773245943226
+      }
+    },
+    {
+      "id": "EX-054",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.32550460349580373,
+        "alpha": 1e-07,
+        "power": 0.8550884857910397,
+        "ratio": 0.534458260589907
+      }
+    },
+    {
+      "id": "EX-055",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.053042898253542324,
+        "alpha": 0.01,
+        "power": 0.8805967834180997,
+        "ratio": 4.4552698223664615
+      }
+    },
+    {
+      "id": "EX-056",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.10214157062314923,
+        "alpha": 0.25,
+        "power": 0.6644989965772069,
+        "ratio": 0.100386210211266
+      }
+    },
+    {
+      "id": "EX-057",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.4921566303964147,
+        "alpha": 0.001,
+        "power": 0.7260104317739814,
+        "ratio": 26.06090403281599
+      }
+    },
+    {
+      "id": "EX-058",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.1008045068359478,
+        "alpha": 0.0001,
+        "power": 0.6721316454728096,
+        "ratio": 0.024154237596488937
+      }
+    },
+    {
+      "id": "EX-059",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.977199596796103,
+        "alpha": 0.01,
+        "power": 0.8403216320059683,
+        "ratio": 6.4978449626502535
+      }
+    },
+    {
+      "id": "EX-060",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.533797258381228,
+        "alpha": 0.0001,
+        "power": 0.7045460499777945,
+        "ratio": 1.344544735142484
+      }
+    },
+    {
+      "id": "EX-061",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.7229346672015843,
+        "alpha": 0.01,
+        "power": 0.6368467024390948,
+        "ratio": 69.02158720632224
+      }
+    },
+    {
+      "id": "EX-062",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.11825638500794862,
+        "alpha": 0.01,
+        "power": 0.64253818458228,
+        "ratio": 1.2158175296637437
+      }
+    },
+    {
+      "id": "EX-063",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.19440403986661584,
+        "alpha": 0.25,
+        "power": 0.6836761808753413,
+        "ratio": 9.439638890430697
+      }
+    },
+    {
+      "id": "EX-064",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.1499789755841155,
+        "alpha": 1e-07,
+        "power": 0.9250111606424001,
+        "ratio": 23.640335387359617
+      }
+    },
+    {
+      "id": "EX-065",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.5699499291037772,
+        "alpha": 1e-07,
+        "power": 0.6560943593572115,
+        "ratio": 1.4257488580153101
+      }
+    },
+    {
+      "id": "EX-066",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.17866628417777602,
+        "alpha": 0.0001,
+        "power": 0.7579809983514286,
+        "ratio": 17.539933516963032
+      }
+    },
+    {
+      "id": "EX-067",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.08998119217871042,
+        "alpha": 0.001,
+        "power": 0.6152550534609897,
+        "ratio": 39.174545516898384
+      }
+    },
+    {
+      "id": "EX-068",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.20585984134140894,
+        "alpha": 0.1,
+        "power": 0.8901588021134388,
+        "ratio": 0.16659752300074152
+      }
+    },
+    {
+      "id": "EX-069",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.07057403424014103,
+        "alpha": 0.001,
+        "power": 0.7048888830351601,
+        "ratio": 2.9204151369103633
+      }
+    },
+    {
+      "id": "EX-070",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.05047027834959611,
+        "alpha": 0.25,
+        "power": 0.7152349761257156,
+        "ratio": 0.0401625828294261
+      }
+    },
+    {
+      "id": "EX-071",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.3731009594344093,
+        "alpha": 0.001,
+        "power": 0.9173558987092274,
+        "ratio": 73.7259550987699
+      }
+    },
+    {
+      "id": "EX-072",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.08498913914052145,
+        "alpha": 0.01,
+        "power": 0.9558634816257578,
+        "ratio": 3.174965069270398
+      }
+    },
+    {
+      "id": "EX-073",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.06472974431767,
+        "alpha": 0.01,
+        "power": 0.9703474446901399,
+        "ratio": 1.919905774296835
+      }
+    },
+    {
+      "id": "EX-074",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08699540131356973,
+        "alpha": 0.01,
+        "power": 0.6816663772450539,
+        "ratio": 19.675122547521692
+      }
+    },
+    {
+      "id": "EX-075",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.3141832124887851,
+        "alpha": 0.05,
+        "power": 0.8187562034161773,
+        "ratio": 2.7649546203415594
+      }
+    },
+    {
+      "id": "EX-076",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.2872077973664943,
+        "alpha": 0.001,
+        "power": 0.6570933472408385,
+        "ratio": 1.0124021736123754
+      }
+    },
+    {
+      "id": "EX-077",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.8988462718567629,
+        "alpha": 0.25,
+        "power": 0.7740958388705819,
+        "ratio": 15.666663646122938
+      }
+    },
+    {
+      "id": "EX-078",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.14971164996011585,
+        "alpha": 1e-07,
+        "power": 0.6070413463639999,
+        "ratio": 27.98063704559004
+      }
+    },
+    {
+      "id": "EX-079",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.20652931209819772,
+        "alpha": 0.0001,
+        "power": 0.7538081038173058,
+        "ratio": 81.05791377758935
+      }
+    },
+    {
+      "id": "EX-080",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.1350502618086548,
+        "alpha": 0.05,
+        "power": 0.9778754802488965,
+        "ratio": 0.010214540314931294
+      }
+    },
+    {
+      "id": "EX-081",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.2292985078316028,
+        "alpha": 0.0001,
+        "power": 0.6566780660709234,
+        "ratio": 0.10372705770182021
+      }
+    },
+    {
+      "id": "EX-082",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.1233305080570641,
+        "alpha": 0.1,
+        "power": 0.923805618526771,
+        "ratio": 29.48782432760318
+      }
+    },
+    {
+      "id": "EX-083",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.9983461303626139,
+        "alpha": 0.001,
+        "power": 0.7976555684580328,
+        "ratio": 0.012602304096141834
+      }
+    },
+    {
+      "id": "EX-084",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.16007775232680255,
+        "alpha": 0.001,
+        "power": 0.8086405820807454,
+        "ratio": 0.07605717914246564
+      }
+    },
+    {
+      "id": "EX-085",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.0549907717707109,
+        "alpha": 0.25,
+        "power": 0.9367081607230581,
+        "ratio": 0.028305467317974526
+      }
+    },
+    {
+      "id": "EX-086",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.05393445286618043,
+        "alpha": 0.0001,
+        "power": 0.8225268876231053,
+        "ratio": 0.11393029096747723
+      }
+    },
+    {
+      "id": "EX-087",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.7360671021844226,
+        "alpha": 0.001,
+        "power": 0.9588726022207208,
+        "ratio": 86.8771959161499
+      }
+    },
+    {
+      "id": "EX-088",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.19823645844013826,
+        "alpha": 0.0001,
+        "power": 0.8257590345395555,
+        "ratio": 0.5674416117264685
+      }
+    },
+    {
+      "id": "EX-089",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.15462098051811815,
+        "alpha": 0.25,
+        "power": 0.6616418825834164,
+        "ratio": 1.2367127276731362
+      }
+    },
+    {
+      "id": "EX-090",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.05182641579936665,
+        "alpha": 0.0001,
+        "power": 0.934227680259579,
+        "ratio": 2.19351230472392
+      }
+    },
+    {
+      "id": "EX-091",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.42252899568638586,
+        "alpha": 0.01,
+        "power": 0.7220273312750515,
+        "ratio": 0.1728490750264198
+      }
+    },
+    {
+      "id": "EX-092",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3221914089917162,
+        "alpha": 0.1,
+        "power": 0.8533144591713249,
+        "ratio": 8.195821361454188
+      }
+    },
+    {
+      "id": "EX-093",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.08218744616466328,
+        "alpha": 0.0001,
+        "power": 0.7911949769984565,
+        "ratio": 2.759147237201162
+      }
+    },
+    {
+      "id": "EX-094",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08362249584030779,
+        "alpha": 0.0001,
+        "power": 0.6017555876371904,
+        "ratio": 0.025831637647040995
+      }
+    },
+    {
+      "id": "EX-095",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.1847343394028846,
+        "alpha": 0.01,
+        "power": 0.7311453454073736,
+        "ratio": 0.2845701931357721
+      }
+    },
+    {
+      "id": "EX-096",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.05691868695252223,
+        "alpha": 0.05,
+        "power": 0.9426719162025321,
+        "ratio": 19.15236160309529
+      }
+    },
+    {
+      "id": "EX-097",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.5129746866092874,
+        "alpha": 0.001,
+        "power": 0.663379499596316,
+        "ratio": 0.6023431705091832
+      }
+    },
+    {
+      "id": "EX-098",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.2566791370390104,
+        "alpha": 0.1,
+        "power": 0.6305334404511985,
+        "ratio": 13.176345250060349
+      }
+    },
+    {
+      "id": "EX-099",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.052842348963856346,
+        "alpha": 0.25,
+        "power": 0.6864648815843196,
+        "ratio": 88.05741494840713
+      }
+    },
+    {
+      "id": "EX-100",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.4406818406879458,
+        "alpha": 0.25,
+        "power": 0.6814309680505494,
+        "ratio": 0.12289981360639594
+      }
+    },
+    {
+      "id": "EX-101",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.1639103223446969,
+        "alpha": 1e-07,
+        "power": 0.7248251320200848,
+        "ratio": 0.026911298783205004
+      }
+    },
+    {
+      "id": "EX-102",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.4018780367402544,
+        "alpha": 0.25,
+        "power": 0.9528099953144834,
+        "ratio": 6.133384064788035
+      }
+    },
+    {
+      "id": "EX-103",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.13416447032904885,
+        "alpha": 0.1,
+        "power": 0.9182043981247604,
+        "ratio": 1.3233384457024475
+      }
+    },
+    {
+      "id": "EX-104",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.5352363235641623,
+        "alpha": 0.01,
+        "power": 0.7497686686184873,
+        "ratio": 0.03543859202291174
+      }
+    },
+    {
+      "id": "EX-105",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.6001004388016759,
+        "alpha": 0.05,
+        "power": 0.745893900347947,
+        "ratio": 13.249030535104803
+      }
+    },
+    {
+      "id": "EX-106",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.453439629814905,
+        "alpha": 0.1,
+        "power": 0.8350413456297936,
+        "ratio": 5.510582193593337
+      }
+    },
+    {
+      "id": "EX-107",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.0068258589003791,
+        "alpha": 1e-07,
+        "power": 0.664746762721626,
+        "ratio": 15.76084314955124
+      }
+    },
+    {
+      "id": "EX-108",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.08798574553858238,
+        "alpha": 0.1,
+        "power": 0.7787241410676184,
+        "ratio": 0.14772784636429062
+      }
+    },
+    {
+      "id": "EX-109",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.3135060321609222,
+        "alpha": 0.001,
+        "power": 0.8355347361199252,
+        "ratio": 20.322870605596968
+      }
+    },
+    {
+      "id": "EX-110",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.3320381762366449,
+        "alpha": 0.01,
+        "power": 0.6298881351867904,
+        "ratio": 46.5408874403722
+      }
+    },
+    {
+      "id": "EX-111",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.8143607941759988,
+        "alpha": 0.25,
+        "power": 0.9351511713586194,
+        "ratio": 0.011225640311001536
+      }
+    },
+    {
+      "id": "EX-112",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.06750310475356694,
+        "alpha": 0.01,
+        "power": 0.7279887486873597,
+        "ratio": 3.2065663385637433
+      }
+    },
+    {
+      "id": "EX-113",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.608341166331622,
+        "alpha": 1e-07,
+        "power": 0.8552599831694594,
+        "ratio": 92.42217218740929
+      }
+    },
+    {
+      "id": "EX-114",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.061805997396373276,
+        "alpha": 0.05,
+        "power": 0.9777212156488562,
+        "ratio": 59.62879254236623
+      }
+    },
+    {
+      "id": "EX-115",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.9480753120971176,
+        "alpha": 0.05,
+        "power": 0.9018709654501453,
+        "ratio": 0.4886945252556098
+      }
+    },
+    {
+      "id": "EX-116",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.2753284482397074,
+        "alpha": 0.1,
+        "power": 0.7840527344308873,
+        "ratio": 1.7261406564793762
+      }
+    },
+    {
+      "id": "EX-117",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.2726177551418915,
+        "alpha": 0.05,
+        "power": 0.8294154759781627,
+        "ratio": 0.026524478758398768
+      }
+    },
+    {
+      "id": "EX-118",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.09971124151188243,
+        "alpha": 0.001,
+        "power": 0.7492140521416812,
+        "ratio": 0.39341969203543775
+      }
+    },
+    {
+      "id": "EX-119",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.7025448668392991,
+        "alpha": 0.0001,
+        "power": 0.7415354553714207,
+        "ratio": 3.5290331408096534
+      }
+    },
+    {
+      "id": "EX-120",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.16287337109218067,
+        "alpha": 1e-07,
+        "power": 0.9133557690848115,
+        "ratio": 11.971440987977338
+      }
+    },
+    {
+      "id": "EX-121",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.276983053588399,
+        "alpha": 0.0001,
+        "power": 0.9254114142082954,
+        "ratio": 0.04119809010864088
+      }
+    },
+    {
+      "id": "EX-122",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.8055226733959382,
+        "alpha": 0.001,
+        "power": 0.986678016145291,
+        "ratio": 22.694617067006813
+      }
+    },
+    {
+      "id": "EX-123",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.052611284716397026,
+        "alpha": 0.05,
+        "power": 0.8315316291278839,
+        "ratio": 0.2732798513895969
+      }
+    },
+    {
+      "id": "EX-124",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.21290518764372549,
+        "alpha": 0.25,
+        "power": 0.6358716516132612,
+        "ratio": 5.20083835160421
+      }
+    },
+    {
+      "id": "EX-125",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.3356005313276364,
+        "alpha": 0.0001,
+        "power": 0.9829854530700505,
+        "ratio": 0.07504679341340545
+      }
+    },
+    {
+      "id": "EX-126",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.07509089703126134,
+        "alpha": 0.25,
+        "power": 0.7847899457349606,
+        "ratio": 81.58634940721126
+      }
+    },
+    {
+      "id": "EX-127",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.46614655861470905,
+        "alpha": 0.01,
+        "power": 0.869075461633972,
+        "ratio": 7.26469805289212
+      }
+    },
+    {
+      "id": "EX-128",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.19747155534124947,
+        "alpha": 0.05,
+        "power": 0.8671628247715055,
+        "ratio": 2.6835715410799184
+      }
+    },
+    {
+      "id": "EX-129",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.06299283838207025,
+        "alpha": 0.25,
+        "power": 0.8668471042816221,
+        "ratio": 0.28938606265503725
+      }
+    },
+    {
+      "id": "EX-130",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.05210622882401124,
+        "alpha": 1e-07,
+        "power": 0.6810288415494639,
+        "ratio": 1.634183049187841
+      }
+    },
+    {
+      "id": "EX-131",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.705493774396035,
+        "alpha": 0.05,
+        "power": 0.9392602711524509,
+        "ratio": 1.9159243550668525
+      }
+    },
+    {
+      "id": "EX-132",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.2469670440800914,
+        "alpha": 0.01,
+        "power": 0.942313126330802,
+        "ratio": 21.338295852097975
+      }
+    },
+    {
+      "id": "EX-133",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.6656935671583687,
+        "alpha": 0.0001,
+        "power": 0.944017141151176,
+        "ratio": 0.031185532751327696
+      }
+    },
+    {
+      "id": "EX-134",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.20877857841668612,
+        "alpha": 0.05,
+        "power": 0.6927873071324003,
+        "ratio": 0.2263483982279067
+      }
+    },
+    {
+      "id": "EX-135",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.15313511219588982,
+        "alpha": 0.25,
+        "power": 0.912437420893137,
+        "ratio": 0.020784459756909332
+      }
+    },
+    {
+      "id": "EX-136",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.09631720740913773,
+        "alpha": 0.05,
+        "power": 0.9144736060229901,
+        "ratio": 0.1478577859562141
+      }
+    },
+    {
+      "id": "EX-137",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.9759219624035135,
+        "alpha": 0.05,
+        "power": 0.9345573768812439,
+        "ratio": 0.8324976591647737
+      }
+    },
+    {
+      "id": "EX-138",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.06386992103426153,
+        "alpha": 0.05,
+        "power": 0.8580806208885756,
+        "ratio": 23.642225961396058
+      }
+    },
+    {
+      "id": "EX-139",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.2767395811975355,
+        "alpha": 0.05,
+        "power": 0.820308545204577,
+        "ratio": 0.7194271804383285
+      }
+    },
+    {
+      "id": "EX-140",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.437167422992689,
+        "alpha": 1e-07,
+        "power": 0.826501758716484,
+        "ratio": 0.08772427891351123
+      }
+    },
+    {
+      "id": "EX-141",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.818918950766906,
+        "alpha": 0.01,
+        "power": 0.8219040102477435,
+        "ratio": 17.42634747579177
+      }
+    },
+    {
+      "id": "EX-142",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08264921872993908,
+        "alpha": 0.25,
+        "power": 0.8636170029229553,
+        "ratio": 1.1651964295666364
+      }
+    },
+    {
+      "id": "EX-143",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.05814137578077005,
+        "alpha": 0.01,
+        "power": 0.8896289099502079,
+        "ratio": 0.010791568541975272
+      }
+    },
+    {
+      "id": "EX-144",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.28712705182144244,
+        "alpha": 0.01,
+        "power": 0.7797031948730981,
+        "ratio": 0.18921108148290935
+      }
+    },
+    {
+      "id": "EX-145",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.2927466937888409,
+        "alpha": 0.05,
+        "power": 0.8525460662848976,
+        "ratio": 3.0813570114385884
+      }
+    },
+    {
+      "id": "EX-146",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.31493382869541814,
+        "alpha": 0.001,
+        "power": 0.70996790287861,
+        "ratio": 2.6596043585839926
+      }
+    },
+    {
+      "id": "EX-147",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.0696094930621511,
+        "alpha": 1e-07,
+        "power": 0.9370277004661042,
+        "ratio": 9.708075331181583
+      }
+    },
+    {
+      "id": "EX-148",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.07979104993361545,
+        "alpha": 0.1,
+        "power": 0.7717826338639697,
+        "ratio": 0.7463313445597757
+      }
+    },
+    {
+      "id": "EX-149",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.06598335683545015,
+        "alpha": 0.05,
+        "power": 0.977413566090652,
+        "ratio": 0.18948274121242434
+      }
+    },
+    {
+      "id": "EX-150",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.2634570515609687,
+        "alpha": 0.0001,
+        "power": 0.8601338019951483,
+        "ratio": 0.062278207449380035
+      }
+    },
+    {
+      "id": "EX-151",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.1053254942709043,
+        "alpha": 1e-07,
+        "power": 0.9019637863218828,
+        "ratio": 0.5260744058017114
+      }
+    },
+    {
+      "id": "EX-152",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.08642344461618022,
+        "alpha": 0.1,
+        "power": 0.6978524353968314,
+        "ratio": 8.644236992612445
+      }
+    },
+    {
+      "id": "EX-153",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.4046574599151906,
+        "alpha": 0.0001,
+        "power": 0.7719858100673067,
+        "ratio": 0.46836245049357733
+      }
+    },
+    {
+      "id": "EX-154",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.07864223387245421,
+        "alpha": 0.0001,
+        "power": 0.9736629410929329,
+        "ratio": 0.8057108129315618
+      }
+    },
+    {
+      "id": "EX-155",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.05260194787498941,
+        "alpha": 0.0001,
+        "power": 0.8943973677771004,
+        "ratio": 22.74452720024644
+      }
+    },
+    {
+      "id": "EX-156",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.5758796500705053,
+        "alpha": 0.25,
+        "power": 0.7196070431967421,
+        "ratio": 0.7159550011844195
+      }
+    },
+    {
+      "id": "EX-157",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.05217708200468047,
+        "alpha": 0.05,
+        "power": 0.6772839317178838,
+        "ratio": 0.04424560845093508
+      }
+    },
+    {
+      "id": "EX-158",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.5116480714480112,
+        "alpha": 1e-07,
+        "power": 0.8695324735894472,
+        "ratio": 4.225317135346777
+      }
+    },
+    {
+      "id": "EX-159",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.5155069042862813,
+        "alpha": 0.0001,
+        "power": 0.6963260850108768,
+        "ratio": 86.31247302827
+      }
+    },
+    {
+      "id": "EX-160",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.1953046293507732,
+        "alpha": 0.25,
+        "power": 0.6937483236124363,
+        "ratio": 0.021492376803209316
+      }
+    },
+    {
+      "id": "EX-161",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.10708008122888517,
+        "alpha": 0.25,
+        "power": 0.8109901655635361,
+        "ratio": 0.07631846107555744
+      }
+    },
+    {
+      "id": "EX-162",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.627093670882447,
+        "alpha": 0.1,
+        "power": 0.7300466199006366,
+        "ratio": 0.3847150626297404
+      }
+    },
+    {
+      "id": "EX-163",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.703662424745628,
+        "alpha": 0.01,
+        "power": 0.9684090704271682,
+        "ratio": 0.9708490374098533
+      }
+    },
+    {
+      "id": "EX-164",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.8548614126348684,
+        "alpha": 0.05,
+        "power": 0.8766427539851157,
+        "ratio": 1.6899167760878981
+      }
+    },
+    {
+      "id": "EX-165",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.18340226231302248,
+        "alpha": 1e-07,
+        "power": 0.7897426370308887,
+        "ratio": 23.195442019264544
+      }
+    },
+    {
+      "id": "EX-166",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.10090317328434029,
+        "alpha": 0.0001,
+        "power": 0.9625263152658317,
+        "ratio": 72.93400417290489
+      }
+    },
+    {
+      "id": "EX-167",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.21250702493295448,
+        "alpha": 0.1,
+        "power": 0.7104340698128355,
+        "ratio": 0.4036660663135928
+      }
+    },
+    {
+      "id": "EX-168",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.37636077067246,
+        "alpha": 0.25,
+        "power": 0.7978960655466982,
+        "ratio": 1.4389439350329944
+      }
+    },
+    {
+      "id": "EX-169",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.15418829451222174,
+        "alpha": 0.05,
+        "power": 0.7482804443643101,
+        "ratio": 0.03568120544348155
+      }
+    },
+    {
+      "id": "EX-170",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.22871665475147634,
+        "alpha": 0.1,
+        "power": 0.6234374500957454,
+        "ratio": 0.5909189016696049
+      }
+    },
+    {
+      "id": "EX-171",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.17442795626435031,
+        "alpha": 0.01,
+        "power": 0.8854888639829093,
+        "ratio": 0.036676340849693574
+      }
+    },
+    {
+      "id": "EX-172",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.26600627048287867,
+        "alpha": 0.05,
+        "power": 0.8493529413999985,
+        "ratio": 0.023699814818895805
+      }
+    },
+    {
+      "id": "EX-173",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.4363802404077428,
+        "alpha": 1e-07,
+        "power": 0.6156814939877623,
+        "ratio": 20.25454642030537
+      }
+    },
+    {
+      "id": "EX-174",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.482708665544484,
+        "alpha": 0.1,
+        "power": 0.9426824894720989,
+        "ratio": 0.4314347868526098
+      }
+    },
+    {
+      "id": "EX-175",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.073542995624986,
+        "alpha": 0.01,
+        "power": 0.6291406040891024,
+        "ratio": 0.3285290304908779
+      }
+    },
+    {
+      "id": "EX-176",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3817388150248254,
+        "alpha": 1e-07,
+        "power": 0.986643501713407,
+        "ratio": 0.12284405389460822
+      }
+    },
+    {
+      "id": "EX-177",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.7940916120045913,
+        "alpha": 0.01,
+        "power": 0.8097803276227371,
+        "ratio": 71.98660541875465
+      }
+    },
+    {
+      "id": "EX-178",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.09258640342667615,
+        "alpha": 0.25,
+        "power": 0.8127666602561576,
+        "ratio": 0.7663224184273149
+      }
+    },
+    {
+      "id": "EX-179",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.23245660836244297,
+        "alpha": 0.1,
+        "power": 0.8981901198689322,
+        "ratio": 19.850435117917193
+      }
+    },
+    {
+      "id": "EX-180",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.14828747907540935,
+        "alpha": 0.001,
+        "power": 0.7769483209196253,
+        "ratio": 0.026609607312722414
+      }
+    },
+    {
+      "id": "EX-181",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.10999426957650002,
+        "alpha": 0.1,
+        "power": 0.6984342288587837,
+        "ratio": 26.228850993973975
+      }
+    },
+    {
+      "id": "EX-182",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08505050328550733,
+        "alpha": 0.25,
+        "power": 0.7327850675362367,
+        "ratio": 5.550914884630558
+      }
+    },
+    {
+      "id": "EX-183",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.7656805281219228,
+        "alpha": 0.1,
+        "power": 0.8437686895704455,
+        "ratio": 10.509343848461974
+      }
+    },
+    {
+      "id": "EX-184",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.05527425038614348,
+        "alpha": 1e-07,
+        "power": 0.6649636798922006,
+        "ratio": 11.182687283964619
+      }
+    },
+    {
+      "id": "EX-185",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.14286405313243258,
+        "alpha": 0.1,
+        "power": 0.7742201045904786,
+        "ratio": 7.554315043872399
+      }
+    },
+    {
+      "id": "EX-186",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.23513673814830366,
+        "alpha": 1e-07,
+        "power": 0.9444099897140542,
+        "ratio": 63.30337568742387
+      }
+    },
+    {
+      "id": "EX-187",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.14263477115306894,
+        "alpha": 0.1,
+        "power": 0.9452722210269489,
+        "ratio": 3.231369567286257
+      }
+    },
+    {
+      "id": "EX-188",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.6413744296297603,
+        "alpha": 0.05,
+        "power": 0.7035301260462533,
+        "ratio": 0.24080011643790927
+      }
+    },
+    {
+      "id": "EX-189",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.22615047868242624,
+        "alpha": 1e-07,
+        "power": 0.917559700613503,
+        "ratio": 0.010293830017909004
+      }
+    },
+    {
+      "id": "EX-190",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08359956760515325,
+        "alpha": 0.05,
+        "power": 0.7636986007753331,
+        "ratio": 0.04674186227998129
+      }
+    },
+    {
+      "id": "EX-191",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.144666763950348,
+        "alpha": 0.001,
+        "power": 0.8073256966421946,
+        "ratio": 0.18613526332844413
+      }
+    },
+    {
+      "id": "EX-192",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.3250438614395674,
+        "alpha": 0.1,
+        "power": 0.8087481374846325,
+        "ratio": 0.016342836998250294
+      }
+    },
+    {
+      "id": "EX-193",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.6851555827795084,
+        "alpha": 1e-07,
+        "power": 0.9369261695868831,
+        "ratio": 0.4075745800454811
+      }
+    },
+    {
+      "id": "EX-194",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.6226224187662436,
+        "alpha": 0.01,
+        "power": 0.9370984883942073,
+        "ratio": 1.291243117272034
+      }
+    },
+    {
+      "id": "EX-195",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.05057169372383204,
+        "alpha": 0.001,
+        "power": 0.6330088727117298,
+        "ratio": 41.321415196796174
+      }
+    },
+    {
+      "id": "EX-196",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.2953016053481071,
+        "alpha": 0.05,
+        "power": 0.9221813465457638,
+        "ratio": 38.30433955118932
+      }
+    },
+    {
+      "id": "EX-197",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.557949853771186,
+        "alpha": 0.01,
+        "power": 0.6664736375477679,
+        "ratio": 2.4850968802123004
+      }
+    },
+    {
+      "id": "EX-198",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.4010227746699156,
+        "alpha": 0.0001,
+        "power": 0.8561759677417824,
+        "ratio": 72.2510393564735
+      }
+    },
+    {
+      "id": "EX-199",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.2014155216350278,
+        "alpha": 0.25,
+        "power": 0.6275798232469837,
+        "ratio": 0.1165622678560015
+      }
+    },
+    {
+      "id": "EX-200",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.08958480520773277,
+        "alpha": 1e-07,
+        "power": 0.8995713071505389,
+        "ratio": 23.455741361580532
+      }
+    },
+    {
+      "id": "EX-201",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.432216386128798,
+        "alpha": 0.01,
+        "power": 0.8487782130461742,
+        "ratio": 0.10790845575683068
+      }
+    },
+    {
+      "id": "EX-202",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.08136538328472417,
+        "alpha": 0.0001,
+        "power": 0.614850202420208,
+        "ratio": 0.058282334605760315
+      }
+    },
+    {
+      "id": "EX-203",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.9401581859002134,
+        "alpha": 1e-07,
+        "power": 0.6419988733491774,
+        "ratio": 0.2118445302706034
+      }
+    },
+    {
+      "id": "EX-204",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.05292135143032823,
+        "alpha": 0.0001,
+        "power": 0.6703095817583848,
+        "ratio": 0.1345641097210419
+      }
+    },
+    {
+      "id": "EX-205",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.0419521438035337,
+        "alpha": 0.05,
+        "power": 0.9809601804599208,
+        "ratio": 0.01646914125120104
+      }
+    },
+    {
+      "id": "EX-206",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.3620200397697815,
+        "alpha": 1e-07,
+        "power": 0.7403028803013803,
+        "ratio": 1.0098697377807584
+      }
+    },
+    {
+      "id": "EX-207",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.26478009252814866,
+        "alpha": 1e-07,
+        "power": 0.9878351726173266,
+        "ratio": 0.17704166691150902
+      }
+    },
+    {
+      "id": "EX-208",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.23582339763842158,
+        "alpha": 0.05,
+        "power": 0.8115594380474921,
+        "ratio": 0.1112462695158663
+      }
+    },
+    {
+      "id": "EX-209",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.6286120397021544,
+        "alpha": 0.25,
+        "power": 0.6354075511918533,
+        "ratio": 0.11766516209601192
+      }
+    },
+    {
+      "id": "EX-210",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.0434244579038208,
+        "alpha": 1e-07,
+        "power": 0.7002559144416313,
+        "ratio": 0.07163389623211308
+      }
+    },
+    {
+      "id": "EX-211",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.6759041654299165,
+        "alpha": 0.25,
+        "power": 0.8575625975866332,
+        "ratio": 0.016740515367594088
+      }
+    },
+    {
+      "id": "EX-212",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.26769543256330514,
+        "alpha": 1e-07,
+        "power": 0.6528237763063459,
+        "ratio": 5.108699279390193
+      }
+    },
+    {
+      "id": "EX-213",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.3617478114237802,
+        "alpha": 0.25,
+        "power": 0.9821105272120313,
+        "ratio": 0.16900465830156639
+      }
+    },
+    {
+      "id": "EX-214",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.10470147813518646,
+        "alpha": 0.01,
+        "power": 0.922880124699869,
+        "ratio": 0.07610457730185693
+      }
+    },
+    {
+      "id": "EX-215",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.08836424829038912,
+        "alpha": 0.01,
+        "power": 0.9702104518548573,
+        "ratio": 0.11442001360677276
+      }
+    },
+    {
+      "id": "EX-216",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3885512141233739,
+        "alpha": 0.0001,
+        "power": 0.9177489994244696,
+        "ratio": 2.4556321691698613
+      }
+    },
+    {
+      "id": "EX-217",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.19526451058972752,
+        "alpha": 0.01,
+        "power": 0.9059454504863282,
+        "ratio": 0.010160047461138915
+      }
+    },
+    {
+      "id": "EX-218",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.6132334650766397,
+        "alpha": 0.01,
+        "power": 0.9080742738669463,
+        "ratio": 0.014207397559955459
+      }
+    },
+    {
+      "id": "EX-219",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.1652854374880648,
+        "alpha": 1e-07,
+        "power": 0.7438385053671255,
+        "ratio": 0.11023325373909545
+      }
+    },
+    {
+      "id": "EX-220",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -1.9645033811770607,
+        "alpha": 0.1,
+        "power": 0.6616836389591605,
+        "ratio": 0.024799653917397663
+      }
+    },
+    {
+      "id": "EX-221",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.1636059066434033,
+        "alpha": 0.05,
+        "power": 0.8528705513943737,
+        "ratio": 0.2136552263778574
+      }
+    },
+    {
+      "id": "EX-222",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.15750511088761038,
+        "alpha": 0.25,
+        "power": 0.8103006899760002,
+        "ratio": 0.017714840554924324
+      }
+    },
+    {
+      "id": "EX-223",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.06910894147448411,
+        "alpha": 0.01,
+        "power": 0.8324389055970377,
+        "ratio": 58.60612942636353
+      }
+    },
+    {
+      "id": "EX-224",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3244208290480747,
+        "alpha": 0.05,
+        "power": 0.6070739063282413,
+        "ratio": 2.7634541254807807
+      }
+    },
+    {
+      "id": "EX-225",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.20666467432757485,
+        "alpha": 0.01,
+        "power": 0.8746220713162665,
+        "ratio": 0.02421419307844661
+      }
+    },
+    {
+      "id": "EX-226",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.1779156079600169,
+        "alpha": 1e-07,
+        "power": 0.7589003004777756,
+        "ratio": 99.00086731916612
+      }
+    },
+    {
+      "id": "EX-227",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.6885639924401802,
+        "alpha": 0.25,
+        "power": 0.7710001580763267,
+        "ratio": 0.017951065734764803
+      }
+    },
+    {
+      "id": "EX-228",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3957394093096693,
+        "alpha": 0.25,
+        "power": 0.9796234331504439,
+        "ratio": 0.16523695202829658
+      }
+    },
+    {
+      "id": "EX-229",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.706108748433232,
+        "alpha": 0.001,
+        "power": 0.8136585634353163,
+        "ratio": 0.03477795091398344
+      }
+    },
+    {
+      "id": "EX-230",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.8964491316518426,
+        "alpha": 1e-07,
+        "power": 0.8760878454122957,
+        "ratio": 20.48586025899484
+      }
+    },
+    {
+      "id": "EX-231",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.45815319230706575,
+        "alpha": 0.0001,
+        "power": 0.893001634740775,
+        "ratio": 10.112888486726074
+      }
+    },
+    {
+      "id": "EX-232",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.28778558984373465,
+        "alpha": 0.0001,
+        "power": 0.8022558031138964,
+        "ratio": 5.643712343811843
+      }
+    },
+    {
+      "id": "EX-233",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.07199253194626946,
+        "alpha": 0.1,
+        "power": 0.964048474987519,
+        "ratio": 96.62170181820048
+      }
+    },
+    {
+      "id": "EX-234",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.5118099275100486,
+        "alpha": 0.001,
+        "power": 0.6989697595698543,
+        "ratio": 0.01896427001006253
+      }
+    },
+    {
+      "id": "EX-235",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.9182595485329873,
+        "alpha": 0.01,
+        "power": 0.7607187874715644,
+        "ratio": 25.655432182258803
+      }
+    },
+    {
+      "id": "EX-236",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.5553530468449211,
+        "alpha": 0.05,
+        "power": 0.7646322940324741,
+        "ratio": 0.047386605189866
+      }
+    },
+    {
+      "id": "EX-237",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.2784614922079116,
+        "alpha": 0.1,
+        "power": 0.7088519476006487,
+        "ratio": 1.9161932665825048
+      }
+    },
+    {
+      "id": "EX-238",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.12177136202152379,
+        "alpha": 0.25,
+        "power": 0.698892769661438,
+        "ratio": 71.01490075865806
+      }
+    },
+    {
+      "id": "EX-239",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.09036297359483313,
+        "alpha": 0.0001,
+        "power": 0.6189206331502318,
+        "ratio": 1.9321948786916574
+      }
+    },
+    {
+      "id": "EX-240",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.7067596169123033,
+        "alpha": 0.05,
+        "power": 0.9441260591462484,
+        "ratio": 2.0696629960308663
+      }
+    },
+    {
+      "id": "EX-241",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.442106585592659,
+        "alpha": 0.0001,
+        "power": 0.6901507602587299,
+        "ratio": 6.448993727361062
+      }
+    },
+    {
+      "id": "EX-242",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.6213266546731963,
+        "alpha": 0.001,
+        "power": 0.6150035931659245,
+        "ratio": 2.4388296282082482
+      }
+    },
+    {
+      "id": "EX-243",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.5629020714557207,
+        "alpha": 0.25,
+        "power": 0.7823550377922035,
+        "ratio": 5.7311876337087435
+      }
+    },
+    {
+      "id": "EX-244",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.14695350299593926,
+        "alpha": 0.001,
+        "power": 0.7987415602630248,
+        "ratio": 0.049242242298721824
+      }
+    },
+    {
+      "id": "EX-245",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.27354920867429044,
+        "alpha": 0.001,
+        "power": 0.8108881713112208,
+        "ratio": 29.80480024585469
+      }
+    },
+    {
+      "id": "EX-246",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.2906337062395019,
+        "alpha": 0.01,
+        "power": 0.7889120690913168,
+        "ratio": 64.30019760797649
+      }
+    },
+    {
+      "id": "EX-247",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.1290845146633541,
+        "alpha": 1e-07,
+        "power": 0.8643144930984483,
+        "ratio": 0.010330250072336114
+      }
+    },
+    {
+      "id": "EX-248",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.23554972878576516,
+        "alpha": 0.05,
+        "power": 0.8865197327033758,
+        "ratio": 2.6753413615970527
+      }
+    },
+    {
+      "id": "EX-249",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.27601428164423314,
+        "alpha": 0.001,
+        "power": 0.9428776569553512,
+        "ratio": 4.450701733359715
+      }
+    },
+    {
+      "id": "EX-250",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.4793225062156097,
+        "alpha": 0.0001,
+        "power": 0.7709265466075836,
+        "ratio": 25.008698819985355
+      }
+    },
+    {
+      "id": "EX-251",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.09115845355882957,
+        "alpha": 0.25,
+        "power": 0.7346406292065729,
+        "ratio": 45.76120788481912
+      }
+    },
+    {
+      "id": "EX-252",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.0979679072962746,
+        "alpha": 0.25,
+        "power": 0.7211118423647586,
+        "ratio": 39.19827935390514
+      }
+    },
+    {
+      "id": "EX-253",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.06998371021332257,
+        "alpha": 0.01,
+        "power": 0.9679355177467365,
+        "ratio": 0.24618552135787264
+      }
+    },
+    {
+      "id": "EX-254",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.940448859424112,
+        "alpha": 0.0001,
+        "power": 0.6505344568977517,
+        "ratio": 21.513741139742837
+      }
+    },
+    {
+      "id": "EX-255",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.3368627241260291,
+        "alpha": 0.05,
+        "power": 0.6893687136390989,
+        "ratio": 0.642802399696256
+      }
+    },
+    {
+      "id": "EX-256",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.06598472241069513,
+        "alpha": 0.25,
+        "power": 0.6662646872219955,
+        "ratio": 8.244737989347932
+      }
+    },
+    {
+      "id": "EX-257",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.5551867459266044,
+        "alpha": 0.25,
+        "power": 0.918413235841413,
+        "ratio": 0.057682463530405736
+      }
+    },
+    {
+      "id": "EX-258",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.388857417603493,
+        "alpha": 1e-07,
+        "power": 0.7077706021047835,
+        "ratio": 0.027500244631075137
+      }
+    },
+    {
+      "id": "EX-259",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.3462746379992114,
+        "alpha": 0.0001,
+        "power": 0.9681257204243234,
+        "ratio": 57.19442499531947
+      }
+    },
+    {
+      "id": "EX-260",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.07518634171090764,
+        "alpha": 0.01,
+        "power": 0.9830475669931039,
+        "ratio": 0.7471743215889785
+      }
+    },
+    {
+      "id": "EX-261",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.5031687932542017,
+        "alpha": 0.001,
+        "power": 0.8391750698162398,
+        "ratio": 7.1960123686829425
+      }
+    },
+    {
+      "id": "EX-262",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.6779877832060246,
+        "alpha": 0.01,
+        "power": 0.9265692431033963,
+        "ratio": 62.98679936541803
+      }
+    },
+    {
+      "id": "EX-263",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.7021273902729552,
+        "alpha": 0.1,
+        "power": 0.6992557947918686,
+        "ratio": 29.75321238854521
+      }
+    },
+    {
+      "id": "EX-264",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.20603765262915022,
+        "alpha": 0.0001,
+        "power": 0.6593925396230919,
+        "ratio": 0.08795731402531907
+      }
+    },
+    {
+      "id": "EX-265",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.6671225013058389,
+        "alpha": 0.0001,
+        "power": 0.8979032681932904,
+        "ratio": 4.994036064873889
+      }
+    },
+    {
+      "id": "EX-266",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.24295139200167157,
+        "alpha": 0.001,
+        "power": 0.8520141278311968,
+        "ratio": 0.8330150215679601
+      }
+    },
+    {
+      "id": "EX-267",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.1952983188690522,
+        "alpha": 0.1,
+        "power": 0.6570696024215792,
+        "ratio": 0.25152966493161666
+      }
+    },
+    {
+      "id": "EX-268",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.05266521615246541,
+        "alpha": 1e-07,
+        "power": 0.8313342940136268,
+        "ratio": 0.03436108070763517
+      }
+    },
+    {
+      "id": "EX-269",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.08391951104767079,
+        "alpha": 0.01,
+        "power": 0.6283940961264338,
+        "ratio": 0.9915853707798418
+      }
+    },
+    {
+      "id": "EX-270",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.5916334375321826,
+        "alpha": 1e-07,
+        "power": 0.9697556453863474,
+        "ratio": 0.07539135505646781
+      }
+    },
+    {
+      "id": "EX-271",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.48647465603319834,
+        "alpha": 1e-07,
+        "power": 0.7295618614064079,
+        "ratio": 73.68089503651603
+      }
+    },
+    {
+      "id": "EX-272",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.10294669268265197,
+        "alpha": 0.1,
+        "power": 0.8766286176826266,
+        "ratio": 3.9624560190278637
+      }
+    },
+    {
+      "id": "EX-273",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.10594944962019341,
+        "alpha": 1e-07,
+        "power": 0.6138330847407443,
+        "ratio": 0.011725093535577808
+      }
+    },
+    {
+      "id": "EX-274",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.1147818132550815,
+        "alpha": 0.25,
+        "power": 0.7608265115232574,
+        "ratio": 89.8947306634357
+      }
+    },
+    {
+      "id": "EX-275",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -1.2639693013814985,
+        "alpha": 0.001,
+        "power": 0.775707956087184,
+        "ratio": 0.023979171205409242
+      }
+    },
+    {
+      "id": "EX-276",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.07644073740313535,
+        "alpha": 0.001,
+        "power": 0.7060068628882377,
+        "ratio": 1.7968504082358194
+      }
+    },
+    {
+      "id": "EX-277",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.07864865577864096,
+        "alpha": 0.001,
+        "power": 0.7668695803536832,
+        "ratio": 0.06602038173858253
+      }
+    },
+    {
+      "id": "EX-278",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.4490325980309724,
+        "alpha": 0.001,
+        "power": 0.6813737429071453,
+        "ratio": 23.129341515717783
+      }
+    },
+    {
+      "id": "EX-279",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.12293072681430489,
+        "alpha": 0.25,
+        "power": 0.7708442549436985,
+        "ratio": 0.18037126940279805
+      }
+    },
+    {
+      "id": "EX-280",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.14066686710828247,
+        "alpha": 0.0001,
+        "power": 0.6435170617843536,
+        "ratio": 2.2758486687205197
+      }
+    },
+    {
+      "id": "EX-281",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.09931902437970412,
+        "alpha": 1e-07,
+        "power": 0.9391641662529218,
+        "ratio": 0.14893875436215376
+      }
+    },
+    {
+      "id": "EX-282",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.13836887596389538,
+        "alpha": 0.01,
+        "power": 0.6017076949797212,
+        "ratio": 0.05484595036097488
+      }
+    },
+    {
+      "id": "EX-283",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.06906073726695632,
+        "alpha": 1e-07,
+        "power": 0.6723319836317483,
+        "ratio": 30.194487849676353
+      }
+    },
+    {
+      "id": "EX-284",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.5797493166750928,
+        "alpha": 0.01,
+        "power": 0.8441384222799044,
+        "ratio": 35.43322073120753
+      }
+    },
+    {
+      "id": "EX-285",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.09223233586593,
+        "alpha": 1e-07,
+        "power": 0.6108133201466253,
+        "ratio": 35.61305531734337
+      }
+    },
+    {
+      "id": "EX-286",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 1.3775303106713825,
+        "alpha": 0.25,
+        "power": 0.603307577875296,
+        "ratio": 0.12732340958457725
+      }
+    },
+    {
+      "id": "EX-287",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.3722213083194386,
+        "alpha": 0.1,
+        "power": 0.9712730110931795,
+        "ratio": 0.013250984908775798
+      }
+    },
+    {
+      "id": "EX-288",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3015787396076368,
+        "alpha": 1e-07,
+        "power": 0.7962042633157641,
+        "ratio": 4.3150251586448265
+      }
+    },
+    {
+      "id": "EX-289",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 1.9846797278527553,
+        "alpha": 0.25,
+        "power": 0.6389425842932894,
+        "ratio": 2.0880255073733838
+      }
+    },
+    {
+      "id": "EX-290",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.8169800934278746,
+        "alpha": 0.0001,
+        "power": 0.810698817957768,
+        "ratio": 0.34167173099094844
+      }
+    },
+    {
+      "id": "EX-291",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.571103202231403,
+        "alpha": 0.01,
+        "power": 0.736310841280287,
+        "ratio": 6.617258187045917
+      }
+    },
+    {
+      "id": "EX-292",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.3026761596777214,
+        "alpha": 0.1,
+        "power": 0.7051589615873205,
+        "ratio": 23.3652327636465
+      }
+    },
+    {
+      "id": "EX-293",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.2037460907456228,
+        "alpha": 0.0001,
+        "power": 0.8731783059705667,
+        "ratio": 0.07455661671187722
+      }
+    },
+    {
+      "id": "EX-294",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.8256395027995556,
+        "alpha": 0.25,
+        "power": 0.7786325459964898,
+        "ratio": 3.3818292416048696
+      }
+    },
+    {
+      "id": "EX-295",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.11563178284439823,
+        "alpha": 0.25,
+        "power": 0.6145334832015366,
+        "ratio": 0.016549310755163124
+      }
+    },
+    {
+      "id": "EX-296",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.15149966612531165,
+        "alpha": 0.05,
+        "power": 0.9898549180591174,
+        "ratio": 98.52658012010319
+      }
+    },
+    {
+      "id": "EX-297",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.7626963554807378,
+        "alpha": 0.05,
+        "power": 0.7517777943191437,
+        "ratio": 0.0702164183243475
+      }
+    },
+    {
+      "id": "EX-298",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": 0.23941191621413496,
+        "alpha": 0.05,
+        "power": 0.6387086826306632,
+        "ratio": 0.014906418876657501
+      }
+    },
+    {
+      "id": "EX-299",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": -0.1867778899881382,
+        "alpha": 0.01,
+        "power": 0.8835222714287476,
+        "ratio": 0.12021533020566255
+      }
+    },
+    {
+      "id": "EX-300",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 2,
+        "d": -0.14246216641672518,
+        "alpha": 0.25,
+        "power": 0.9152976756865909,
+        "ratio": 0.27879460007944995
+      }
+    },
+    {
+      "id": "EX-301",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.10762664208459637,
+        "alpha": 0.05,
+        "n1": 482,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-302",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.08736038107157312,
+        "alpha": 0.1,
+        "n1": 81,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-303",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.1337896380972021,
+        "alpha": 0.1,
+        "n1": 944,
+        "n2": 1798
+      }
+    },
+    {
+      "id": "EX-304",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.4171878952724101,
+        "alpha": 0.25,
+        "n1": 62,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-305",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06260346320672208,
+        "alpha": 0.05,
+        "n1": 93,
+        "n2": 99
+      }
+    },
+    {
+      "id": "EX-306",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5853842522084618,
+        "alpha": 0.01,
+        "n1": 578,
+        "n2": 38
+      }
+    },
+    {
+      "id": "EX-307",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5038596722697969,
+        "alpha": 0.001,
+        "n1": 142,
+        "n2": 279
+      }
+    },
+    {
+      "id": "EX-308",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.22506999813364814,
+        "alpha": 0.25,
+        "n1": 331,
+        "n2": 262
+      }
+    },
+    {
+      "id": "EX-309",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06236871341623751,
+        "alpha": 0.0001,
+        "n1": 600,
+        "n2": 729
+      }
+    },
+    {
+      "id": "EX-310",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.0200806033250711,
+        "alpha": 1e-07,
+        "n1": 775,
+        "n2": 11
+      }
+    },
+    {
+      "id": "EX-311",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.38855487420170015,
+        "alpha": 0.001,
+        "n1": 853,
+        "n2": 23
+      }
+    },
+    {
+      "id": "EX-312",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.06386597338540922,
+        "alpha": 1e-07,
+        "n1": 635,
+        "n2": 15210
+      }
+    },
+    {
+      "id": "EX-313",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.10248130831414314,
+        "alpha": 0.05,
+        "n1": 519,
+        "n2": 16
+      }
+    },
+    {
+      "id": "EX-314",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10645181824227425,
+        "alpha": 0.001,
+        "n1": 434,
+        "n2": 461
+      }
+    },
+    {
+      "id": "EX-315",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.3463928775164113,
+        "alpha": 0.25,
+        "n1": 611,
+        "n2": 27313
+      }
+    },
+    {
+      "id": "EX-316",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.23532440191417228,
+        "alpha": 0.0001,
+        "n1": 356,
+        "n2": 227
+      }
+    },
+    {
+      "id": "EX-317",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.9678829069991325,
+        "alpha": 1e-07,
+        "n1": 509,
+        "n2": 36
+      }
+    },
+    {
+      "id": "EX-318",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.05733452465992636,
+        "alpha": 0.01,
+        "n1": 464,
+        "n2": 658
+      }
+    },
+    {
+      "id": "EX-319",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.1028495017510663,
+        "alpha": 0.25,
+        "n1": 80,
+        "n2": 322
+      }
+    },
+    {
+      "id": "EX-320",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.24207812407950383,
+        "alpha": 0.0001,
+        "n1": 952,
+        "n2": 682
+      }
+    },
+    {
+      "id": "EX-321",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.08885870522610888,
+        "alpha": 0.25,
+        "n1": 248,
+        "n2": 116
+      }
+    },
+    {
+      "id": "EX-322",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.28961451782911135,
+        "alpha": 0.1,
+        "n1": 825,
+        "n2": 42806
+      }
+    },
+    {
+      "id": "EX-323",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.09312785084824184,
+        "alpha": 0.1,
+        "n1": 349,
+        "n2": 995
+      }
+    },
+    {
+      "id": "EX-324",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.19628831899536137,
+        "alpha": 0.1,
+        "n1": 156,
+        "n2": 23
+      }
+    },
+    {
+      "id": "EX-325",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.078287164232276,
+        "alpha": 0.25,
+        "n1": 409,
+        "n2": 357
+      }
+    },
+    {
+      "id": "EX-326",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.6388852664197244,
+        "alpha": 0.05,
+        "n1": 520,
+        "n2": 1122
+      }
+    },
+    {
+      "id": "EX-327",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5162158412261125,
+        "alpha": 0.01,
+        "n1": 597,
+        "n2": 109
+      }
+    },
+    {
+      "id": "EX-328",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.6294817124316028,
+        "alpha": 1e-07,
+        "n1": 287,
+        "n2": 1391
+      }
+    },
+    {
+      "id": "EX-329",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.25412835795599525,
+        "alpha": 0.0001,
+        "n1": 112,
+        "n2": 2406
+      }
+    },
+    {
+      "id": "EX-330",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.031121656240109,
+        "alpha": 0.25,
+        "n1": 241,
+        "n2": 4
+      }
+    },
+    {
+      "id": "EX-331",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.9352307232356378,
+        "alpha": 0.25,
+        "n1": 628,
+        "n2": 6026
+      }
+    },
+    {
+      "id": "EX-332",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.458460173955162,
+        "alpha": 1e-07,
+        "n1": 486,
+        "n2": 46
+      }
+    },
+    {
+      "id": "EX-333",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.4411361887478578,
+        "alpha": 0.1,
+        "n1": 799,
+        "n2": 66061
+      }
+    },
+    {
+      "id": "EX-334",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.09826579261362912,
+        "alpha": 0.0001,
+        "n1": 733,
+        "n2": 228
+      }
+    },
+    {
+      "id": "EX-335",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.1615029562890062,
+        "alpha": 0.001,
+        "n1": 913,
+        "n2": 135
+      }
+    },
+    {
+      "id": "EX-336",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.15438418339852056,
+        "alpha": 1e-07,
+        "n1": 73,
+        "n2": 1289
+      }
+    },
+    {
+      "id": "EX-337",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3027886217322175,
+        "alpha": 0.001,
+        "n1": 963,
+        "n2": 199
+      }
+    },
+    {
+      "id": "EX-338",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.22446545433857196,
+        "alpha": 0.0001,
+        "n1": 607,
+        "n2": 2581
+      }
+    },
+    {
+      "id": "EX-339",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05253887642073742,
+        "alpha": 0.25,
+        "n1": 838,
+        "n2": 35902
+      }
+    },
+    {
+      "id": "EX-340",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.42404744859255145,
+        "alpha": 0.25,
+        "n1": 283,
+        "n2": 19
+      }
+    },
+    {
+      "id": "EX-341",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.28577835213206465,
+        "alpha": 0.05,
+        "n1": 321,
+        "n2": 114
+      }
+    },
+    {
+      "id": "EX-342",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10775176330440923,
+        "alpha": 1e-07,
+        "n1": 851,
+        "n2": 57472
+      }
+    },
+    {
+      "id": "EX-343",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.162647175757925,
+        "alpha": 0.05,
+        "n1": 418,
+        "n2": 16
+      }
+    },
+    {
+      "id": "EX-344",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.707204002230999,
+        "alpha": 0.25,
+        "n1": 687,
+        "n2": 502
+      }
+    },
+    {
+      "id": "EX-345",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06716106883307886,
+        "alpha": 0.01,
+        "n1": 919,
+        "n2": 231
+      }
+    },
+    {
+      "id": "EX-346",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.05504978915690315,
+        "alpha": 1e-07,
+        "n1": 784,
+        "n2": 24839
+      }
+    },
+    {
+      "id": "EX-347",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.9649680635792138,
+        "alpha": 1e-07,
+        "n1": 657,
+        "n2": 1072
+      }
+    },
+    {
+      "id": "EX-348",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.12620744325806288,
+        "alpha": 0.01,
+        "n1": 594,
+        "n2": 11287
+      }
+    },
+    {
+      "id": "EX-349",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.1204448802514233,
+        "alpha": 1e-07,
+        "n1": 274,
+        "n2": 220
+      }
+    },
+    {
+      "id": "EX-350",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.23103500441222127,
+        "alpha": 0.0001,
+        "n1": 201,
+        "n2": 9
+      }
+    },
+    {
+      "id": "EX-351",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.592167341673135,
+        "alpha": 0.001,
+        "n1": 382,
+        "n2": 2636
+      }
+    },
+    {
+      "id": "EX-352",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.4951098945544797,
+        "alpha": 0.001,
+        "n1": 521,
+        "n2": 6
+      }
+    },
+    {
+      "id": "EX-353",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.6951599495702714,
+        "alpha": 0.1,
+        "n1": 434,
+        "n2": 47
+      }
+    },
+    {
+      "id": "EX-354",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.2838462863038945,
+        "alpha": 0.01,
+        "n1": 528,
+        "n2": 961
+      }
+    },
+    {
+      "id": "EX-355",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.31477759930175125,
+        "alpha": 1e-07,
+        "n1": 59,
+        "n2": 39
+      }
+    },
+    {
+      "id": "EX-356",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.349220821162611,
+        "alpha": 0.1,
+        "n1": 243,
+        "n2": 17364
+      }
+    },
+    {
+      "id": "EX-357",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.16544886068595016,
+        "alpha": 1e-07,
+        "n1": 450,
+        "n2": 4118
+      }
+    },
+    {
+      "id": "EX-358",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.9342495618493224,
+        "alpha": 0.01,
+        "n1": 249,
+        "n2": 380
+      }
+    },
+    {
+      "id": "EX-359",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.916314288277651,
+        "alpha": 0.0001,
+        "n1": 137,
+        "n2": 435
+      }
+    },
+    {
+      "id": "EX-360",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.27679562677897185,
+        "alpha": 0.1,
+        "n1": 539,
+        "n2": 17
+      }
+    },
+    {
+      "id": "EX-361",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.425237777836641,
+        "alpha": 0.01,
+        "n1": 425,
+        "n2": 23793
+      }
+    },
+    {
+      "id": "EX-362",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.6336740313220124,
+        "alpha": 0.001,
+        "n1": 267,
+        "n2": 3756
+      }
+    },
+    {
+      "id": "EX-363",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.812897883570433,
+        "alpha": 0.05,
+        "n1": 59,
+        "n2": 199
+      }
+    },
+    {
+      "id": "EX-364",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.17100586316567626,
+        "alpha": 0.0001,
+        "n1": 539,
+        "n2": 15
+      }
+    },
+    {
+      "id": "EX-365",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.792955939252286,
+        "alpha": 0.001,
+        "n1": 165,
+        "n2": 1667
+      }
+    },
+    {
+      "id": "EX-366",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.35185384342398834,
+        "alpha": 0.0001,
+        "n1": 369,
+        "n2": 1454
+      }
+    },
+    {
+      "id": "EX-367",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.2327067018739375,
+        "alpha": 0.01,
+        "n1": 942,
+        "n2": 163
+      }
+    },
+    {
+      "id": "EX-368",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.3503195070077535,
+        "alpha": 1e-07,
+        "n1": 602,
+        "n2": 187
+      }
+    },
+    {
+      "id": "EX-369",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3514171152088746,
+        "alpha": 0.25,
+        "n1": 280,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-370",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10111187461068923,
+        "alpha": 1e-07,
+        "n1": 562,
+        "n2": 756
+      }
+    },
+    {
+      "id": "EX-371",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3364897722300944,
+        "alpha": 0.05,
+        "n1": 70,
+        "n2": 467
+      }
+    },
+    {
+      "id": "EX-372",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.2804559168547774,
+        "alpha": 0.25,
+        "n1": 712,
+        "n2": 423
+      }
+    },
+    {
+      "id": "EX-373",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.21821404486284104,
+        "alpha": 0.0001,
+        "n1": 655,
+        "n2": 12
+      }
+    },
+    {
+      "id": "EX-374",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.06508927231632117,
+        "alpha": 0.25,
+        "n1": 812,
+        "n2": 3734
+      }
+    },
+    {
+      "id": "EX-375",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05079504474892595,
+        "alpha": 0.25,
+        "n1": 701,
+        "n2": 7
+      }
+    },
+    {
+      "id": "EX-376",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.09558890097297269,
+        "alpha": 0.25,
+        "n1": 383,
+        "n2": 414
+      }
+    },
+    {
+      "id": "EX-377",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.16161229035761035,
+        "alpha": 0.001,
+        "n1": 805,
+        "n2": 730
+      }
+    },
+    {
+      "id": "EX-378",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.4575061072357967,
+        "alpha": 0.1,
+        "n1": 855,
+        "n2": 192
+      }
+    },
+    {
+      "id": "EX-379",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05407326400211074,
+        "alpha": 0.05,
+        "n1": 586,
+        "n2": 496
+      }
+    },
+    {
+      "id": "EX-380",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.08991787653850807,
+        "alpha": 0.1,
+        "n1": 698,
+        "n2": 420
+      }
+    },
+    {
+      "id": "EX-381",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.0501208469003112,
+        "alpha": 0.25,
+        "n1": 567,
+        "n2": 28834
+      }
+    },
+    {
+      "id": "EX-382",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.6330738051547357,
+        "alpha": 0.1,
+        "n1": 563,
+        "n2": 610
+      }
+    },
+    {
+      "id": "EX-383",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.17565214606542257,
+        "alpha": 1e-07,
+        "n1": 52,
+        "n2": 4
+      }
+    },
+    {
+      "id": "EX-384",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.06585913920581388,
+        "alpha": 0.25,
+        "n1": 687,
+        "n2": 78
+      }
+    },
+    {
+      "id": "EX-385",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.8077952292364359,
+        "alpha": 0.25,
+        "n1": 36,
+        "n2": 756
+      }
+    },
+    {
+      "id": "EX-386",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.7231767754181492,
+        "alpha": 1e-07,
+        "n1": 992,
+        "n2": 43661
+      }
+    },
+    {
+      "id": "EX-387",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.49742286470192104,
+        "alpha": 0.05,
+        "n1": 894,
+        "n2": 4986
+      }
+    },
+    {
+      "id": "EX-388",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.0069538522979888,
+        "alpha": 0.05,
+        "n1": 39,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-389",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3480525993721353,
+        "alpha": 0.1,
+        "n1": 273,
+        "n2": 6
+      }
+    },
+    {
+      "id": "EX-390",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.13980372654417406,
+        "alpha": 0.25,
+        "n1": 175,
+        "n2": 4
+      }
+    },
+    {
+      "id": "EX-391",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3459121216139049,
+        "alpha": 0.01,
+        "n1": 790,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-392",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.2852782313938074,
+        "alpha": 0.0001,
+        "n1": 459,
+        "n2": 6798
+      }
+    },
+    {
+      "id": "EX-393",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.05407855899942788,
+        "alpha": 0.1,
+        "n1": 323,
+        "n2": 301
+      }
+    },
+    {
+      "id": "EX-394",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.4015466249964893,
+        "alpha": 0.001,
+        "n1": 417,
+        "n2": 13
+      }
+    },
+    {
+      "id": "EX-395",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.9098213976672287,
+        "alpha": 0.1,
+        "n1": 739,
+        "n2": 253
+      }
+    },
+    {
+      "id": "EX-396",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.9688257596226888,
+        "alpha": 0.25,
+        "n1": 914,
+        "n2": 281
+      }
+    },
+    {
+      "id": "EX-397",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3760387146586849,
+        "alpha": 0.1,
+        "n1": 914,
+        "n2": 2083
+      }
+    },
+    {
+      "id": "EX-398",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10694224903858104,
+        "alpha": 0.1,
+        "n1": 892,
+        "n2": 450
+      }
+    },
+    {
+      "id": "EX-399",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.35808432155407427,
+        "alpha": 0.01,
+        "n1": 581,
+        "n2": 1848
+      }
+    },
+    {
+      "id": "EX-400",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.13238482647854938,
+        "alpha": 0.01,
+        "n1": 702,
+        "n2": 33
+      }
+    },
+    {
+      "id": "EX-401",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06936698020481295,
+        "alpha": 0.1,
+        "n1": 225,
+        "n2": 1583
+      }
+    },
+    {
+      "id": "EX-402",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.07192958269834344,
+        "alpha": 1e-07,
+        "n1": 340,
+        "n2": 57
+      }
+    },
+    {
+      "id": "EX-403",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.868791159056814,
+        "alpha": 0.01,
+        "n1": 342,
+        "n2": 527
+      }
+    },
+    {
+      "id": "EX-404",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.05544581090048349,
+        "alpha": 0.01,
+        "n1": 22,
+        "n2": 28
+      }
+    },
+    {
+      "id": "EX-405",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.1454138460646622,
+        "alpha": 1e-07,
+        "n1": 812,
+        "n2": 11
+      }
+    },
+    {
+      "id": "EX-406",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5020658896678196,
+        "alpha": 0.0001,
+        "n1": 146,
+        "n2": 68
+      }
+    },
+    {
+      "id": "EX-407",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.06718302528540952,
+        "alpha": 0.001,
+        "n1": 30,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-408",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.6482240227387934,
+        "alpha": 0.0001,
+        "n1": 256,
+        "n2": 3
+      }
+    },
+    {
+      "id": "EX-409",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.4089055247694199,
+        "alpha": 0.0001,
+        "n1": 270,
+        "n2": 205
+      }
+    },
+    {
+      "id": "EX-410",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.5059799364731177,
+        "alpha": 0.01,
+        "n1": 986,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-411",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3922397888522485,
+        "alpha": 0.01,
+        "n1": 785,
+        "n2": 58280
+      }
+    },
+    {
+      "id": "EX-412",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.3916175112523128,
+        "alpha": 0.05,
+        "n1": 70,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-413",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.4891360001626202,
+        "alpha": 0.001,
+        "n1": 364,
+        "n2": 136
+      }
+    },
+    {
+      "id": "EX-414",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.059804614229363146,
+        "alpha": 0.001,
+        "n1": 463,
+        "n2": 20400
+      }
+    },
+    {
+      "id": "EX-415",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.62031813121123,
+        "alpha": 0.05,
+        "n1": 426,
+        "n2": 48
+      }
+    },
+    {
+      "id": "EX-416",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.5471345371335938,
+        "alpha": 0.001,
+        "n1": 538,
+        "n2": 10160
+      }
+    },
+    {
+      "id": "EX-417",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.0708918856358903,
+        "alpha": 0.0001,
+        "n1": 598,
+        "n2": 20331
+      }
+    },
+    {
+      "id": "EX-418",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10062658657254336,
+        "alpha": 0.1,
+        "n1": 566,
+        "n2": 30085
+      }
+    },
+    {
+      "id": "EX-419",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.8501742161517545,
+        "alpha": 0.05,
+        "n1": 504,
+        "n2": 29191
+      }
+    },
+    {
+      "id": "EX-420",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.0721640161673911,
+        "alpha": 0.001,
+        "n1": 211,
+        "n2": 25
+      }
+    },
+    {
+      "id": "EX-421",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.05547011744041107,
+        "alpha": 0.001,
+        "n1": 115,
+        "n2": 30
+      }
+    },
+    {
+      "id": "EX-422",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.27028075015293684,
+        "alpha": 0.05,
+        "n1": 466,
+        "n2": 35
+      }
+    },
+    {
+      "id": "EX-423",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.6406882421371728,
+        "alpha": 0.01,
+        "n1": 144,
+        "n2": 11530
+      }
+    },
+    {
+      "id": "EX-424",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.07486519739550214,
+        "alpha": 0.001,
+        "n1": 207,
+        "n2": 7
+      }
+    },
+    {
+      "id": "EX-425",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.055433515979716054,
+        "alpha": 1e-07,
+        "n1": 696,
+        "n2": 192
+      }
+    },
+    {
+      "id": "EX-426",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.33772169992032675,
+        "alpha": 1e-07,
+        "n1": 336,
+        "n2": 212
+      }
+    },
+    {
+      "id": "EX-427",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.4560814959571733,
+        "alpha": 0.01,
+        "n1": 678,
+        "n2": 1070
+      }
+    },
+    {
+      "id": "EX-428",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.9749876361397982,
+        "alpha": 0.1,
+        "n1": 184,
+        "n2": 3767
+      }
+    },
+    {
+      "id": "EX-429",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.6596561321154303,
+        "alpha": 1e-07,
+        "n1": 965,
+        "n2": 30
+      }
+    },
+    {
+      "id": "EX-430",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.05356307856178322,
+        "alpha": 0.05,
+        "n1": 724,
+        "n2": 23168
+      }
+    },
+    {
+      "id": "EX-431",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.43010562298939065,
+        "alpha": 0.001,
+        "n1": 251,
+        "n2": 17
+      }
+    },
+    {
+      "id": "EX-432",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.9801931034803867,
+        "alpha": 0.25,
+        "n1": 104,
+        "n2": 7
+      }
+    },
+    {
+      "id": "EX-433",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.3990652918561137,
+        "alpha": 0.0001,
+        "n1": 596,
+        "n2": 592
+      }
+    },
+    {
+      "id": "EX-434",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.8948509732109735,
+        "alpha": 0.1,
+        "n1": 866,
+        "n2": 1607
+      }
+    },
+    {
+      "id": "EX-435",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.0787507662045759,
+        "alpha": 1e-07,
+        "n1": 196,
+        "n2": 142
+      }
+    },
+    {
+      "id": "EX-436",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.7725291038260942,
+        "alpha": 0.001,
+        "n1": 254,
+        "n2": 7393
+      }
+    },
+    {
+      "id": "EX-437",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.22715842776075826,
+        "alpha": 0.01,
+        "n1": 687,
+        "n2": 2429
+      }
+    },
+    {
+      "id": "EX-438",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.3572659310268652,
+        "alpha": 0.0001,
+        "n1": 744,
+        "n2": 12
+      }
+    },
+    {
+      "id": "EX-439",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.574415708109491,
+        "alpha": 1e-07,
+        "n1": 627,
+        "n2": 20871
+      }
+    },
+    {
+      "id": "EX-440",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.6012933402671248,
+        "alpha": 0.05,
+        "n1": 543,
+        "n2": 29
+      }
+    },
+    {
+      "id": "EX-441",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.09280038314176273,
+        "alpha": 0.25,
+        "n1": 916,
+        "n2": 40369
+      }
+    },
+    {
+      "id": "EX-442",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.0925258058206206,
+        "alpha": 0.25,
+        "n1": 938,
+        "n2": 305
+      }
+    },
+    {
+      "id": "EX-443",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.19239420880746255,
+        "alpha": 0.001,
+        "n1": 36,
+        "n2": 950
+      }
+    },
+    {
+      "id": "EX-444",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.47573123923832944,
+        "alpha": 0.25,
+        "n1": 790,
+        "n2": 14671
+      }
+    },
+    {
+      "id": "EX-445",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.37411994617582606,
+        "alpha": 0.1,
+        "n1": 94,
+        "n2": 89
+      }
+    },
+    {
+      "id": "EX-446",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.13737481384927352,
+        "alpha": 0.01,
+        "n1": 424,
+        "n2": 4126
+      }
+    },
+    {
+      "id": "EX-447",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.11921411826151845,
+        "alpha": 0.25,
+        "n1": 241,
+        "n2": 14867
+      }
+    },
+    {
+      "id": "EX-448",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.5070920578344074,
+        "alpha": 0.1,
+        "n1": 541,
+        "n2": 826
+      }
+    },
+    {
+      "id": "EX-449",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.8229763633517303,
+        "alpha": 0.0001,
+        "n1": 757,
+        "n2": 36
+      }
+    },
+    {
+      "id": "EX-450",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.12884549994196517,
+        "alpha": 0.0001,
+        "n1": 748,
+        "n2": 15492
+      }
+    },
+    {
+      "id": "EX-451",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.3181168514839998,
+        "alpha": 0.1,
+        "n1": 776,
+        "n2": 8417
+      }
+    },
+    {
+      "id": "EX-452",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.053709590033913235,
+        "alpha": 0.1,
+        "n1": 340,
+        "n2": 5543
+      }
+    },
+    {
+      "id": "EX-453",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.4667840984700618,
+        "alpha": 0.01,
+        "n1": 474,
+        "n2": 6
+      }
+    },
+    {
+      "id": "EX-454",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.40290111872908196,
+        "alpha": 1e-07,
+        "n1": 520,
+        "n2": 372
+      }
+    },
+    {
+      "id": "EX-455",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.531853172127599,
+        "alpha": 0.1,
+        "n1": 870,
+        "n2": 1186
+      }
+    },
+    {
+      "id": "EX-456",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.7247383081549543,
+        "alpha": 0.0001,
+        "n1": 640,
+        "n2": 3132
+      }
+    },
+    {
+      "id": "EX-457",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.7338741596002994,
+        "alpha": 0.1,
+        "n1": 640,
+        "n2": 39
+      }
+    },
+    {
+      "id": "EX-458",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.1739600722935698,
+        "alpha": 0.05,
+        "n1": 722,
+        "n2": 13393
+      }
+    },
+    {
+      "id": "EX-459",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.8631172987923893,
+        "alpha": 0.05,
+        "n1": 125,
+        "n2": 10927
+      }
+    },
+    {
+      "id": "EX-460",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.7018402334201599,
+        "alpha": 1e-07,
+        "n1": 375,
+        "n2": 3267
+      }
+    },
+    {
+      "id": "EX-461",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.0642284812834678,
+        "alpha": 0.05,
+        "n1": 74,
+        "n2": 20
+      }
+    },
+    {
+      "id": "EX-462",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.8020070252373488,
+        "alpha": 0.1,
+        "n1": 333,
+        "n2": 12045
+      }
+    },
+    {
+      "id": "EX-463",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.1251323152246423,
+        "alpha": 0.0001,
+        "n1": 577,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-464",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.1614636925308123,
+        "alpha": 1e-07,
+        "n1": 82,
+        "n2": 5352
+      }
+    },
+    {
+      "id": "EX-465",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.5768226267962517,
+        "alpha": 0.05,
+        "n1": 494,
+        "n2": 41
+      }
+    },
+    {
+      "id": "EX-466",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.09247261912271165,
+        "alpha": 0.0001,
+        "n1": 792,
+        "n2": 200
+      }
+    },
+    {
+      "id": "EX-467",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.17194739476813065,
+        "alpha": 0.1,
+        "n1": 940,
+        "n2": 12
+      }
+    },
+    {
+      "id": "EX-468",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.2382857674745527,
+        "alpha": 0.0001,
+        "n1": 596,
+        "n2": 238
+      }
+    },
+    {
+      "id": "EX-469",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.432047500438642,
+        "alpha": 0.0001,
+        "n1": 888,
+        "n2": 4297
+      }
+    },
+    {
+      "id": "EX-470",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.09015537303419446,
+        "alpha": 1e-07,
+        "n1": 209,
+        "n2": 28
+      }
+    },
+    {
+      "id": "EX-471",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3737447595039697,
+        "alpha": 0.01,
+        "n1": 780,
+        "n2": 7399
+      }
+    },
+    {
+      "id": "EX-472",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.054653670176926405,
+        "alpha": 1e-07,
+        "n1": 770,
+        "n2": 84
+      }
+    },
+    {
+      "id": "EX-473",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.8320536386184663,
+        "alpha": 0.05,
+        "n1": 291,
+        "n2": 218
+      }
+    },
+    {
+      "id": "EX-474",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.4422066073524684,
+        "alpha": 0.001,
+        "n1": 211,
+        "n2": 13
+      }
+    },
+    {
+      "id": "EX-475",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3317502020878712,
+        "alpha": 0.0001,
+        "n1": 984,
+        "n2": 3934
+      }
+    },
+    {
+      "id": "EX-476",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.0843702228975035,
+        "alpha": 0.05,
+        "n1": 591,
+        "n2": 173
+      }
+    },
+    {
+      "id": "EX-477",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.1738264824688074,
+        "alpha": 0.1,
+        "n1": 29,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-478",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.7813122209868102,
+        "alpha": 0.05,
+        "n1": 430,
+        "n2": 27371
+      }
+    },
+    {
+      "id": "EX-479",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.3825239899433702,
+        "alpha": 0.0001,
+        "n1": 18,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-480",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.0719174043166468,
+        "alpha": 0.01,
+        "n1": 592,
+        "n2": 546
+      }
+    },
+    {
+      "id": "EX-481",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3956430178169693,
+        "alpha": 0.05,
+        "n1": 575,
+        "n2": 14817
+      }
+    },
+    {
+      "id": "EX-482",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.064572722478101,
+        "alpha": 0.1,
+        "n1": 309,
+        "n2": 52
+      }
+    },
+    {
+      "id": "EX-483",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.13060677140152163,
+        "alpha": 0.0001,
+        "n1": 132,
+        "n2": 9
+      }
+    },
+    {
+      "id": "EX-484",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.1902615202635258,
+        "alpha": 0.01,
+        "n1": 756,
+        "n2": 26
+      }
+    },
+    {
+      "id": "EX-485",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.07817761286970117,
+        "alpha": 0.25,
+        "n1": 116,
+        "n2": 7865
+      }
+    },
+    {
+      "id": "EX-486",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.1893557598097197,
+        "alpha": 0.25,
+        "n1": 483,
+        "n2": 53
+      }
+    },
+    {
+      "id": "EX-487",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.055849288813869476,
+        "alpha": 0.05,
+        "n1": 328,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-488",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.7208322699992833,
+        "alpha": 0.001,
+        "n1": 891,
+        "n2": 243
+      }
+    },
+    {
+      "id": "EX-489",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.2345828651824029,
+        "alpha": 0.25,
+        "n1": 3,
+        "n2": 8
+      }
+    },
+    {
+      "id": "EX-490",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.06832759020613012,
+        "alpha": 0.05,
+        "n1": 199,
+        "n2": 2835
+      }
+    },
+    {
+      "id": "EX-491",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.0576025480364231,
+        "alpha": 0.01,
+        "n1": 1,
+        "n2": 2
+      }
+    },
+    {
+      "id": "EX-492",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.3265385433014685,
+        "alpha": 0.1,
+        "n1": 707,
+        "n2": 938
+      }
+    },
+    {
+      "id": "EX-493",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.8092308936279031,
+        "alpha": 1e-07,
+        "n1": 947,
+        "n2": 6954
+      }
+    },
+    {
+      "id": "EX-494",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.6215752803523359,
+        "alpha": 0.05,
+        "n1": 680,
+        "n2": 48186
+      }
+    },
+    {
+      "id": "EX-495",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.09720244230997713,
+        "alpha": 0.0001,
+        "n1": 675,
+        "n2": 6859
+      }
+    },
+    {
+      "id": "EX-496",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.252320741439096,
+        "alpha": 0.25,
+        "n1": 784,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-497",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.11708453179356976,
+        "alpha": 0.05,
+        "n1": 91,
+        "n2": 852
+      }
+    },
+    {
+      "id": "EX-498",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.09103841382704418,
+        "alpha": 0.05,
+        "n1": 115,
+        "n2": 23
+      }
+    },
+    {
+      "id": "EX-499",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.142839068081418,
+        "alpha": 0.0001,
+        "n1": 137,
+        "n2": 2
+      }
+    },
+    {
+      "id": "EX-500",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.33843779909557714,
+        "alpha": 1e-07,
+        "n1": 251,
+        "n2": 137
+      }
+    },
+    {
+      "id": "EX-501",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.22872652634833798,
+        "alpha": 0.05,
+        "n1": 674,
+        "n2": 1845
+      }
+    },
+    {
+      "id": "EX-502",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.2016057959720604,
+        "alpha": 0.01,
+        "n1": 580,
+        "n2": 3230
+      }
+    },
+    {
+      "id": "EX-503",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.6897344755250228,
+        "alpha": 0.1,
+        "n1": 805,
+        "n2": 623
+      }
+    },
+    {
+      "id": "EX-504",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.971516078393366,
+        "alpha": 0.1,
+        "n1": 233,
+        "n2": 3778
+      }
+    },
+    {
+      "id": "EX-505",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.2465856945476284,
+        "alpha": 1e-07,
+        "n1": 205,
+        "n2": 181
+      }
+    },
+    {
+      "id": "EX-506",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.2060023600314467,
+        "alpha": 0.1,
+        "n1": 749,
+        "n2": 29
+      }
+    },
+    {
+      "id": "EX-507",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5813367291801254,
+        "alpha": 0.25,
+        "n1": 721,
+        "n2": 274
+      }
+    },
+    {
+      "id": "EX-508",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.9308729496578652,
+        "alpha": 0.25,
+        "n1": 991,
+        "n2": 6955
+      }
+    },
+    {
+      "id": "EX-509",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06798202760788781,
+        "alpha": 0.001,
+        "n1": 630,
+        "n2": 24015
+      }
+    },
+    {
+      "id": "EX-510",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.4955399698610973,
+        "alpha": 0.05,
+        "n1": 806,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-511",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.004005120600694,
+        "alpha": 0.0001,
+        "n1": 901,
+        "n2": 2540
+      }
+    },
+    {
+      "id": "EX-512",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.06384037505003365,
+        "alpha": 0.05,
+        "n1": 181,
+        "n2": 3
+      }
+    },
+    {
+      "id": "EX-513",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.15671651145266427,
+        "alpha": 1e-07,
+        "n1": 969,
+        "n2": 3766
+      }
+    },
+    {
+      "id": "EX-514",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.0897511897787283,
+        "alpha": 0.25,
+        "n1": 780,
+        "n2": 1979
+      }
+    },
+    {
+      "id": "EX-515",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.14082436753253205,
+        "alpha": 0.0001,
+        "n1": 613,
+        "n2": 426
+      }
+    },
+    {
+      "id": "EX-516",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.8015591856741467,
+        "alpha": 0.05,
+        "n1": 606,
+        "n2": 59530
+      }
+    },
+    {
+      "id": "EX-517",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.31215731534974644,
+        "alpha": 1e-07,
+        "n1": 153,
+        "n2": 273
+      }
+    },
+    {
+      "id": "EX-518",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.3194613210551122,
+        "alpha": 0.05,
+        "n1": 778,
+        "n2": 28943
+      }
+    },
+    {
+      "id": "EX-519",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.08463839115357837,
+        "alpha": 0.05,
+        "n1": 628,
+        "n2": 6502
+      }
+    },
+    {
+      "id": "EX-520",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.2829355302153592,
+        "alpha": 0.05,
+        "n1": 572,
+        "n2": 46617
+      }
+    },
+    {
+      "id": "EX-521",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.22075321507050927,
+        "alpha": 0.01,
+        "n1": 139,
+        "n2": 1440
+      }
+    },
+    {
+      "id": "EX-522",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.25539865536917605,
+        "alpha": 0.0001,
+        "n1": 674,
+        "n2": 6931
+      }
+    },
+    {
+      "id": "EX-523",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.052162238193759175,
+        "alpha": 0.25,
+        "n1": 471,
+        "n2": 70
+      }
+    },
+    {
+      "id": "EX-524",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.9848099799370411,
+        "alpha": 0.01,
+        "n1": 164,
+        "n2": 15023
+      }
+    },
+    {
+      "id": "EX-525",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.14538961040516457,
+        "alpha": 0.01,
+        "n1": 832,
+        "n2": 45449
+      }
+    },
+    {
+      "id": "EX-526",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.20659992073055164,
+        "alpha": 0.001,
+        "n1": 217,
+        "n2": 825
+      }
+    },
+    {
+      "id": "EX-527",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05129785502692172,
+        "alpha": 0.25,
+        "n1": 601,
+        "n2": 13
+      }
+    },
+    {
+      "id": "EX-528",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.084278750361384,
+        "alpha": 0.0001,
+        "n1": 564,
+        "n2": 1304
+      }
+    },
+    {
+      "id": "EX-529",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.4623667002547143,
+        "alpha": 1e-07,
+        "n1": 159,
+        "n2": 994
+      }
+    },
+    {
+      "id": "EX-530",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.23680699585432632,
+        "alpha": 0.0001,
+        "n1": 735,
+        "n2": 2627
+      }
+    },
+    {
+      "id": "EX-531",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05238307710215335,
+        "alpha": 1e-07,
+        "n1": 962,
+        "n2": 861
+      }
+    },
+    {
+      "id": "EX-532",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.20903142627997023,
+        "alpha": 1e-07,
+        "n1": 358,
+        "n2": 11
+      }
+    },
+    {
+      "id": "EX-533",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.20535207776428938,
+        "alpha": 0.05,
+        "n1": 507,
+        "n2": 3264
+      }
+    },
+    {
+      "id": "EX-534",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.19650001193077204,
+        "alpha": 0.05,
+        "n1": 568,
+        "n2": 282
+      }
+    },
+    {
+      "id": "EX-535",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.07879723956075245,
+        "alpha": 1e-07,
+        "n1": 151,
+        "n2": 321
+      }
+    },
+    {
+      "id": "EX-536",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.4352026841242002,
+        "alpha": 1e-07,
+        "n1": 641,
+        "n2": 2404
+      }
+    },
+    {
+      "id": "EX-537",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5498432532553835,
+        "alpha": 0.25,
+        "n1": 328,
+        "n2": 24
+      }
+    },
+    {
+      "id": "EX-538",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10080124807803735,
+        "alpha": 0.001,
+        "n1": 206,
+        "n2": 7897
+      }
+    },
+    {
+      "id": "EX-539",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.4242819303164271,
+        "alpha": 0.0001,
+        "n1": 374,
+        "n2": 2160
+      }
+    },
+    {
+      "id": "EX-540",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.6955320778746985,
+        "alpha": 0.1,
+        "n1": 106,
+        "n2": 3210
+      }
+    },
+    {
+      "id": "EX-541",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.1385423431273727,
+        "alpha": 0.1,
+        "n1": 689,
+        "n2": 3845
+      }
+    },
+    {
+      "id": "EX-542",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.07345822841123202,
+        "alpha": 1e-07,
+        "n1": 174,
+        "n2": 4
+      }
+    },
+    {
+      "id": "EX-543",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.1894014351330729,
+        "alpha": 0.05,
+        "n1": 265,
+        "n2": 22
+      }
+    },
+    {
+      "id": "EX-544",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.1299581455227947,
+        "alpha": 0.05,
+        "n1": 997,
+        "n2": 3992
+      }
+    },
+    {
+      "id": "EX-545",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.2166563807109305,
+        "alpha": 0.0001,
+        "n1": 394,
+        "n2": 2499
+      }
+    },
+    {
+      "id": "EX-546",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.07755485729195938,
+        "alpha": 1e-07,
+        "n1": 536,
+        "n2": 256
+      }
+    },
+    {
+      "id": "EX-547",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.6272369839789488,
+        "alpha": 1e-07,
+        "n1": 579,
+        "n2": 624
+      }
+    },
+    {
+      "id": "EX-548",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.13309176869604947,
+        "alpha": 0.25,
+        "n1": 904,
+        "n2": 22312
+      }
+    },
+    {
+      "id": "EX-549",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.06136248508869792,
+        "alpha": 0.01,
+        "n1": 707,
+        "n2": 153
+      }
+    },
+    {
+      "id": "EX-550",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.786663667052616,
+        "alpha": 0.25,
+        "n1": 851,
+        "n2": 9010
+      }
+    },
+    {
+      "id": "EX-551",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.06804853048619994,
+        "alpha": 0.25,
+        "n1": 249,
+        "n2": 5169
+      }
+    },
+    {
+      "id": "EX-552",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.07046865738905497,
+        "alpha": 0.25,
+        "n1": 160,
+        "n2": 7852
+      }
+    },
+    {
+      "id": "EX-553",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.0662087532350762,
+        "alpha": 1e-07,
+        "n1": 380,
+        "n2": 13846
+      }
+    },
+    {
+      "id": "EX-554",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.28238877571861415,
+        "alpha": 0.01,
+        "n1": 612,
+        "n2": 42
+      }
+    },
+    {
+      "id": "EX-555",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.4375741328646603,
+        "alpha": 0.25,
+        "n1": 27,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-556",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.761304861028148,
+        "alpha": 0.05,
+        "n1": 648,
+        "n2": 2734
+      }
+    },
+    {
+      "id": "EX-557",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.10103059577965917,
+        "alpha": 0.0001,
+        "n1": 403,
+        "n2": 11102
+      }
+    },
+    {
+      "id": "EX-558",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.0530356436968054,
+        "alpha": 0.25,
+        "n1": 402,
+        "n2": 1238
+      }
+    },
+    {
+      "id": "EX-559",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.11726651100667382,
+        "alpha": 0.1,
+        "n1": 697,
+        "n2": 46
+      }
+    },
+    {
+      "id": "EX-560",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.39380921123895274,
+        "alpha": 0.1,
+        "n1": 196,
+        "n2": 7718
+      }
+    },
+    {
+      "id": "EX-561",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.455504578796938,
+        "alpha": 0.01,
+        "n1": 637,
+        "n2": 14
+      }
+    },
+    {
+      "id": "EX-562",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.8065850401775252,
+        "alpha": 0.25,
+        "n1": 527,
+        "n2": 49484
+      }
+    },
+    {
+      "id": "EX-563",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.05638973879807485,
+        "alpha": 0.0001,
+        "n1": 891,
+        "n2": 111
+      }
+    },
+    {
+      "id": "EX-564",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.2257829232053427,
+        "alpha": 0.01,
+        "n1": 104,
+        "n2": 816
+      }
+    },
+    {
+      "id": "EX-565",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3815714828377691,
+        "alpha": 0.001,
+        "n1": 331,
+        "n2": 196
+      }
+    },
+    {
+      "id": "EX-566",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.21960534791806613,
+        "alpha": 1e-07,
+        "n1": 528,
+        "n2": 1897
+      }
+    },
+    {
+      "id": "EX-567",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.4472916489160922,
+        "alpha": 0.001,
+        "n1": 605,
+        "n2": 13541
+      }
+    },
+    {
+      "id": "EX-568",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.14469221720133782,
+        "alpha": 0.25,
+        "n1": 914,
+        "n2": 42483
+      }
+    },
+    {
+      "id": "EX-569",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.3499032659893944,
+        "alpha": 0.25,
+        "n1": 466,
+        "n2": 6066
+      }
+    },
+    {
+      "id": "EX-570",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.374019353470323,
+        "alpha": 0.05,
+        "n1": 97,
+        "n2": 455
+      }
+    },
+    {
+      "id": "EX-571",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.9228164579946997,
+        "alpha": 0.05,
+        "n1": 896,
+        "n2": 2874
+      }
+    },
+    {
+      "id": "EX-572",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.1279385763960807,
+        "alpha": 1e-07,
+        "n1": 19,
+        "n2": 1
+      }
+    },
+    {
+      "id": "EX-573",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.9835265092470549,
+        "alpha": 0.05,
+        "n1": 274,
+        "n2": 81
+      }
+    },
+    {
+      "id": "EX-574",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 1.2974152876661138,
+        "alpha": 0.1,
+        "n1": 390,
+        "n2": 74
+      }
+    },
+    {
+      "id": "EX-575",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.11955252371605718,
+        "alpha": 0.01,
+        "n1": 892,
+        "n2": 16
+      }
+    },
+    {
+      "id": "EX-576",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.7650841786157087,
+        "alpha": 0.001,
+        "n1": 729,
+        "n2": 12199
+      }
+    },
+    {
+      "id": "EX-577",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5486041301282496,
+        "alpha": 0.001,
+        "n1": 786,
+        "n2": 55
+      }
+    },
+    {
+      "id": "EX-578",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.22716954244409224,
+        "alpha": 0.0001,
+        "n1": 102,
+        "n2": 170
+      }
+    },
+    {
+      "id": "EX-579",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -1.9864918801365603,
+        "alpha": 1e-07,
+        "n1": 588,
+        "n2": 20100
+      }
+    },
+    {
+      "id": "EX-580",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.14011346954433151,
+        "alpha": 0.05,
+        "n1": 133,
+        "n2": 4
+      }
+    },
+    {
+      "id": "EX-581",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.13679067982798493,
+        "alpha": 0.01,
+        "n1": 115,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-582",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.06829832558429029,
+        "alpha": 1e-07,
+        "n1": 724,
+        "n2": 4124
+      }
+    },
+    {
+      "id": "EX-583",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.18002743700440552,
+        "alpha": 0.01,
+        "n1": 644,
+        "n2": 476
+      }
+    },
+    {
+      "id": "EX-584",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.0508421010077567,
+        "alpha": 0.01,
+        "n1": 541,
+        "n2": 16
+      }
+    },
+    {
+      "id": "EX-585",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 1.778228892529109,
+        "alpha": 0.1,
+        "n1": 51,
+        "n2": 1048
+      }
+    },
+    {
+      "id": "EX-586",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5146255862931376,
+        "alpha": 0.05,
+        "n1": 38,
+        "n2": 364
+      }
+    },
+    {
+      "id": "EX-587",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.19391136868770537,
+        "alpha": 0.001,
+        "n1": 848,
+        "n2": 17601
+      }
+    },
+    {
+      "id": "EX-588",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.08842464323449015,
+        "alpha": 0.25,
+        "n1": 570,
+        "n2": 89
+      }
+    },
+    {
+      "id": "EX-589",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.11597058180858794,
+        "alpha": 0.25,
+        "n1": 438,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-590",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.10718478876603117,
+        "alpha": 0.001,
+        "n1": 147,
+        "n2": 137
+      }
+    },
+    {
+      "id": "EX-591",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.41264998060057556,
+        "alpha": 0.1,
+        "n1": 35,
+        "n2": 172
+      }
+    },
+    {
+      "id": "EX-592",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -1.6913171476369135,
+        "alpha": 0.1,
+        "n1": 489,
+        "n2": 14424
+      }
+    },
+    {
+      "id": "EX-593",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.7885009673578934,
+        "alpha": 0.1,
+        "n1": 624,
+        "n2": 18
+      }
+    },
+    {
+      "id": "EX-594",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.42146206779387524,
+        "alpha": 0.01,
+        "n1": 551,
+        "n2": 1977
+      }
+    },
+    {
+      "id": "EX-595",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.17666007329022637,
+        "alpha": 0.1,
+        "n1": 383,
+        "n2": 10
+      }
+    },
+    {
+      "id": "EX-596",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.22600751570034477,
+        "alpha": 0.001,
+        "n1": 227,
+        "n2": 62
+      }
+    },
+    {
+      "id": "EX-597",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.2532336915089417,
+        "alpha": 0.05,
+        "n1": 520,
+        "n2": 11
+      }
+    },
+    {
+      "id": "EX-598",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5387990353664801,
+        "alpha": 0.25,
+        "n1": 345,
+        "n2": 2267
+      }
+    },
+    {
+      "id": "EX-599",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.7490635789170327,
+        "alpha": 0.25,
+        "n1": 265,
+        "n2": 3
+      }
+    },
+    {
+      "id": "EX-600",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.05929709180685469,
+        "alpha": 0.0001,
+        "n1": 717,
+        "n2": 222
+      }
+    },
+    {
+      "id": "SPECIAL-01",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -20,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-02",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-03",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-04",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-05",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 20,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-06",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -20,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-07",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.5,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-08",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-09",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-10",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 20,
+        "alpha": 0.5,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-11",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -20,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-12",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-13",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-14",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-15",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 20,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-16",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -20,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-17",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.5,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-18",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-19",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-20",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 20,
+        "alpha": 0.75,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-21",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -20,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-22",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": -0.5,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-23",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-24",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-25",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 20,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-26",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -20,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-27",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": -0.5,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-28",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-29",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 0.5,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    },
+    {
+      "id": "SPECIAL-30",
+      "parameters": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 2,
+        "d": 20,
+        "alpha": 0.9999999,
+        "n1": 20,
+        "n2": 37
+      }
+    }
+  ]
+}

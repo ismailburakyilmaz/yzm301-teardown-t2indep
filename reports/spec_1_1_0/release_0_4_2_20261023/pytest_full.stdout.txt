@@ -1,0 +1,725 @@
+..................F.........................................F..F........ [  3%]
+..FFFFFF..FFFF.......................................................... [  6%]
+................F....................................................... [  9%]
+FFFFFF..FFFF............................................................ [ 12%]
+........................................................................ [ 15%]
+........................................................................ [ 18%]
+........................................................................ [ 22%]
+F...F...F.....F.....................F.F.F.........F...F.F...F.F......... [ 25%]
+..F.......F.F.F...F.........................F.F.......F.........F....... [ 28%]
+..F...F...F.......F.........F......FF.F...........F.F.F.F.F...F.F...F... [ 31%]
+......F...F.F.................F...F...F.........F.F.........F.......FFF. [ 34%]
+..................F...............F.F.........F...F.F.............F...F. [ 37%]
+..............F...F.........F...F...................F...........F....... [ 41%]
+............F.....F.F............F........F.F.............F.........F... [ 44%]
+F...............................F.........................F...F...F.F... [ 47%]
+............F........................................................... [ 50%]
+........................................................................ [ 53%]
+........................................................................ [ 56%]
+........................................................................ [ 60%]
+........................................................................ [ 63%]
+........................................................................ [ 66%]
+........................................................................ [ 69%]
+........................................................................ [ 72%]
+........................................................................ [ 75%]
+........................................................................ [ 78%]
+........................................................................ [ 82%]
+........................................................................ [ 85%]
+........................................................................ [ 88%]
+........................................................................ [ 91%]
+........................................................................ [ 94%]
+........................................................................ [ 97%]
+................................................                         [100%]
+================================== FAILURES ===================================
+___________________ test_ac107_strict_raw_oracle[GP-AP-019] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4863472, 'actual': 2.4864748605405205, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...': 'exact_integer'}}, 'n2': {'expected': 123638443832, 'actual': 123651144642, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.4863472, 'actual': 2.4864748605405205, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...': 'exact_integer'}}, 'n2': {'expected': 123638443832, 'actual': 123651144642, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-025] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'critical': {'expected': 6.805748e-17, 'actual': 6.805747424058503e-17, 'rule': {'rule': 'displayed_significant_scientific', 'significant_digits': 7, 'abs_tol': 5e-24}}}
+E   assert not {'critical': {'expected': 6.805748e-17, 'actual': 6.805747424058503e-17, 'rule': {'rule': 'displayed_significant_scientific', 'significant_digits': 7, 'abs_tol': 5e-24}}}
+___________________ test_ac107_strict_raw_oracle[GP-AP-028] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': -2.4866106, 'actual': -2.4864748605385065, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, ...': 'exact_integer'}}, 'n2': {'expected': 121227964539, 'actual': 121214728597, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': -2.4866106, 'actual': -2.4864748605385065, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, ...': 'exact_integer'}}, 'n2': {'expected': 121227964539, 'actual': 121214728597, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-039] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 98920914, 'actual': 98920916, 'rule': {'rule': 'exact_integer'}}, 'n1': {'expected': 49460458, 'ac...: {'rule': 'exact_integer'}}, 'n_total': {'expected': 98920916, 'actual': 98920918, 'rule': {'rule': 'exact_integer'}}}
+E   assert not {'df': {'expected': 98920914, 'actual': 98920916, 'rule': {'rule': 'exact_integer'}}, 'n1': {'expected': 49460458, 'ac...: {'rule': 'exact_integer'}}, 'n_total': {'expected': 98920916, 'actual': 98920918, 'rule': {'rule': 'exact_integer'}}}
+___________________ test_ac107_strict_raw_oracle[GP-AP-040] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 618255740, 'actual': 618255724, 'rule': {'rule': 'exact_integer'}}, 'n1': {'expected': 309127871, ...{'rule': 'exact_integer'}}, 'n_total': {'expected': 618255742, 'actual': 618255726, 'rule': {'rule': 'exact_integer'}}}
+E   assert not {'df': {'expected': 618255740, 'actual': 618255724, 'rule': {'rule': 'exact_integer'}}, 'n1': {'expected': 309127871, ...{'rule': 'exact_integer'}}, 'n_total': {'expected': 618255742, 'actual': 618255726, 'rule': {'rule': 'exact_integer'}}}
+___________________ test_ac107_strict_raw_oracle[GP-AP-041] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4864764, 'actual': 2.4864748621291146, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...rule': 'exact_integer'}}, 'n2': {'expected': 1236512955, 'actual': 1236511448, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.4864764, 'actual': 2.4864748621291146, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...rule': 'exact_integer'}}, 'n2': {'expected': 1236512955, 'actual': 1236511448, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-042] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4864755, 'actual': 2.4864748608723155, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...rule': 'exact_integer'}}, 'n2': {'expected': 4946048136, 'actual': 4946045787, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.4864755, 'actual': 2.4864748608723155, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...rule': 'exact_integer'}}, 'n2': {'expected': 4946048136, 'actual': 4946045787, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-043] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4864856, 'actual': 2.4864748605606293, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...le': 'exact_integer'}}, 'n2': {'expected': 30913053918, 'actual': 30912786161, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.4864856, 'actual': 2.4864748605606293, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...le': 'exact_integer'}}, 'n2': {'expected': 30913053918, 'actual': 30912786161, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-044] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4864749, 'actual': 2.4864749666948187, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...: {'rule': 'exact_integer'}}, 'n2': {'expected': 19320492, 'actual': 19320493, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.4864749, 'actual': 2.4864749666948187, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'a...: {'rule': 'exact_integer'}}, 'n2': {'expected': 19320492, 'actual': 19320493, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-047] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.801582, 'actual': 2.8015818745844285, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 15697723, 'actual': 15697722, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.801582, 'actual': 2.8015818745844285, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 15697723, 'actual': 15697722, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-048] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.8015818, 'actual': 2.801581934074628, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 23546583, 'actual': 23546584, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.8015818, 'actual': 2.801581934074628, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 23546583, 'actual': 23546584, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-049] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.8015819, 'actual': 2.801581829966778, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 62790889, 'actual': 62790886, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 2.8015819, 'actual': 2.801581829966778, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 62790889, 'actual': 62790886, 'rule': {'rule': 'exact_integer'}}, ...}
+___________________ test_ac107_strict_raw_oracle[GP-AP-050] ___________________
+tests\spec_1_1_0\test_acceptance.py:11: in test_ac107_strict_raw_oracle
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 3.4174505, 'actual': 3.417450566577372, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 93431745, 'actual': 93431747, 'rule': {'rule': 'exact_integer'}}, ...}
+E   assert not {'ncp': {'expected': 3.4174505, 'actual': 3.417450566577372, 'rule': {'rule': 'displayed_decimals', 'decimals': 7, 'ab...: {'rule': 'exact_integer'}}, 'n2': {'expected': 93431745, 'actual': 93431747, 'rule': {'rule': 'exact_integer'}}, ...}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-019] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4863472, 'actual': 2.4864748605405205}, 'df': {'expected': 247276887662, 'actual': 247302289282...n1': {'expected': 123638443832, 'actual': 123651144642}, 'n2': {'expected': 123638443832, 'actual': 123651144642}, ...}
+E   assert not {'ncp': {'expected': 2.4863472, 'actual': 2.4864748605405205}, 'df': {'expected': 247276887662, 'actual': 247302289282...n1': {'expected': 123638443832, 'actual': 123651144642}, 'n2': {'expected': 123638443832, 'actual': 123651144642}, ...}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-039] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 98920914, 'actual': 98920916}, 'n1': {'expected': 49460458, 'actual': 49460459}, 'n2': {'expected': 49460458, 'actual': 49460459}, 'n_total': {'expected': 98920916, 'actual': 98920918}}
+E   assert not {'df': {'expected': 98920914, 'actual': 98920916}, 'n1': {'expected': 49460458, 'actual': 49460459}, 'n2': {'expected': 49460458, 'actual': 49460459}, 'n_total': {'expected': 98920916, 'actual': 98920918}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-040] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 618255740, 'actual': 618255724}, 'n1': {'expected': 309127871, 'actual': 309127863}, 'n2': {'expected': 309127871, 'actual': 309127863}, 'n_total': {'expected': 618255742, 'actual': 618255726}}
+E   assert not {'df': {'expected': 618255740, 'actual': 618255724}, 'n1': {'expected': 309127871, 'actual': 309127863}, 'n2': {'expected': 309127871, 'actual': 309127863}, 'n_total': {'expected': 618255742, 'actual': 618255726}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-041] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 2473025908, 'actual': 2473022894}, 'n1': {'expected': 1236512955, 'actual': 1236511448}, 'n2': {'expected': 1236512955, 'actual': 1236511448}, 'n_total': {'expected': 2473025910, 'actual': 2473022896}}
+E   assert not {'df': {'expected': 2473025908, 'actual': 2473022894}, 'n1': {'expected': 1236512955, 'actual': 1236511448}, 'n2': {'expected': 1236512955, 'actual': 1236511448}, 'n_total': {'expected': 2473025910, 'actual': 2473022896}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-042] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 9892096270, 'actual': 9892091572}, 'n1': {'expected': 4946048136, 'actual': 4946045787}, 'n2': {'expected': 4946048136, 'actual': 4946045787}, 'n_total': {'expected': 9892096272, 'actual': 9892091574}}
+E   assert not {'df': {'expected': 9892096270, 'actual': 9892091572}, 'n1': {'expected': 4946048136, 'actual': 4946045787}, 'n2': {'expected': 4946048136, 'actual': 4946045787}, 'n_total': {'expected': 9892096272, 'actual': 9892091574}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-043] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'ncp': {'expected': 2.4864856, 'actual': 2.4864748605606293}, 'df': {'expected': 61826107834, 'actual': 61825572320}, 'n1': {'expected': 30913053918, 'actual': 30912786161}, 'n2': {'expected': 30913053918, 'actual': 30912786161}, ...}
+E   assert not {'ncp': {'expected': 2.4864856, 'actual': 2.4864748605606293}, 'df': {'expected': 61826107834, 'actual': 61825572320}, 'n1': {'expected': 30913053918, 'actual': 30912786161}, 'n2': {'expected': 30913053918, 'actual': 30912786161}, ...}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-044] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 38640982, 'actual': 38640984}, 'n1': {'expected': 19320492, 'actual': 19320493}, 'n2': {'expected': 19320492, 'actual': 19320493}, 'n_total': {'expected': 38640984, 'actual': 38640986}}
+E   assert not {'df': {'expected': 38640982, 'actual': 38640984}, 'n1': {'expected': 19320492, 'actual': 19320493}, 'n2': {'expected': 19320492, 'actual': 19320493}, 'n_total': {'expected': 38640984, 'actual': 38640986}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-047] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 31395444, 'actual': 31395442}, 'n1': {'expected': 15697723, 'actual': 15697722}, 'n2': {'expected': 15697723, 'actual': 15697722}, 'n_total': {'expected': 31395446, 'actual': 31395444}}
+E   assert not {'df': {'expected': 31395444, 'actual': 31395442}, 'n1': {'expected': 15697723, 'actual': 15697722}, 'n2': {'expected': 15697723, 'actual': 15697722}, 'n_total': {'expected': 31395446, 'actual': 31395444}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-048] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 35319872, 'actual': 35319874}, 'n1': {'expected': 11773291, 'actual': 11773292}, 'n2': {'expected': 23546583, 'actual': 23546584}, 'n_total': {'expected': 35319874, 'actual': 35319876}}
+E   assert not {'df': {'expected': 35319872, 'actual': 35319874}, 'n1': {'expected': 11773291, 'actual': 11773292}, 'n2': {'expected': 23546583, 'actual': 23546584}, 'n_total': {'expected': 35319874, 'actual': 35319876}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-049] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 125581776, 'actual': 125581770}, 'n1': {'expected': 62790889, 'actual': 62790886}, 'n2': {'expected': 62790889, 'actual': 62790886}, 'n_total': {'expected': 125581778, 'actual': 125581772}}
+E   assert not {'df': {'expected': 125581776, 'actual': 125581770}, 'n1': {'expected': 62790889, 'actual': 62790886}, 'n2': {'expected': 62790889, 'actual': 62790886}, 'n_total': {'expected': 125581778, 'actual': 125581772}}
+_____________ test_ac101_102_official_gui_expectation[GP-AP-050] ______________
+tests\spec_1_1_0\test_acceptance.py:21: in test_ac101_102_official_gui_expectation
+    assert not delta,delta
+E   AssertionError: {'df': {'expected': 186863488, 'actual': 186863492}, 'n1': {'expected': 93431745, 'actual': 93431747}, 'n2': {'expected': 93431745, 'actual': 93431747}, 'n_total': {'expected': 186863490, 'actual': 186863494}}
+E   assert not {'df': {'expected': 186863488, 'actual': 186863492}, 'n1': {'expected': 93431745, 'actual': 93431747}, 'n2': {'expected': 93431745, 'actual': 93431747}, 'n_total': {'expected': 186863490, 'actual': 186863494}}
+_____________________ test_statsmodels_crosscheck[EX-004] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 32.000004375, 'continuous_total': 66.45763196858563, 'projected_even_total': 68, 'projected_n1': 33, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 32.000004375, 'continuous_total': 66.45763196858563, 'projected_even_total': 68, 'projected_n1': 33, ...})
+_____________________ test_statsmodels_crosscheck[EX-008] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 26.0000025, 'continuous_total': 171.439704659903, 'projected_even_total': 172, 'projected_n1': 26, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 26.0000025, 'continuous_total': 171.439704659903, 'projected_even_total': 172, 'projected_n1': 26, ...})
+_____________________ test_statsmodels_crosscheck[EX-012] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...})
+_____________________ test_statsmodels_crosscheck[EX-018] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1000.5760241460644, 'continuous_total': 7521.833193879327, 'projected_even_total': 7522, 'projected_n1': 1001, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1000.5760241460644, 'continuous_total': 7521.833193879327, 'projected_even_total': 7522, 'projected_n1': 1001, ...})
+_____________________ test_statsmodels_crosscheck[EX-040] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 804.0627095992602, 'continuous_total': 890.3022528367446, 'projected_even_total': 892, 'projected_n1': 806, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 804.0627095992602, 'continuous_total': 890.3022528367446, 'projected_even_total': 892, 'projected_n1': 806, ...})
+_____________________ test_statsmodels_crosscheck[EX-042] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 6206.000211701067, 'continuous_total': 150698.4729568283, 'projected_even_total': 150700, 'projected_n1': 6206, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 6206.000211701067, 'continuous_total': 150698.4729568283, 'projected_even_total': 150700, 'projected_n1': 6206, ...})
+_____________________ test_statsmodels_crosscheck[EX-044] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 164.0769362897235, 'continuous_total': 1826.255441465957, 'projected_even_total': 1828, 'projected_n1': 164, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 164.0769362897235, 'continuous_total': 1826.255441465957, 'projected_even_total': 1828, 'projected_n1': 164, ...})
+_____________________ test_statsmodels_crosscheck[EX-054] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 500.0, 'continuous_total': 767.2291302949534, 'projected_even_total': 768, 'projected_n1': 501, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 500.0, 'continuous_total': 767.2291302949534, 'projected_even_total': 768, 'projected_n1': 501, ...})
+_____________________ test_statsmodels_crosscheck[EX-058] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 610.2071780004555, 'continuous_total': 624.9462671609616, 'projected_even_total': 626, 'projected_n1': 611, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 610.2071780004555, 'continuous_total': 624.9462671609616, 'projected_even_total': 626, 'projected_n1': 611, ...})
+_____________________ test_statsmodels_crosscheck[EX-060] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 17.75303526362175, 'continuous_total': 41.62278536012323, 'projected_even_total': 42, 'projected_n1': 18, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 17.75303526362175, 'continuous_total': 41.62278536012323, 'projected_even_total': 42, 'projected_n1': 18, ...})
+_____________________ test_statsmodels_crosscheck[EX-064] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1548.2328296921646, 'continuous_total': 38148.97618133576, 'projected_even_total': 38150, 'projected_n1': 1548, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1548.2328296921646, 'continuous_total': 38148.97618133576, 'projected_even_total': 38150, 'projected_n1': 1548, ...})
+_____________________ test_statsmodels_crosscheck[EX-066] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 554.7744743944238, 'continuous_total': 10285.481872180728, 'projected_even_total': 10286, 'projected_n1': 555, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 554.7744743944238, 'continuous_total': 10285.481872180728, 'projected_even_total': 10286, 'projected_n1': 555, ...})
+_____________________ test_statsmodels_crosscheck[EX-078] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1173.5643642673851, 'continuous_total': 34010.6428904717, 'projected_even_total': 34012, 'projected_n1': 1174, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1173.5643642673851, 'continuous_total': 34010.6428904717, 'projected_even_total': 34012, 'projected_n1': 1174, ...})
+_____________________ test_statsmodels_crosscheck[EX-086] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 77952.54169838823, 'continuous_total': 86833.69745574001, 'projected_even_total': 86834, 'projected_n1': 77953, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 77952.54169838823, 'continuous_total': 86833.69745574001, 'projected_even_total': 86834, 'projected_n1': 77953, ...})
+_____________________ test_statsmodels_crosscheck[EX-088] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1625.0000062500005, 'continuous_total': 2547.0926288520222, 'projected_even_total': 2548, 'projected_n1': 1626, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1625.0000062500005, 'continuous_total': 2547.0926288520222, 'projected_even_total': 2548, 'projected_n1': 1626, ...})
+_____________________ test_statsmodels_crosscheck[EX-090] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 15799.978656309422, 'continuous_total': 50457.42625329945, 'projected_even_total': 50458, 'projected_n1': 15800, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 15799.978656309422, 'continuous_total': 50457.42625329945, 'projected_even_total': 50458, 'projected_n1': 15800, ...})
+_____________________ test_statsmodels_crosscheck[EX-094] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 97742.9632684896, 'continuous_total': 100267.82407818928, 'projected_even_total': 100268, 'projected_n1': 97743, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 97742.9632684896, 'continuous_total': 100267.82407818928, 'projected_even_total': 100268, 'projected_n1': 97743, ...})
+_____________________ test_statsmodels_crosscheck[EX-120] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 443.750000625, 'continuous_total': 5756.076946522095, 'projected_even_total': 5758, 'projected_n1': 444, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 443.750000625, 'continuous_total': 5756.076946522095, 'projected_even_total': 5758, 'projected_n1': 444, ...})
+_____________________ test_statsmodels_crosscheck[EX-122] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 49.0301020080409, 'continuous_total': 1161.7494918368109, 'projected_even_total': 1162, 'projected_n1': 49, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 49.0301020080409, 'continuous_total': 1161.7494918368109, 'projected_even_total': 1162, 'projected_n1': 49, ...})
+_____________________ test_statsmodels_crosscheck[EX-130] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 19612.809007617405, 'continuous_total': 51663.72903482437, 'projected_even_total': 51664, 'projected_n1': 19613, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 19612.809007617405, 'continuous_total': 51663.72903482437, 'projected_even_total': 51664, 'projected_n1': 19613, ...})
+_____________________ test_statsmodels_crosscheck[EX-140] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1062.5000206250015, 'continuous_total': 1155.7070687799207, 'projected_even_total': 1156, 'projected_n1': 1063, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1062.5000206250015, 'continuous_total': 1155.7070687799207, 'projected_even_total': 1156, 'projected_n1': 1063, ...})
+_____________________ test_statsmodels_crosscheck[EX-150] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 5000.0, 'continuous_total': 5311.3910372469, 'projected_even_total': 5312, 'projected_n1': 5001, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 5000.0, 'continuous_total': 5311.3910372469, 'projected_even_total': 5312, 'projected_n1': 5001, ...})
+_____________________ test_statsmodels_crosscheck[EX-154] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 11936.961901723429, 'continuous_total': 21554.701179494095, 'projected_even_total': 21556, 'projected_n1': 11938, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 11936.961901723429, 'continuous_total': 21554.701179494095, 'projected_even_total': 21556, 'projected_n1': 11938, ...})
+_____________________ test_statsmodels_crosscheck[EX-158] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 46.95312539550781, 'continuous_total': 245.3449706872329, 'projected_even_total': 246, 'projected_n1': 47, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 46.95312539550781, 'continuous_total': 245.3449706872329, 'projected_even_total': 246, 'projected_n1': 47, ...})
+_____________________ test_statsmodels_crosscheck[EX-166] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 2662.8808581976273, 'continuous_total': 196877.44448193195, 'projected_even_total': 196878, 'projected_n1': 2663, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 2662.8808581976273, 'continuous_total': 196877.44448193195, 'projected_even_total': 196878, 'projected_n1': 2663, ...})
+_____________________ test_statsmodels_crosscheck[EX-176] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 2468.7500034375007, 'continuous_total': 2772.0212619120916, 'projected_even_total': 2774, 'projected_n1': 2471, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 2468.7500034375007, 'continuous_total': 2772.0212619120916, 'projected_even_total': 2774, 'projected_n1': 2471, ...})
+_____________________ test_statsmodels_crosscheck[EX-183] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...})
+_____________________ test_statsmodels_crosscheck[EX-184] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 3787.1093879882856, 'continuous_total': 46137.16938402792, 'projected_even_total': 46138, 'projected_n1': 3787, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 3787.1093879882856, 'continuous_total': 46137.16938402792, 'projected_even_total': 46138, 'projected_n1': 3787, ...})
+_____________________ test_statsmodels_crosscheck[EX-186] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 275.0000025, 'continuous_total': 17683.428474800006, 'projected_even_total': 17684, 'projected_n1': 275, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 275.0000025, 'continuous_total': 17683.428474800006, 'projected_even_total': 17684, 'projected_n1': 275, ...})
+_____________________ test_statsmodels_crosscheck[EX-198] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 136.35289202225715, 'continuous_total': 9987.99105989134, 'projected_even_total': 9988, 'projected_n1': 136, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 136.35289202225715, 'continuous_total': 9987.99105989134, 'projected_even_total': 9988, 'projected_n1': 136, ...})
+_____________________ test_statsmodels_crosscheck[EX-200] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 5000.000005000003, 'continuous_total': 122278.70693018143, 'projected_even_total': 122280, 'projected_n1': 5000, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 5000.000005000003, 'continuous_total': 122278.70693018143, 'projected_even_total': 122280, 'projected_n1': 5000, ...})
+_____________________ test_statsmodels_crosscheck[EX-202] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 47988.42810324501, 'continuous_total': 50785.305727162806, 'projected_even_total': 50786, 'projected_n1': 47989, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 47988.42810324501, 'continuous_total': 50785.305727162806, 'projected_even_total': 50786, 'projected_n1': 47989, ...})
+_____________________ test_statsmodels_crosscheck[EX-204] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 56119.004207766506, 'continuous_total': 63670.60804741601, 'projected_even_total': 63672, 'projected_n1': 56120, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 56119.004207766506, 'continuous_total': 63670.60804741601, 'projected_even_total': 63672, 'projected_n1': 56120, ...})
+_____________________ test_statsmodels_crosscheck[EX-206] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 275.0000025, 'continuous_total': 552.714182914383, 'projected_even_total': 554, 'projected_n1': 276, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 275.0000025, 'continuous_total': 552.714182914383, 'projected_even_total': 554, 'projected_n1': 276, ...})
+_____________________ test_statsmodels_crosscheck[EX-210] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 479.2108190210654, 'continuous_total': 513.5385571041263, 'projected_even_total': 514, 'projected_n1': 480, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 479.2108190210654, 'continuous_total': 513.5385571041263, 'projected_even_total': 514, 'projected_n1': 480, ...})
+_____________________ test_statsmodels_crosscheck[EX-212] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 547.3463811783731, 'continuous_total': 3343.574444281158, 'projected_even_total': 3344, 'projected_n1': 547, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 547.3463811783731, 'continuous_total': 3343.574444281158, 'projected_even_total': 3344, 'projected_n1': 547, ...})
+_____________________ test_statsmodels_crosscheck[EX-216] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 255.54618634781107, 'continuous_total': 883.073622252172, 'projected_even_total': 884, 'projected_n1': 256, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 255.54618634781107, 'continuous_total': 883.073622252172, 'projected_even_total': 884, 'projected_n1': 256, ...})
+_____________________ test_statsmodels_crosscheck[EX-226] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 500.0, 'continuous_total': 50000.43365958306, 'projected_even_total': 50002, 'projected_n1': 500, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 500.0, 'continuous_total': 50000.43365958306, 'projected_even_total': 50002, 'projected_n1': 500, ...})
+_____________________ test_statsmodels_crosscheck[EX-230] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 12.910263260843948, 'continuous_total': 277.3881123293281, 'projected_even_total': 278, 'projected_n1': 13, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 12.910263260843948, 'continuous_total': 277.3881123293281, 'projected_even_total': 278, 'projected_n1': 13, ...})
+_____________________ test_statsmodels_crosscheck[EX-232] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 275.0000025, 'continuous_total': 1827.0209111575375, 'projected_even_total': 1828, 'projected_n1': 275, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 275.0000025, 'continuous_total': 1827.0209111575375, 'projected_even_total': 1828, 'projected_n1': 275, ...})
+_____________________ test_statsmodels_crosscheck[EX-250] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 9.416064350650014, 'continuous_total': 244.8995817656572, 'projected_even_total': 246, 'projected_n1': 9, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 9.416064350650014, 'continuous_total': 244.8995817656572, 'projected_even_total': 246, 'projected_n1': 9, ...})
+_____________________ test_statsmodels_crosscheck[EX-254] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 5.219438311782459, 'continuous_total': 117.50908304632664, 'projected_even_total': 118, 'projected_n1': 5, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 5.219438311782459, 'continuous_total': 117.50908304632664, 'projected_even_total': 118, 'projected_n1': 5, ...})
+_____________________ test_statsmodels_crosscheck[EX-258] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...})
+_____________________ test_statsmodels_crosscheck[EX-268] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...})
+_____________________ test_statsmodels_crosscheck[EX-270] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 268.18119800439644, 'continuous_total': 288.3997419226148, 'projected_even_total': 290, 'projected_n1': 270, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 268.18119800439644, 'continuous_total': 288.3997419226148, 'projected_even_total': 290, 'projected_n1': 270, ...})
+_____________________ test_statsmodels_crosscheck[EX-280] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 1321.4877915241946, 'continuous_total': 4328.994022594952, 'projected_even_total': 4330, 'projected_n1': 1322, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 1321.4877915241946, 'continuous_total': 4328.994022594952, 'projected_even_total': 4330, 'projected_n1': 1322, ...})
+_____________________ test_statsmodels_crosscheck[EX-288] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 190.62501781250018, 'continuous_total': 1013.1767655405566, 'projected_even_total': 1014, 'projected_n1': 191, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 190.62501781250018, 'continuous_total': 1013.1767655405566, 'projected_even_total': 1014, 'projected_n1': 191, ...})
+_____________________ test_statsmodels_crosscheck[EX-289] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': nan, 'continuous_total': nan, 'projected_even_total': None, 'projected_n1': None, ...})
+_____________________ test_statsmodels_crosscheck[EX-290] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'continuous_n1': 93.94190245107795, 'continuous_total': 126.03919487412058, 'projected_even_total': 128, 'projected_n1': 95, ...}
+E   assert False
+E    +  where False = comparison_passes({'continuous_n1': 93.94190245107795, 'continuous_total': 126.03919487412058, 'projected_even_total': 128, 'projected_n1': 95, ...})
+_____________________ test_statsmodels_crosscheck[EX-310] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 0.022882858357737956, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 0.022882858357737956, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-326] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-328] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-338] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 0.8598126917219704, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 0.8598126917219704, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-342] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 0.01366416101514944, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 0.01366416101514944, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-344] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-358] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-362] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-378] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-382] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-392] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-396] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-416] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-428] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-448] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-454] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 0.7119920868054073, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 0.7119920868054073, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-456] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-469] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-478] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-480] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-494] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-504] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-508] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-540] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-566] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 0.19033297302899135, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 0.19033297302899135, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-570] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-574] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-576] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+_____________________ test_statsmodels_crosscheck[EX-592] _____________________
+tests\test_extra.py:13: in test_statsmodels_crosscheck
+    assert comparison_passes(comparison), comparison
+E   AssertionError: {'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan}
+E   assert False
+E    +  where False = comparison_passes({'engine_power': 1.0, 'statsmodels_power': nan, 'power_abs_difference': nan})
+=========================== short test summary info ===========================
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-019]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-025]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-028]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-039]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-040]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-041]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-042]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-043]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-044]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-047]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-048]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-049]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac107_strict_raw_oracle[GP-AP-050]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-019]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-039]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-040]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-041]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-042]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-043]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-044]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-047]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-048]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-049]
+FAILED tests/spec_1_1_0/test_acceptance.py::test_ac101_102_official_gui_expectation[GP-AP-050]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-004]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-008]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-012]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-018]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-040]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-042]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-044]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-054]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-058]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-060]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-064]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-066]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-078]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-086]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-088]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-090]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-094]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-120]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-122]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-130]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-140]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-150]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-154]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-158]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-166]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-176]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-183]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-184]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-186]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-198]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-200]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-202]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-204]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-206]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-210]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-212]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-216]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-226]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-230]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-232]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-250]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-254]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-258]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-268]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-270]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-280]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-288]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-289]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-290]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-310]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-326]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-328]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-338]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-342]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-344]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-358]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-362]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-378]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-382]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-392]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-396]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-416]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-428]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-448]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-454]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-456]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-469]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-478]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-480]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-494]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-504]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-508]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-540]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-566]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-570]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-574]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-576]
+FAILED tests/spec_1_1_0/test_mathematics.py::test_statsmodels_crosscheck[EX-592]
+102 failed, 2178 passed in 33.62s

@@ -1,0 +1,1054 @@
+{
+  "total": 25,
+  "equal": 25,
+  "numeric": 2,
+  "unsupported": 23,
+  "rows": [
+    {
+      "id": "t2-indep/a-priori",
+      "input": {
+        "test": "t2-indep",
+        "mode": "a-priori",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.05,
+        "power": 0.95,
+        "ratio": 1
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "a-priori",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--ratio",
+          "1"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 0,
+        "stdout": "{\"n1\":88,\"n2\":88,\"n_total\":176,\"actual_power\":0.9514254482776566,\"critical_t\":1.653658016514993,\"df\":174,\"ncp\":3.3166247903554}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.9833232000000862,
+        "recorded_at": "2026-10-22T21:56:37.589404+00:00"
+      },
+      "mcp": {
+        "n1": 88,
+        "n2": 88,
+        "n_total": 176,
+        "actual_power": 0.9514254482776566,
+        "critical_t": 1.653658016514993,
+        "df": 174,
+        "ncp": 3.3166247903554
+      },
+      "is_error": false,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/post-hoc",
+      "input": {
+        "test": "t2-indep",
+        "mode": "post-hoc",
+        "tails": 1,
+        "d": 0.5,
+        "alpha": 0.05,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "post-hoc",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 0,
+        "stdout": "{\"power\":0.9514254482776566,\"critical_t\":1.653658016514993,\"df\":174,\"ncp\":3.3166247903554}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.9303813000005903,
+        "recorded_at": "2026-10-22T21:56:39.367001+00:00"
+      },
+      "mcp": {
+        "power": 0.9514254482776566,
+        "critical_t": 1.653658016514993,
+        "df": 174,
+        "ncp": 3.3166247903554
+      },
+      "is_error": false,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/compromise",
+      "input": {
+        "test": "t2-indep",
+        "mode": "compromise",
+        "tails": 1,
+        "d": 0.5,
+        "beta_alpha_ratio": 1,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "compromise",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--beta_alpha_ratio",
+          "1",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.10999300000003132,
+        "recorded_at": "2026-10-22T21:56:39.479934+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/criterion",
+      "input": {
+        "test": "t2-indep",
+        "mode": "criterion",
+        "tails": 1,
+        "d": 0.5,
+        "power": 0.95,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "criterion",
+          "--tails",
+          "1",
+          "--d",
+          "0.5",
+          "--power",
+          "0.95",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09521130000030098,
+        "recorded_at": "2026-10-22T21:56:39.577685+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t2-indep/sensitivity",
+      "input": {
+        "test": "t2-indep",
+        "mode": "sensitivity",
+        "tails": 1,
+        "alpha": 0.05,
+        "power": 0.95,
+        "n1": 88,
+        "n2": 88
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t2-indep",
+          "--mode",
+          "sensitivity",
+          "--tails",
+          "1",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n1",
+          "88",
+          "--n2",
+          "88"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen analiz modu\",\"code\":\"UNSUPPORTED\",\"field\":\"mode\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09067159999995056,
+        "recorded_at": "2026-10-22T21:56:39.670660+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen analiz modu",
+        "code": "UNSUPPORTED",
+        "field": "mode"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/a-priori",
+      "input": {
+        "test": "t-paired",
+        "mode": "a-priori",
+        "tails": 1,
+        "dz": 0.5,
+        "alpha": 0.05,
+        "power": 0.95
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "a-priori",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08362039999974513,
+        "recorded_at": "2026-10-22T21:56:39.756498+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/post-hoc",
+      "input": {
+        "test": "t-paired",
+        "mode": "post-hoc",
+        "tails": 1,
+        "dz": 0.5,
+        "alpha": 0.05,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "post-hoc",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08961600000020553,
+        "recorded_at": "2026-10-22T21:56:39.848426+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/compromise",
+      "input": {
+        "test": "t-paired",
+        "mode": "compromise",
+        "tails": 1,
+        "dz": 0.5,
+        "beta_alpha_ratio": 1,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "compromise",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08880499999941094,
+        "recorded_at": "2026-10-22T21:56:39.939477+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/criterion",
+      "input": {
+        "test": "t-paired",
+        "mode": "criterion",
+        "tails": 1,
+        "dz": 0.5,
+        "power": 0.95,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "criterion",
+          "--tails",
+          "1",
+          "--dz",
+          "0.5",
+          "--power",
+          "0.95",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08236140000008163,
+        "recorded_at": "2026-10-22T21:56:40.023922+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "t-paired/sensitivity",
+      "input": {
+        "test": "t-paired",
+        "mode": "sensitivity",
+        "tails": 1,
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 45
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "t-paired",
+          "--mode",
+          "sensitivity",
+          "--tails",
+          "1",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "45"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08763049999924988,
+        "recorded_at": "2026-10-22T21:56:40.113644+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/a-priori",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "a-priori",
+        "f": 0.25,
+        "alpha": 0.05,
+        "power": 0.95,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "a-priori",
+          "--f",
+          "0.25",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09019790000002104,
+        "recorded_at": "2026-10-22T21:56:40.205965+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/post-hoc",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "post-hoc",
+        "f": 0.25,
+        "alpha": 0.05,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "post-hoc",
+          "--f",
+          "0.25",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08327610000014829,
+        "recorded_at": "2026-10-22T21:56:40.291360+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/compromise",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "compromise",
+        "f": 0.25,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "compromise",
+          "--f",
+          "0.25",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09118359999956738,
+        "recorded_at": "2026-10-22T21:56:40.384856+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/criterion",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "criterion",
+        "f": 0.25,
+        "power": 0.95,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "criterion",
+          "--f",
+          "0.25",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08919719999994413,
+        "recorded_at": "2026-10-22T21:56:40.476264+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "anova-oneway/sensitivity",
+      "input": {
+        "test": "anova-oneway",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "groups": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "anova-oneway",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--groups",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.0937328999998499,
+        "recorded_at": "2026-10-22T21:56:40.572177+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/a-priori",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "a-priori",
+        "w": 0.3,
+        "alpha": 0.05,
+        "power": 0.95,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "a-priori",
+          "--w",
+          "0.3",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08740069999930711,
+        "recorded_at": "2026-10-22T21:56:40.661767+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/post-hoc",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "post-hoc",
+        "w": 0.3,
+        "alpha": 0.05,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "post-hoc",
+          "--w",
+          "0.3",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09527250000064669,
+        "recorded_at": "2026-10-22T21:56:40.759327+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/compromise",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "compromise",
+        "w": 0.3,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "compromise",
+          "--w",
+          "0.3",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08503670000027341,
+        "recorded_at": "2026-10-22T21:56:40.846699+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/criterion",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "criterion",
+        "w": 0.3,
+        "power": 0.95,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "criterion",
+          "--w",
+          "0.3",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.10056859999986045,
+        "recorded_at": "2026-10-22T21:56:40.949441+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "chi2-contingency/sensitivity",
+      "input": {
+        "test": "chi2-contingency",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "df": 5
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "chi2-contingency",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--df",
+          "5"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09414119999928516,
+        "recorded_at": "2026-10-22T21:56:41.045944+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/a-priori",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "a-priori",
+        "f2": 0.15,
+        "alpha": 0.05,
+        "power": 0.95,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "a-priori",
+          "--f2",
+          "0.15",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08815229999981966,
+        "recorded_at": "2026-10-22T21:56:41.136459+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/post-hoc",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "post-hoc",
+        "f2": 0.15,
+        "alpha": 0.05,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "post-hoc",
+          "--f2",
+          "0.15",
+          "--alpha",
+          "0.05",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08230000000003201,
+        "recorded_at": "2026-10-22T21:56:41.220975+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/compromise",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "compromise",
+        "f2": 0.15,
+        "beta_alpha_ratio": 1,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "compromise",
+          "--f2",
+          "0.15",
+          "--beta_alpha_ratio",
+          "1",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.09369750000041677,
+        "recorded_at": "2026-10-22T21:56:41.316844+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/criterion",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "criterion",
+        "f2": 0.15,
+        "power": 0.95,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "criterion",
+          "--f2",
+          "0.15",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08485470000050555,
+        "recorded_at": "2026-10-22T21:56:41.403737+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    },
+    {
+      "id": "multireg-r2/sensitivity",
+      "input": {
+        "test": "multireg-r2",
+        "mode": "sensitivity",
+        "alpha": 0.05,
+        "power": 0.95,
+        "n_total": 100,
+        "predictors": 2
+      },
+      "cli": {
+        "argv": [
+          "C:\\Users\\Burak\\Documents\\Codex\\GPOWER_YAZIM\\deliverables\\release_0_4_2_20261023\\runtime_prepared\\.venv\\Scripts\\gpower-clone.exe",
+          "--test",
+          "multireg-r2",
+          "--mode",
+          "sensitivity",
+          "--alpha",
+          "0.05",
+          "--power",
+          "0.95",
+          "--n_total",
+          "100",
+          "--predictors",
+          "2"
+        ],
+        "cwd": "C:\\Users\\Burak\\AppData\\Local\\Temp\\gpower042-public-vexdc4fq",
+        "exit_code": 2,
+        "stdout": "{\"error\":\"Desteklenmeyen test ailesi\",\"code\":\"UNSUPPORTED\",\"field\":\"test\"}\n",
+        "stderr": "",
+        "elapsed_seconds": 0.08486300000004121,
+        "recorded_at": "2026-10-22T21:56:41.490844+00:00"
+      },
+      "mcp": {
+        "error": "Desteklenmeyen test ailesi",
+        "code": "UNSUPPORTED",
+        "field": "test"
+      },
+      "is_error": true,
+      "equal": true
+    }
+  ],
+  "scope": "Actual installed 0.4.2 executable and separate installed stdio server; after timing series"
+}
